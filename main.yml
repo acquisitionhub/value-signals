@@ -19,14 +19,13 @@ concurrency:
   group: value-signals
   cancel-in-progress: false
 
-defaults:
-  run:
-    working-directory: value-screener   # the project lives in this folder
-
 jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: value-screener   # the project lives in this folder
     env:
       ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
       ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
@@ -37,11 +36,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Unpack value-screener.zip (first run only)
+        working-directory: .
+        run: |
+          if [ -f value-screener.zip ] && [ ! -f value-screener/signals.py ]; then
+            unzip -q -o value-screener.zip
+            rm -f value-screener.zip main.yml
+            rm -rf value-screener/.github
+            echo "Unpacked the project."
+          fi
+          test -f value-screener/signals.py || { echo "Project files not found: upload value-screener.zip"; exit 1; }
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-          cache-dependency-path: value-screener/requirements.txt
 
       - name: Install
         run: pip install -r requirements.txt
@@ -82,9 +90,10 @@ jobs:
 
       - name: Save results to the repo
         if: always()
+        working-directory: .
         run: |
           git config user.name  "value-signals-bot"
           git config user.email "actions@users.noreply.github.com"
-          for d in output docs ../docs; do [ -e "$d" ] && git add "$d"; done
+          git add -A
           git diff --cached --quiet || git commit -m "Signals ${{ steps.mode.outputs.mode }} run $(date -u +%F)"
           git push origin HEAD:${{ github.ref_name }}
