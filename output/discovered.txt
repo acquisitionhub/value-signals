@@ -1,0 +1,9 @@
+# Found by the weekly scan on 2026-11-15: passed the fundamental screen.
+# Rewritten every week. The daily signals check these as well as watchlist.txt.
+CRM
+BKNG
+ADBE
+INTU
+MELI
+DVN
+EXPE

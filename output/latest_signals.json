@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 07:43 UTC",
+ "updated": "2026-11-15 10:22 UTC",
  "mode": "weekly",
  "paper": true,
  "stocks": [
@@ -19,8 +19,9 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
-    "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
+    "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value"
    ],
    "price": 99.25,
    "score": "3",
@@ -52,9 +53,9 @@
    },
    "options": "",
    "value": {
-    "bear": 23.586510600686182,
-    "base": 27.081379732280904,
-    "bull": 31.122432981460808
+    "bear": 13.051847952877234,
+    "base": 16.546717084471954,
+    "bull": 20.587770333651857
    }
   },
   {
@@ -73,6 +74,7 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
     "fails fundamentals: not cheap enough vs base-case value"
    ],
@@ -106,9 +108,9 @@
    },
    "options": "",
    "value": {
-    "bear": 98.17068043676491,
-    "base": 112.62726297064215,
-    "bull": 128.9424897585616
+    "bear": 94.67393226849292,
+    "base": 109.13051480237016,
+    "bull": 125.44574159028961
    }
   },
   {
@@ -127,6 +129,7 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
     "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value"
    ],
@@ -160,9 +163,9 @@
    },
    "options": "",
    "value": {
-    "bear": 67.16397815715135,
-    "base": 71.84506466647457,
-    "bull": 76.79267029914308
+    "bear": 69.27130529853422,
+    "base": 73.95239180785744,
+    "bull": 78.89999744052596
    }
   },
   {
@@ -181,6 +184,7 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
     "fails fundamentals: not cheap enough vs base-case value"
    ],
@@ -214,9 +218,9 @@
    },
    "options": "",
    "value": {
-    "bear": 26.34854729435673,
-    "base": 27.613175710596245,
-    "bull": 28.93656997889471
+    "bear": 155.07728594939445,
+    "base": 216.0296010172847,
+    "bull": 254.24201699721107
    }
   },
   {
@@ -235,6 +239,7 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
     "fails fundamentals: not cheap enough vs base-case value"
    ],
@@ -268,8 +273,8 @@
    },
    "options": "",
    "value": {
-    "bear": 95.87526389518075,
-    "base": 133.51861985584947,
+    "bear": 95.40216362053759,
+    "base": 132.23245713704011,
     "bull": 157.11811029763732
    }
   },
@@ -289,8 +294,9 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
-    "fails fundamentals: not cheap enough vs base-case value; share count rising (dilution)"
+    "fails fundamentals: not cheap enough vs base-case value"
    ],
    "price": 356.4,
    "score": "4",
@@ -322,9 +328,9 @@
    },
    "options": "",
    "value": {
-    "bear": 41.67614434558928,
-    "base": 57.58073857493077,
-    "bull": 72.40263974775705
+    "bear": 103.29228916567884,
+    "base": 118.9383826786559,
+    "bull": 136.77476667639874
    }
   },
   {
@@ -350,8 +356,9 @@
     "text": "1 insider bought $2,001,315 in 90 days: Shah Prem S (EVP and Group President) $2,001,315"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
-    "fails fundamentals: neither FCF improving nor debt falling"
+    "fails fundamentals: neither FCF improving nor debt falling; not cheap enough vs base-case value"
    ],
    "price": 89.35,
    "score": "3",
@@ -383,9 +390,9 @@
    },
    "options": "",
    "value": {
-    "bear": 102.999312283325,
-    "base": 127.69967328061415,
-    "bull": 158.32259798119728
+    "bear": 52.19679458072862,
+    "base": 76.89715557801777,
+    "bull": 107.5200802786009
    }
   },
   {
@@ -411,6 +418,7 @@
     "text": "1 insider bought $9,709,680 in 90 days: Tan Lip Bu (CEO, Director) $9,709,680"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
     "fails fundamentals: revenue growth below threshold; free cash flow not consistently positive; no price or no valuation"
    ],
@@ -465,6 +473,7 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
    ],
@@ -519,8 +528,9 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
-    "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling"
+    "fails fundamentals: revenue growth below threshold; free cash flow not consistently positive; neither FCF improving nor debt falling; no price or no valuation"
    ],
    "price": 46.37,
    "score": "3",
@@ -552,9 +562,9 @@
    },
    "options": "",
    "value": {
-    "bear": 107.11104782530805,
-    "base": 109.65496519017931,
-    "bull": 112.25751188827043
+    "bear": null,
+    "base": null,
+    "bull": null
    }
   },
   {
@@ -573,8 +583,9 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
-    "fails fundamentals: revenue growth below threshold"
+    "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
    ],
    "price": 22.19,
    "score": "2",
@@ -606,9 +617,9 @@
    },
    "options": "",
    "value": {
-    "bear": 48.604299106488384,
-    "base": 48.604299106488384,
-    "bull": 48.604299106488384
+    "bear": 15.845744050068399,
+    "base": 15.845744050068399,
+    "bull": 15.845744050068399
    }
   },
   {
@@ -634,6 +645,7 @@
     "text": "1 insider bought $101,430 in 90 days: Mcquade Kathryn B. (Director) $101,430"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
    ],
@@ -688,8 +700,9 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
-    "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
+    "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value"
    ],
    "price": 161.44,
    "score": "4",
@@ -721,17 +734,17 @@
    },
    "options": "",
    "value": {
-    "bear": 48.52506777204984,
-    "base": 52.13291027620501,
-    "bull": 55.92767297152748
+    "bear": 72.763317543444,
+    "base": 72.763317543444,
+    "bull": 72.763317543444
    }
   },
   {
    "ticker": "DG",
    "name": "DOLLAR GENERAL CORP",
-   "signal": "GREEN",
-   "strong": true,
-   "stars": 1,
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
    "smart": {
     "cluster": false,
     "buyers": 0,
@@ -742,8 +755,9 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
-    "fundamentals pass, 3/5 daily confirmations <b>and the weekly chart agrees (strong)</b>"
+    "fails fundamentals: not cheap enough vs base-case value"
    ],
    "price": 134.13,
    "score": "3",
@@ -773,11 +787,11 @@
     "confirms": true,
     "text": "above 30-week average, 30-week average rising, weekly MACD positive"
    },
-   "options": "Implied vol 52% vs recent actual 46%: options fairly priced.",
+   "options": "",
    "value": {
-    "bear": 194.9639122034962,
-    "base": 227.30959123622404,
-    "bull": 264.87765707179494
+    "bear": 84.78504117516032,
+    "base": 101.88966918457263,
+    "bull": 121.75593294426604
    }
   },
   {
@@ -796,6 +810,7 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
    ],
@@ -850,6 +865,7 @@
     "text": "no insider buying in 90 days"
    },
    "holding": false,
+   "source": "watchlist",
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
    ],
@@ -883,9 +899,408 @@
    },
    "options": "",
    "value": {
-    "bear": 25.27372341680263,
-    "base": 29.730799460933525,
-    "bull": 34.70204934029488
+    "bear": 28.492107184512967,
+    "base": 32.94918322864386,
+    "bull": 37.92043310800521
+   }
+  },
+  {
+   "ticker": "CRM",
+   "name": "Salesforce, Inc.",
+   "signal": "GREEN",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 1,
+    "total": 999450.8496,
+    "buyers_detail": [
+     {
+      "owner": "Kirk David Blair",
+      "role": "Director",
+      "value": 999450.8496,
+      "last": "2026-09-18"
+     }
+    ],
+    "activist": null,
+    "confirms": false,
+    "text": "1 insider bought $999,451 in 90 days: Kirk David Blair (Director) $999,451"
+   },
+   "holding": false,
+   "source": "scan",
+   "why": [
+    "fundamentals pass, 3/5 daily confirmations; weekly chart not yet confirming"
+   ],
+   "price": 217.86,
+   "score": "3",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($197.40)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 40, recovering from 34"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.1x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 16.4 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "above 30-week average, 30-week average rising, weekly MACD negative"
+   },
+   "options": "Implied vol 55% vs recent actual 33%: options look expensive; selling puts or spreads fits.",
+   "value": {
+    "bear": 201.95025201744545,
+    "base": 282.0632463058668,
+    "bull": 334.65356764400707
+   }
+  },
+  {
+   "ticker": "BKNG",
+   "name": "Booking Holdings Inc.",
+   "signal": "RED",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "source": "scan",
+   "why": [
+    "good fundamentals but the price is breaking down (below a falling 200-day average, lower lows): avoid for now"
+   ],
+   "price": 159.52,
+   "score": "2",
+   "checks": [
+    {
+     "ok": false,
+     "text": "price below 200-day average ($174.09)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 49, recovering from 31"
+    },
+    {
+     "ok": true,
+     "text": "MACD crossed up"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.2x down-day volume"
+    },
+    {
+     "ok": false,
+     "text": "lagging S&P 500 by 19.8 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "below 30-week average, 30-week average falling, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 4012.801882414692,
+    "base": 5582.1867915839985,
+    "bull": 6566.070486813629
+   }
+  },
+  {
+   "ticker": "ADBE",
+   "name": "ADOBE INC.",
+   "signal": "AMBER",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "source": "scan",
+   "why": [
+    "fundamentals pass, only 2/5 technical confirmations: wait"
+   ],
+   "price": 243.03,
+   "score": "2",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price below 200-day average ($247.66)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 47, rising"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.0x down-day volume"
+    },
+    {
+     "ok": false,
+     "text": "lagging S&P 500 by 2.2 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "below 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "Implied vol 51% vs recent actual 36%: options look expensive; selling puts or spreads fits.",
+   "value": {
+    "bear": 306.81614774384997,
+    "base": 412.4115484207113,
+    "bull": 518.1443391477272
+   }
+  },
+  {
+   "ticker": "INTU",
+   "name": "INTUIT INC.",
+   "signal": "GREEN",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "source": "scan",
+   "why": [
+    "fundamentals pass, 3/5 daily confirmations; weekly chart not yet confirming"
+   ],
+   "price": 341.635,
+   "score": "3",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price below 200-day average ($348.12)"
+    },
+    {
+     "ok": false,
+     "text": "RSI 55, falling"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": true,
+     "text": "up-day volume 1.2x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 4.5 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "above 30-week average, 30-week average falling, weekly MACD positive"
+   },
+   "options": "Implied vol 59% vs recent actual 39%: options look expensive; selling puts or spreads fits.",
+   "value": {
+    "bear": 377.8756708853577,
+    "base": 528.0874625630335,
+    "bull": 622.2587087623627
+   }
+  },
+  {
+   "ticker": "MELI",
+   "name": "MERCADOLIBRE INC",
+   "signal": "RED",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "source": "scan",
+   "why": [
+    "good fundamentals but the price is breaking down (below a falling 200-day average, lower lows): avoid for now"
+   ],
+   "price": 1491.13,
+   "score": "0",
+   "checks": [
+    {
+     "ok": false,
+     "text": "price below 200-day average ($1,783.67)"
+    },
+    {
+     "ok": false,
+     "text": "RSI 34, weak"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.8x down-day volume"
+    },
+    {
+     "ok": false,
+     "text": "lagging S&P 500 by 14.5 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "below 30-week average, 30-week average falling, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 2339.2911682488575,
+    "base": 3285.7038665498762,
+    "bull": 3879.0318751067607
+   }
+  },
+  {
+   "ticker": "DVN",
+   "name": "DEVON ENERGY CORP/DE",
+   "signal": "GREEN",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 1,
+    "total": 199876.03999999998,
+    "buyers_detail": [
+     {
+      "owner": "Gaspar Clay M",
+      "role": "PRESIDENT AND CEO, Director",
+      "value": 199876.03999999998,
+      "last": "2026-09-14"
+     }
+    ],
+    "activist": null,
+    "confirms": false,
+    "text": "1 insider bought $199,876 in 90 days: Gaspar Clay M (PRESIDENT AND CEO, Director) $199,876"
+   },
+   "holding": false,
+   "source": "scan",
+   "why": [
+    "fundamentals pass, 3/5 daily confirmations; weekly chart not yet confirming"
+   ],
+   "price": 46.6,
+   "score": "3",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($45.90)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 48, recovering from 28"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.9x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 0.7 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "above 30-week average, 30-week average rising, weekly MACD negative"
+   },
+   "options": "Implied vol 37% vs recent actual 41%: options look cheap; buying long-dated calls fits.",
+   "value": {
+    "bear": 57.438604138754506,
+    "base": 76.8871800257165,
+    "bull": 101.36809276453015
+   }
+  },
+  {
+   "ticker": "EXPE",
+   "name": "Expedia Group, Inc.",
+   "signal": "RED",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "source": "scan",
+   "why": [
+    "good fundamentals but the price is breaking down (below a falling 200-day average, lower lows): avoid for now"
+   ],
+   "price": 257.91,
+   "score": "2",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price below 200-day average ($258.44)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 42, rising"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.8x down-day volume"
+    },
+    {
+     "ok": false,
+     "text": "lagging S&P 500 by 16.7 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "below 30-week average, 30-week average rising, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 299.34018137033297,
+    "base": 417.24758964900445,
+    "bull": 491.1664707815954
    }
   }
  ]

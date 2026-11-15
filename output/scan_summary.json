@@ -1,0 +1,17 @@
+{
+ "date": "2026-11-15",
+ "scanned": 500,
+ "analysed": 287,
+ "skipped_financials": 102,
+ "data_errors": 26,
+ "passed": 7,
+ "discovered": [
+  "CRM",
+  "BKNG",
+  "ADBE",
+  "INTU",
+  "MELI",
+  "DVN",
+  "EXPE"
+ ]
+}
