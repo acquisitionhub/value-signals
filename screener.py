@@ -52,10 +52,15 @@ TAGS = {
                 "RevenueFromContractWithCustomerIncludingAssessedTax", "SalesRevenueNet"],
     "net_income": ["NetIncomeLoss"],
     "op_cash_flow": ["NetCashProvidedByUsedInOperatingActivities"],
-    "capex": ["PaymentsToAcquirePropertyPlantAndEquipment"],
-    "debt_total": ["LongTermDebt"],            # includes current portion
-    "debt_noncurrent": ["LongTermDebtNoncurrent"],
-    "debt_current": ["LongTermDebtCurrent", "DebtCurrent"],
+    "capex": ["PaymentsToAcquirePropertyPlantAndEquipment", "PaymentsToAcquireProductiveAssets",
+              "PaymentsToAcquirePropertyPlantAndEquipmentAndIntangibleAssets",
+              "PaymentsForCapitalImprovements", "PaymentsToAcquireOtherPropertyPlantAndEquipment"],
+    "debt_total": ["LongTermDebt", "DebtLongtermAndShorttermCombinedAmount",
+                   "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+                   "DebtAndCapitalLeaseObligations"],          # include current portion
+    "debt_noncurrent": ["LongTermDebtNoncurrent", "LongTermDebtAndCapitalLeaseObligations"],
+    "debt_current": ["LongTermDebtCurrent", "DebtCurrent", "LongTermDebtAndCapitalLeaseObligationsCurrent"],
+    "short_borrowings": ["ShortTermBorrowings", "CommercialPaper"],
     "cash": ["CashAndCashEquivalentsAtCarryingValue",
              "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"],
     "shares": ["WeightedAverageNumberOfDilutedSharesOutstanding"],
@@ -108,27 +113,36 @@ def _days(a, b):
     return (datetime.fromisoformat(b) - datetime.fromisoformat(a)).days
 
 
-def annual_series(facts, item):
-    """Return {fiscal_year_end_date: value} from 10-K filings, latest filing wins."""
-    gaap = facts.get("facts", {}).get("us-gaap", {})
-    for tag in TAGS[item]:
-        if tag not in gaap:
+def _tag_series(gaap, tag, item):
+    units = gaap[tag]["units"]
+    rows = units.get("USD") or units.get("shares") or []
+    out = {}
+    for r in rows:
+        if r.get("form") not in ("10-K", "10-K/A"):
             continue
-        units = gaap[tag]["units"]
-        rows = units.get("USD") or units.get("shares") or []
-        out = {}
-        for r in rows:
-            if r.get("form") not in ("10-K", "10-K/A"):
+        if item in FLOW_ITEMS:
+            if "start" not in r or not (350 <= _days(r["start"], r["end"]) <= 380):
                 continue
-            if item in FLOW_ITEMS:
-                if "start" not in r or not (350 <= _days(r["start"], r["end"]) <= 380):
-                    continue
-            prev = out.get(r["end"])
-            if prev is None or r["filed"] > prev[1]:
-                out[r["end"]] = (r["val"], r["filed"])
-        if out:
-            return {k: v[0] for k, v in sorted(out.items())}
-    return {}
+        prev = out.get(r["end"])
+        if prev is None or r["filed"] > prev[1]:
+            out[r["end"]] = (r["val"], r["filed"])
+    return {k: v[0] for k, v in out.items()}
+
+
+def annual_series(facts, item, sources=None):
+    """{fiscal_year_end: value} from 10-K filings, merged across all the tags a company
+    has used over time (companies switch tags, e.g. 'Revenues' -> 'RevenueFromContract...').
+    For each year the highest-priority tag wins. `sources` records which tag fed each year."""
+    gaap = facts.get("facts", {}).get("us-gaap", {})
+    merged, used = {}, {}
+    for tag in reversed(TAGS[item]):          # lowest priority first, higher ones overwrite
+        if tag in gaap:
+            ser = _tag_series(gaap, tag, item)
+            merged.update(ser)
+            used.update({k: tag for k in ser})
+    if sources is not None:
+        sources[item] = used
+    return dict(sorted(merged.items()))
 
 
 def last_n(series, n):
@@ -139,26 +153,29 @@ def last_n(series, n):
 # ANALYSIS
 # --------------------------------------------------------------------------------------
 def analyse(ticker, name, facts):
-    s = {k: annual_series(facts, k) for k in TAGS}
+    src = {}
+    s = {k: annual_series(facts, k, src) for k in TAGS}
     years = sorted(s["revenue"])[-5:]
     if len(years) < 3:
         return None
+    notes = []
 
     def at(item, y):
         return s[item].get(y)
 
     rows = []
     for y in years:
-        ocf, capex = at("op_cash_flow", y), at("capex", y) or 0
-        if at("debt_total", y) is not None:
-            debt = at("debt_total", y)
-        else:
-            debt = (at("debt_noncurrent", y) or 0) + (at("debt_current", y) or 0)
+        ocf, capex = at("op_cash_flow", y), at("capex", y)
+        if ocf is not None and capex is None:
+            notes.append(f"{y}: capital spending not found, so free cash flow is left blank")
+        # debt: take the LARGEST of the ways companies report it (understating debt overvalues)
+        parts = (at("debt_noncurrent", y) or 0) + (at("debt_current", y) or 0) + (at("short_borrowings", y) or 0)
+        debt = max(at("debt_total", y) or 0, parts)
         rows.append({
             "year_end": y,
             "revenue": at("revenue", y),
             "net_income": at("net_income", y),
-            "fcf": (ocf - capex) if ocf is not None else None,
+            "fcf": (ocf - capex) if (ocf is not None and capex is not None) else None,
             "debt": debt,
             "cash": at("cash", y),
             "shares": at("shares", y),
@@ -169,7 +186,12 @@ def analyse(ticker, name, facts):
     latest = rows[-1]
 
     m = {"ticker": ticker, "name": name, "history": rows,
-         "latest_year_end": latest["year_end"]}
+         "latest_year_end": latest["year_end"], "data_notes": notes,
+         "tags_used": {k: src.get(k, {}).get(latest["year_end"]) for k in ("revenue", "op_cash_flow", "capex", "debt_total", "debt_noncurrent")}}
+    age = (date.today() - date.fromisoformat(latest["year_end"])).days
+    m["stale"] = age > 550
+    if m["stale"]:
+        notes.append(f"latest annual report is {age // 30} months old")
     m["revenue_growth"] = rev[-1] / rev[-2] - 1 if rev[-2] else None
     n = len(rev) - 1
     m["revenue_cagr"] = (rev[-1] / rev[0]) ** (1 / n) - 1 if rev[0] and rev[-1] > 0 else None
@@ -228,6 +250,10 @@ def screen(m):
         reasons.append("no price or no valuation")
     if m["share_change_pa"] and m["share_change_pa"] > SCREEN["max_share_dilution"]:
         reasons.append("share count rising (dilution)")
+    if m.get("stale"):
+        reasons.append("financial data out of date")
+    for n in m.get("data_notes", []):
+        flags.append("Data: " + n + ".")
     # red flags shown in the thesis even if it passes
     if m["net_margin"] is not None and m["net_margin"] < 0:
         flags.append("Loss-making on a net income basis in the latest year.")
@@ -333,6 +359,8 @@ DCF on 3-year average free cash flow, {pct(DCF['discount_rate'])} discount rate,
 {table}
 ## Red flags
 {flags}
+
+<sub>SEC tags used for {m['latest_year_end']}: {", ".join(f"{k}={v}" for k, v in (m.get("tags_used") or {}).items() if v)}</sub>
 
 ## Thesis
 {qual}
