@@ -259,6 +259,15 @@ The script refuses to run against anything except Alpaca's **paper** endpoint, s
 0 8 * * 6   cd /Users/you/value-screener && /usr/bin/python3 signals.py --paper >> output/log.txt 2>&1
 ```
 
+## Go-live scorecard
+`scorecard.py` checks the paper results against pass marks agreed **before** the trial (edit `GOALS` at the top):
+- beat the S&P 500 by at least 2 percentage points
+- at least 15 positions taken
+- worst drop from the account's peak under 15%
+- still ahead of the S&P 500 with the single best trade removed
+
+It's updated on every paper run and shown in the Paper portfolio tab. The first weekly run of each month adds it to your phone notification. After 90 days it gives a verdict: all passed (consider going live small, placing trades yourself), too few trades (extend to 6 months), or keep paper trading.
+
 ## Reading the results
 - Give it **at least 3 months** before judging. A handful of trades proves nothing either way.
 - Compare against the S&P 500 line in each notification. If the system can't beat simply holding the index, it isn't adding value.
