@@ -219,6 +219,15 @@ def bear_score(m, breakdown=None):
         signs.append("stretched finances (interest cover or current ratio)")
     if q.get("cash_conversion") is not None and q["cash_conversion"] < 0.5:
         signs.append("profit not turning into cash")
+    fz = (m or {}).get("forensic") or {}
+    if fz.get("beneish") is not None and fz["beneish"] > -1.78:
+        signs.append(f"possible earnings manipulation (Beneish {fz['beneish']:.2f})")
+    if fz.get("altman_zone") == "distress":
+        signs.append(f"bankruptcy-risk zone (Altman Z {fz['altman']:.2f})")
+    if fz.get("piotroski_of", 0) >= 7 and fz.get("piotroski", 9) <= 2:
+        signs.append(f"very weak financial health (Piotroski {fz['piotroski']}/{fz['piotroski_of']})")
+    if fz.get("accruals") is not None and fz["accruals"] > 0.10:
+        signs.append("high accruals")
     if breakdown:
         signs.append("price breaking down")
     return len(signs), signs
