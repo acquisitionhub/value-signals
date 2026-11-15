@@ -1,0 +1,42 @@
+# Bearish setups from the weekly scan on 2026-11-15: 2+ warning signs in the accounts.
+# The daily signals check their charts and price a capped-risk put spread at 3+ signs.
+TXN  # 3: retained earnings negative or shrinking; paying out more than it generates; profit not turning into cash
+HCA  # 3: retained earnings negative or shrinking; paying out more than it generates; stretched finances (interest cover or current ratio)
+WMB  # 3: retained earnings negative or shrinking; paying out more than it generates; stretched finances (interest cover or current ratio)
+RCL  # 3: paying out more than it generates; stretched finances (interest cover or current ratio); profit not turning into cash
+HLT  # 3: retained earnings negative or shrinking; paying out more than it generates; stretched finances (interest cover or current ratio)
+ORLY  # 3: retained earnings negative or shrinking; paying out more than it generates; stretched finances (interest cover or current ratio)
+HPE  # 3: retained earnings negative or shrinking; paying out more than it generates; stretched finances (interest cover or current ratio)
+TDG  # 3: retained earnings negative or shrinking; paying out more than it generates; stretched finances (interest cover or current ratio)
+TEAM  # 3: retained earnings negative or shrinking; paying out more than it generates; stretched finances (interest cover or current ratio)
+PEG  # 3: paying out more than it generates; stretched finances (interest cover or current ratio); profit not turning into cash
+CVS  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+INTC  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+SBUX  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+V  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+ABBV  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+ORCL  # 2: retained earnings negative or shrinking; profit not turning into cash
+LIN  # 2: paying out more than it generates; stretched finances (interest cover or current ratio)
+CRWD  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+NET  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+MAR  # 2: paying out more than it generates; stretched finances (interest cover or current ratio)
+SO  # 2: stretched finances (interest cover or current ratio); profit not turning into cash
+SNOW  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+DUK  # 2: stretched finances (interest cover or current ratio); profit not turning into cash
+CSX  # 2: paying out more than it generates; stretched finances (interest cover or current ratio)
+UPS  # 2: retained earnings negative or shrinking; paying out more than it generates
+MRNA  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+JCI  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+SHW  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+MDLZ  # 2: paying out more than it generates; stretched finances (interest cover or current ratio)
+ITW  # 2: paying out more than it generates; EPS rising while revenue falls
+GM  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+KMI  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+KMB  # 2: EPS rising while revenue falls; stretched finances (interest cover or current ratio)
+TRGP  # 2: stretched finances (interest cover or current ratio); profit not turning into cash
+LNG  # 2: paying out more than it generates; stretched finances (interest cover or current ratio)
+BE  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+ADSK  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+MDLN  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+AZO  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
+XEL  # 2: stretched finances (interest cover or current ratio); profit not turning into cash

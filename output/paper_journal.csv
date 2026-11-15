@@ -3,3 +3,5 @@ date,ticker,action,qty,approx_price,signal,reason
 2026-11-15,CRM,BUY,11,217.86,GREEN ,"fundamentals pass, 3/5 daily confirmations; weekly chart not yet confirming"
 2026-11-15,INTU,BUY,7,341.635,GREEN ,"fundamentals pass, 3/5 daily confirmations; weekly chart not yet confirming"
 2026-11-15,DVN,BUY,53,46.6,GREEN ,"fundamentals pass, 3/5 daily confirmations; weekly chart not yet confirming"
+2026-11-15,FOXA,BUY,73,68.44,GREEN ★,"fundamentals pass, 4/5 daily confirmations and the weekly chart agrees (strong)"
+2026-11-15,MA,BUY,7,661.16,GREEN ★,"fundamentals pass, 3/5 daily confirmations and the weekly chart agrees (strong)"
