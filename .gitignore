@@ -1,0 +1,5 @@
+# private: real keys live in settings.txt locally, or in GitHub Secrets
+settings.txt
+cache/
+__pycache__/
+*.pyc

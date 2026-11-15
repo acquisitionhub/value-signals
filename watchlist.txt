@@ -1,0 +1,18 @@
+# One US ticker per line. Lines starting with # are ignored.
+# A starter mix of steady cash generators to test the tool. Replace with your own ideas.
+KO
+JNJ
+PG
+MSFT
+GOOGL
+AAPL
+CVS
+INTC
+PFE
+VZ
+T
+MO
+TGT
+DG
+NKE
+SBUX

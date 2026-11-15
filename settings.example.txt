@@ -1,0 +1,21 @@
+# Copy this file to settings.txt for running on your own computer.
+# On GitHub, put these values in Settings -> Secrets and variables -> Actions instead.
+
+# --- Phone notifications (ntfy) ---
+# 1. Install the free "ntfy" app (iPhone or Android).
+# 2. Leave NTFY_TOPIC empty: the first run creates a private name, saves it here and prints it.
+#    Subscribe to that exact name in the app. Anyone who knows it can read your alerts.
+NTFY_TOPIC=
+# NTFY_SERVER=https://ntfy.sh
+
+# --- Paper trading (Alpaca demo account, fake money) ---
+# alpaca.markets -> sign up -> Paper account -> API Keys -> Generate. Paste both here.
+ALPACA_KEY_ID=
+ALPACA_SECRET_KEY=
+
+# --- Optional: email as well (leave SMTP_PASS empty to skip) ---
+SMTP_USER=julien@camdenacquisitionhub.com
+SMTP_PASS=
+EMAIL_TO=julien@camdenacquisitionhub.com
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=465
