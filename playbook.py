@@ -5,7 +5,11 @@ Only strategies where the most you can lose is known in advance:
 
   LEAPS call         green ★★ with quality >= 5 : buy a 12-24 month, slightly in-the-money call
   Bull call spread   other greens                : buy a call near the price, sell one near base value
-  Bear put spread    bearish setups              : buy a put near the price, sell one near the downside target
+  LEAPS put          bearish ★★                  : buy a 12-24 month, at-the-money put
+  Bear put spread    other bearish setups        : buy a put near the price, sell one near the downside target
+
+Bearish stars mirror the green ones: ★ the weekly chart confirms a downtrend (below a falling
+30-week average, weekly MACD negative), ★ severe deterioration (4+ warning signs and quality <= 2/6).
 
 Never suggested: naked short calls/puts, short straddles/strangles, ratio spreads or anything else
 with uncapped risk.
@@ -157,6 +161,23 @@ def bull_call_spread(sym, price, target, offline_dir=None):
             "breakeven": long_["strike"] + debit, "target": target, "iv": long_.get("iv")}
 
 
+def leaps_put(sym, price, target, offline_dir=None):
+    rows = chain(sym, PLAY["leaps_min_days"], PLAY["leaps_max_days"], "put", offline_dir)
+    if not rows or target >= price * 0.95:
+        return None
+    exp = _pick_expiry(rows, 500)
+    leg = _nearest([r for r in rows if r["expiry"] == exp], price)   # at the money: less time value to pay
+    if not leg:
+        return None
+    cost = leg["ask"]
+    reward = max(leg["strike"] - target, 0) - cost
+    return {"strategy": "LEAPS put", "bias": "bearish", "expiry": exp,
+            "legs": [f"Buy {exp} ${leg['strike']:g} put @ ${cost:.2f}"],
+            "max_loss": cost, "max_gain": leg["strike"] - cost,      # share price can't go below zero
+            "gain_at_target": reward, "breakeven": leg["strike"] - cost, "target": target,
+            "iv": leg.get("iv")}
+
+
 def bear_put_spread(sym, price, target, offline_dir=None):
     rows = chain(sym, PLAY["bear_min_days"], PLAY["bear_max_days"], "put", offline_dir)
     if not rows or target >= price * 0.95:
@@ -226,8 +247,18 @@ def suggest(r, account_size=None, offline_dir=None):
             target = price * 0.75
             if m.get("iv_bear") and 0 < m["iv_bear"] < price:
                 target = max(m["iv_bear"], price * 0.6)
-            idea = bear_put_spread(r["ticker"], price, target, offline_dir)
-            why = f"bearish setup ({r['bear_score']} warning signs): defined-risk put spread, never a short sale"
+            if r.get("bear_stars", 0) >= 2:
+                # severe cases: deeper target from the bear-case value, kept between -30% and -60%
+                deep = price * 0.5 if not (m.get("iv_bear") and m["iv_bear"] > 0) else m["iv_bear"]
+                deep = min(max(deep, price * 0.40), price * 0.70)
+                idea = leaps_put(r["ticker"], price, deep, offline_dir)
+                why = (f"bearish ★★ ({r['bear_score']} warning signs, weekly downtrend, weak quality): "
+                       "long-dated put gives the deterioration time to show; loss capped at what you pay")
+            if idea is None or (idea["gain_at_target"] < PLAY["min_reward_risk"] * idea["max_loss"]):
+                alt = bear_put_spread(r["ticker"], price, target, offline_dir)
+                if alt:
+                    idea = alt
+                    why = f"bearish setup ({r['bear_score']} warning signs): defined-risk put spread, never a short sale"
     except Exception as e:
         return {"error": str(e)[:120]}
     if not idea:

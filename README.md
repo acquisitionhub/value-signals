@@ -120,7 +120,10 @@ Each green stock and each bearish setup gets **one** options idea, priced from l
 |---|---|---|
 | Green ★★ with quality 5–6/6 | **LEAPS call**: 12–24 months, ~10% in the money | Time for the value to show; loss capped at what you pay |
 | Other greens | **Bull call spread**: buy near the price, sell near the base-case value | Cheap; the cap sits at your own price target |
-| Bearish setup (3+ warning signs) | **Bear put spread**: buy near the price, sell near the downside target | Profits from a fall without ever shorting shares |
+| Bearish ★★ | **LEAPS put**: 12–24 months, at the money; target a 30–60% fall from the bear-case value | The mirror of the LEAPS call; loss capped at what you pay |
+| Other bearish setups (3+ warning signs) | **Bear put spread**: buy near the price, sell near the downside target | Profits from a fall without ever shorting shares |
+
+**Bearish stars** mirror the green ones: ★ the weekly chart confirms a downtrend (below a falling 30-week average, weekly MACD negative), ★ severe deterioration (4+ warning signs and quality 2/6 or lower). If the long-dated option can't reach 2x reward-to-risk at current prices, the playbook falls back to the spread automatically.
 
 **Bearish warning signs** (from the quality pack): retained earnings negative or shrinking; buybacks + dividends above 120% of free cash flow; EPS rising while revenue falls; interest cover below 3x or current ratio below 1; under 50% of profit turning into cash; price breaking down on the chart. The weekly scan saves companies with 2+ signs to `output/bearish.txt`; the daily signals add the chart check and price an idea at 3+.
 
