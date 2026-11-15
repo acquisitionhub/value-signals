@@ -1,0 +1,892 @@
+{
+ "updated": "2026-11-15 07:43 UTC",
+ "mode": "weekly",
+ "paper": true,
+ "stocks": [
+  {
+   "ticker": "KO",
+   "name": "COCA COLA CO",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
+   ],
+   "price": 99.25,
+   "score": "3",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($82.67)"
+    },
+    {
+     "ok": false,
+     "text": "RSI 73 (overbought)"
+    },
+    {
+     "ok": true,
+     "text": "MACD above signal and rising"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.0x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 16.9 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": true,
+    "text": "above 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "",
+   "value": {
+    "bear": 23.586510600686182,
+    "base": 27.081379732280904,
+    "bull": 31.122432981460808
+   }
+  },
+  {
+   "ticker": "JNJ",
+   "name": "JOHNSON & JOHNSON",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: not cheap enough vs base-case value"
+   ],
+   "price": 285.965,
+   "score": "2",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($248.32)"
+    },
+    {
+     "ok": false,
+     "text": "RSI 66, weak"
+    },
+    {
+     "ok": false,
+     "text": "MACD momentum fading"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.0x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 11.6 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": true,
+    "text": "above 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "",
+   "value": {
+    "bear": 98.17068043676491,
+    "base": 112.62726297064215,
+    "bull": 128.9424897585616
+   }
+  },
+  {
+   "ticker": "PG",
+   "name": "PROCTER & GAMBLE Co",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value"
+   ],
+   "price": 169.83,
+   "score": "2",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($147.99), just crossed back above"
+    },
+    {
+     "ok": false,
+     "text": "RSI 69, weak"
+    },
+    {
+     "ok": false,
+     "text": "MACD momentum fading"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.2x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 21.6 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": true,
+    "text": "above 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "",
+   "value": {
+    "bear": 67.16397815715135,
+    "base": 71.84506466647457,
+    "bull": 76.79267029914308
+   }
+  },
+  {
+   "ticker": "MSFT",
+   "name": "MICROSOFT CORP",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: not cheap enough vs base-case value"
+   ],
+   "price": 524.19,
+   "score": "3",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($440.48)"
+    },
+    {
+     "ok": false,
+     "text": "RSI 49, falling"
+    },
+    {
+     "ok": true,
+     "text": "MACD crossed up"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.8x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 11.4 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": true,
+    "text": "above 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "",
+   "value": {
+    "bear": 26.34854729435673,
+    "base": 27.613175710596245,
+    "bull": 28.93656997889471
+   }
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet Inc.",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: not cheap enough vs base-case value"
+   ],
+   "price": 295.81,
+   "score": "2",
+   "checks": [
+    {
+     "ok": false,
+     "text": "price below 200-day average ($338.19)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 41, recovering from 21"
+    },
+    {
+     "ok": true,
+     "text": "MACD crossed up"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.8x down-day volume"
+    },
+    {
+     "ok": false,
+     "text": "lagging S&P 500 by 11.8 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "below 30-week average, 30-week average falling, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 95.87526389518075,
+    "base": 133.51861985584947,
+    "bull": 157.11811029763732
+   }
+  },
+  {
+   "ticker": "AAPL",
+   "name": "Apple Inc.",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: not cheap enough vs base-case value; share count rising (dilution)"
+   ],
+   "price": 356.4,
+   "score": "4",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($300.76)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 61, rising"
+    },
+    {
+     "ok": true,
+     "text": "MACD crossed up"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.9x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 18.8 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": true,
+    "text": "above 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "",
+   "value": {
+    "bear": 41.67614434558928,
+    "base": 57.58073857493077,
+    "bull": 72.40263974775705
+   }
+  },
+  {
+   "ticker": "CVS",
+   "name": "CVS HEALTH Corp",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 1,
+    "total": 2001315.2249999999,
+    "buyers_detail": [
+     {
+      "owner": "Shah Prem S",
+      "role": "EVP and Group President",
+      "value": 2001315.2249999999,
+      "last": "2026-11-06"
+     }
+    ],
+    "activist": null,
+    "confirms": false,
+    "text": "1 insider bought $2,001,315 in 90 days: Shah Prem S (EVP and Group President) $2,001,315"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: neither FCF improving nor debt falling"
+   ],
+   "price": 89.35,
+   "score": "3",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($88.08), just crossed back above"
+    },
+    {
+     "ok": true,
+     "text": "RSI 51, recovering from 31"
+    },
+    {
+     "ok": true,
+     "text": "MACD crossed up"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.2x down-day volume"
+    },
+    {
+     "ok": false,
+     "text": "lagging S&P 500 by 2.1 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "below 30-week average, 30-week average rising, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 102.999312283325,
+    "base": 127.69967328061415,
+    "bull": 158.32259798119728
+   }
+  },
+  {
+   "ticker": "INTC",
+   "name": "INTEL CORP",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 1,
+    "total": 9709680.0,
+    "buyers_detail": [
+     {
+      "owner": "Tan Lip Bu",
+      "role": "CEO, Director",
+      "value": 9709680.0,
+      "last": "2026-11-02"
+     }
+    ],
+    "activist": null,
+    "confirms": false,
+    "text": "1 insider bought $9,709,680 in 90 days: Tan Lip Bu (CEO, Director) $9,709,680"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold; free cash flow not consistently positive; no price or no valuation"
+   ],
+   "price": 59.66,
+   "score": "1",
+   "checks": [
+    {
+     "ok": false,
+     "text": "price below 200-day average ($87.39)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 32, recovering from 21"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.6x down-day volume"
+    },
+    {
+     "ok": false,
+     "text": "lagging S&P 500 by 40.2 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "below 30-week average, 30-week average rising, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": null,
+    "base": null,
+    "bull": null
+   }
+  },
+  {
+   "ticker": "PFE",
+   "name": "PFIZER INC",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
+   ],
+   "price": 28.9,
+   "score": "2",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($26.20)"
+    },
+    {
+     "ok": false,
+     "text": "RSI 48, falling"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.0x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 11.3 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": true,
+    "text": "above 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "",
+   "value": {
+    "bear": 5.337952185325875,
+    "base": 5.337952185325875,
+    "bull": 5.337952185325875
+   }
+  },
+  {
+   "ticker": "VZ",
+   "name": "VERIZON COMMUNICATIONS INC",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling"
+   ],
+   "price": 46.37,
+   "score": "3",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($45.91), just crossed back above"
+    },
+    {
+     "ok": true,
+     "text": "RSI 57, rising"
+    },
+    {
+     "ok": false,
+     "text": "MACD momentum fading"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.8x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 0.1 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "above 30-week average, 30-week average falling, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 107.11104782530805,
+    "base": 109.65496519017931,
+    "bull": 112.25751188827043
+   }
+  },
+  {
+   "ticker": "T",
+   "name": "AT&T INC.",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold"
+   ],
+   "price": 22.19,
+   "score": "2",
+   "checks": [
+    {
+     "ok": false,
+     "text": "price below 200-day average ($24.40)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 48, recovering from 31"
+    },
+    {
+     "ok": true,
+     "text": "MACD crossed up"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.8x down-day volume"
+    },
+    {
+     "ok": false,
+     "text": "lagging S&P 500 by 7.0 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "below 30-week average, 30-week average falling, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 48.604299106488384,
+    "base": 48.604299106488384,
+    "bull": 48.604299106488384
+   }
+  },
+  {
+   "ticker": "MO",
+   "name": "ALTRIA GROUP, INC.",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 1,
+    "total": 101430.0,
+    "buyers_detail": [
+     {
+      "owner": "Mcquade Kathryn B.",
+      "role": "Director",
+      "value": 101430.0,
+      "last": "2026-09-09"
+     }
+    ],
+    "activist": null,
+    "confirms": false,
+    "text": "1 insider bought $101,430 in 90 days: Mcquade Kathryn B. (Director) $101,430"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
+   ],
+   "price": 78.63,
+   "score": "2",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($68.15)"
+    },
+    {
+     "ok": false,
+     "text": "RSI 66, weak"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.0x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 27.0 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": true,
+    "text": "above 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "",
+   "value": {
+    "bear": 50.47081098768869,
+    "base": 50.47081098768869,
+    "bull": 50.47081098768869
+   }
+  },
+  {
+   "ticker": "TGT",
+   "name": "TARGET CORP",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
+   ],
+   "price": 161.44,
+   "score": "4",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($134.71)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 57, rising"
+    },
+    {
+     "ok": true,
+     "text": "MACD crossed up"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.9x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 9.8 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "above 30-week average, 30-week average rising, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 48.52506777204984,
+    "base": 52.13291027620501,
+    "bull": 55.92767297152748
+   }
+  },
+  {
+   "ticker": "DG",
+   "name": "DOLLAR GENERAL CORP",
+   "signal": "GREEN",
+   "strong": true,
+   "stars": 1,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fundamentals pass, 3/5 daily confirmations <b>and the weekly chart agrees (strong)</b>"
+   ],
+   "price": 134.13,
+   "score": "3",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($124.20), just crossed back above"
+    },
+    {
+     "ok": false,
+     "text": "RSI 53, falling"
+    },
+    {
+     "ok": true,
+     "text": "MACD crossed up"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.8x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 14.4 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": true,
+    "text": "above 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "Implied vol 52% vs recent actual 46%: options fairly priced.",
+   "value": {
+    "bear": 194.9639122034962,
+    "base": 227.30959123622404,
+    "bull": 264.87765707179494
+   }
+  },
+  {
+   "ticker": "NKE",
+   "name": "NIKE, Inc.",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
+   ],
+   "price": 37.99,
+   "score": "2",
+   "checks": [
+    {
+     "ok": false,
+     "text": "price below 200-day average ($44.19)"
+    },
+    {
+     "ok": false,
+     "text": "RSI 50, falling"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": true,
+     "text": "up-day volume 1.2x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 0.4 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "text": "below 30-week average, 30-week average falling, weekly MACD positive"
+   },
+   "options": "",
+   "value": {
+    "bear": 32.05896927194035,
+    "base": 32.05896927194035,
+    "bull": 32.05896927194035
+   }
+  },
+  {
+   "ticker": "SBUX",
+   "name": "STARBUCKS CORP",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "why": [
+    "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
+   ],
+   "price": 106.475,
+   "score": "2",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price above 200-day average ($99.25), just crossed back above"
+    },
+    {
+     "ok": false,
+     "text": "RSI 59, falling"
+    },
+    {
+     "ok": false,
+     "text": "MACD momentum fading"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 1.0x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 1.4 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": true,
+    "text": "above 30-week average, 30-week average rising, weekly MACD positive"
+   },
+   "options": "",
+   "value": {
+    "bear": 25.27372341680263,
+    "base": 29.730799460933525,
+    "bull": 34.70204934029488
+   }
+  }
+ ]
+}

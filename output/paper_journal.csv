@@ -1,0 +1,2 @@
+date,ticker,action,qty,approx_price,signal,reason
+2026-11-15,DG,BUY,37,134.13,GREEN ★,"fundamentals pass, 3/5 daily confirmations and the weekly chart agrees (strong)"

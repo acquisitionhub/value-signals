@@ -1,0 +1,114 @@
+{
+ "KO": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "JNJ": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "PG": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "MSFT": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "GOOGL": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "AAPL": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "CVS": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "INTC": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "PFE": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "VZ": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "T": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "MO": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "TGT": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "DG": {
+  "signal": "GREEN",
+  "strong": true,
+  "stars": 1,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "NKE": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ },
+ "SBUX": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "date": "2026-11-15"
+ }
+}
