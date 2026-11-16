@@ -1,0 +1,66 @@
+{
+ "updated": "2026-11-16",
+ "started": "2026-11-15",
+ "decision_date": "2027-02-13",
+ "days": 1,
+ "start_equity": 100000.0,
+ "equity": 100000.0,
+ "return": 0.0,
+ "spx_return": 0.0,
+ "max_drawdown": 0.0,
+ "trades": 6,
+ "open": 6,
+ "closed": 0,
+ "win_rate": 0.0,
+ "avg_win": null,
+ "avg_loss": 0.0,
+ "best": {
+  "ticker": "DG",
+  "opened": "2026-11-15",
+  "closed": null,
+  "qty": 37.0,
+  "entry": 134.13,
+  "exit": 134.13,
+  "pnl": 0.0,
+  "pnl_pct": 0.0,
+  "open": true,
+  "reason": ""
+ },
+ "worst": {
+  "ticker": "DG",
+  "opened": "2026-11-15",
+  "closed": null,
+  "qty": 37.0,
+  "entry": 134.13,
+  "exit": 134.13,
+  "pnl": 0.0,
+  "pnl_pct": 0.0,
+  "open": true,
+  "reason": ""
+ },
+ "return_ex_best": 0.0,
+ "tests": [
+  {
+   "test": "Beats the S&P 500 by 2+ points",
+   "value": 0.0,
+   "pass": false
+  },
+  {
+   "test": "At least 15 positions taken",
+   "value": 6,
+   "pass": false
+  },
+  {
+   "test": "Worst drop from peak under 15%",
+   "value": 0.0,
+   "pass": true
+  },
+  {
+   "test": "Still beats the S&P 500 without the single best trade",
+   "value": 0.0,
+   "pass": false
+  }
+ ],
+ "passed": 1,
+ "verdict": "Trial running: day 1 of 90 (decision on 2027-02-13)."
+}
