@@ -5,3 +5,9 @@ date,ticker,action,qty,approx_price,signal,reason
 2026-11-15,DVN,BUY,53,46.6,GREEN ,"fundamentals pass, 3/5 daily confirmations; weekly chart not yet confirming"
 2026-11-15,FOXA,BUY,73,68.44,GREEN ★,"fundamentals pass, 4/5 daily confirmations and the weekly chart agrees (strong)"
 2026-11-15,MA,BUY,7,661.16,GREEN ★,"fundamentals pass, 3/5 daily confirmations and the weekly chart agrees (strong)"
+2026-11-17,CRM,SELL,11,194.435,RED,debt up more than 20% in two years
+2026-11-17,DVN,SELL,53,44.4,RED,price $44.40 has reached base value $38.44 (target hit)
+2026-11-17,FOXA,SELL,73,67.33,RED,price $67.33 has reached base value $66.34 (target hit)
+2026-11-17,MA,SELL,7,647.23,RED,debt up more than 20% in two years
+2026-11-17,DG,SELL,37,133.76,RED,price $133.76 has reached base value $101.89 (target hit)
+2026-11-17,INTU,SELL,7,322.795,RED,debt up more than 20% in two years

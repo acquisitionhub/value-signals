@@ -1,49 +1,49 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "started": "2026-11-15",
  "decision_date": "2027-02-13",
- "days": 1,
+ "days": 2,
  "start_equity": 100000.0,
- "equity": 100000.0,
- "return": 0.0,
- "spx_return": 0.0,
- "max_drawdown": 0.0,
+ "equity": 99122.85,
+ "return": -0.008771499999999932,
+ "spx_return": -0.0323491587892929,
+ "max_drawdown": 0.008771499999999932,
  "trades": 6,
- "open": 6,
- "closed": 0,
+ "open": 0,
+ "closed": 6,
  "win_rate": 0.0,
  "avg_win": null,
- "avg_loss": 0.0,
+ "avg_loss": -0.04165436478020682,
  "best": {
   "ticker": "DG",
   "opened": "2026-11-15",
-  "closed": null,
+  "closed": "2026-11-17",
   "qty": 37.0,
   "entry": 134.13,
-  "exit": 134.13,
-  "pnl": 0.0,
-  "pnl_pct": 0.0,
-  "open": true,
-  "reason": ""
+  "exit": 133.76,
+  "pnl": -13.690000000000168,
+  "pnl_pct": -0.002758517855811604,
+  "open": false,
+  "reason": "price $133.76 has reached base value $101.89 (target hit)"
  },
  "worst": {
-  "ticker": "DG",
+  "ticker": "CRM",
   "opened": "2026-11-15",
-  "closed": null,
-  "qty": 37.0,
-  "entry": 134.13,
-  "exit": 134.13,
-  "pnl": 0.0,
-  "pnl_pct": 0.0,
-  "open": true,
-  "reason": ""
+  "closed": "2026-11-17",
+  "qty": 11.0,
+  "entry": 217.86,
+  "exit": 194.435,
+  "pnl": -257.6750000000001,
+  "pnl_pct": -0.10752318002386863,
+  "open": false,
+  "reason": "debt up more than 20% in two years"
  },
- "return_ex_best": 0.0,
+ "return_ex_best": -0.008771499999999943,
  "tests": [
   {
    "test": "Beats the S&P 500 by 2+ points",
-   "value": 0.0,
-   "pass": false
+   "value": 0.023577658789292966,
+   "pass": true
   },
   {
    "test": "At least 15 positions taken",
@@ -52,15 +52,15 @@
   },
   {
    "test": "Worst drop from peak under 15%",
-   "value": 0.0,
+   "value": 0.008771499999999932,
    "pass": true
   },
   {
    "test": "Still beats the S&P 500 without the single best trade",
-   "value": 0.0,
-   "pass": false
+   "value": 0.023577658789292955,
+   "pass": true
   }
  ],
- "passed": 1,
- "verdict": "Trial running: day 1 of 90 (decision on 2027-02-13)."
+ "passed": 3,
+ "verdict": "Trial running: day 2 of 90 (decision on 2027-02-13)."
 }
