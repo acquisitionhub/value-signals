@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "started": "2026-11-15",
  "decision_date": "2027-02-13",
- "days": 2,
+ "days": 3,
  "start_equity": 100000.0,
- "equity": 99122.85,
- "return": -0.008771499999999932,
- "spx_return": -0.0323491587892929,
- "max_drawdown": 0.008771499999999932,
+ "equity": 99115.46,
+ "return": -0.008845399999999892,
+ "spx_return": -0.030718442997865414,
+ "max_drawdown": 0.008845399999999892,
  "trades": 6,
  "open": 0,
  "closed": 6,
@@ -38,11 +38,11 @@
   "open": false,
   "reason": "debt up more than 20% in two years"
  },
- "return_ex_best": -0.008771499999999943,
+ "return_ex_best": -0.008845399999999936,
  "tests": [
   {
    "test": "Beats the S&P 500 by 2+ points",
-   "value": 0.023577658789292966,
+   "value": 0.02187304299786552,
    "pass": true
   },
   {
@@ -52,15 +52,15 @@
   },
   {
    "test": "Worst drop from peak under 15%",
-   "value": 0.008771499999999932,
+   "value": 0.008845399999999892,
    "pass": true
   },
   {
    "test": "Still beats the S&P 500 without the single best trade",
-   "value": 0.023577658789292955,
+   "value": 0.02187304299786548,
    "pass": true
   }
  ],
  "passed": 3,
- "verdict": "Trial running: day 2 of 90 (decision on 2027-02-13)."
+ "verdict": "Trial running: day 3 of 90 (decision on 2027-02-13)."
 }

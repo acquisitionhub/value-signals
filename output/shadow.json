@@ -1,0 +1,1726 @@
+{
+ "updated": "2026-11-18 15:36 UTC",
+ "settings": {
+  "odd_top_share": 0.05,
+  "odd_seeds": 5,
+  "odd_check_days": 30,
+  "mood_exposure": {
+   "Calm": 0.5,
+   "Choppy": 0.35,
+   "Stressed": 0.2
+  }
+ },
+ "mood": {
+  "today": "Choppy",
+  "since": "2026-11-05",
+  "confidence": 1.0,
+  "exposure": 0.35,
+  "now": {
+   "trend_20d": -0.0557,
+   "trend_60d": -0.0443,
+   "vol_20d": 0.2269,
+   "vs_200d": 0.0001,
+   "drawdown": -0.0629
+  },
+  "stats": {
+   "Calm": {
+    "days": 234,
+    "share": 0.777,
+    "next20_avg": 0.0062,
+    "next20_worst": -0.0568,
+    "next20_down_share": 0.362
+   },
+   "Choppy": {
+    "days": 59,
+    "share": 0.196,
+    "next20_avg": 0.0281,
+    "next20_worst": -0.0766,
+    "next20_down_share": 0.415
+   },
+   "Stressed": {
+    "days": 8,
+    "share": 0.027,
+    "next20_avg": 0.0455,
+    "next20_worst": 0.0409,
+    "next20_down_share": 0.0
+   }
+  },
+  "baseline": {
+   "next20_avg": 0.0105,
+   "next20_down_share": 0.359,
+   "next20_worst": -0.0766
+  },
+  "oos_days": 301,
+  "oos_from": "2025-09-10",
+  "history_days": 553,
+  "history_from": "2024-09-06",
+  "recent": [
+   {
+    "d": "2026-08-26",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-08-27",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-08-28",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-08-31",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-01",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-02",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-03",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-04",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-08",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-09",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-10",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-11",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-14",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-15",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-16",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-17",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-18",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-21",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-22",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-23",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-24",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-25",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-28",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-29",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-09-30",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-01",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-02",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-05",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-06",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-07",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-08",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-09",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-12",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-13",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-14",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-15",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-16",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-19",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-20",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-21",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-22",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-23",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-26",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-27",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-28",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-29",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-10-30",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-11-02",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-11-03",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-11-04",
+    "m": "Calm"
+   },
+   {
+    "d": "2026-11-05",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-06",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-09",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-10",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-11",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-12",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-13",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-16",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-17",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-18",
+    "m": "Choppy"
+   }
+  ]
+ },
+ "odd": {
+  "screen_date": "2026-11-18",
+  "companies": 249,
+  "skipped_missing_data": 38,
+  "flagged": [
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave, Inc.",
+    "score": 2.53,
+    "percentile": 1.0,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "\u26a0 Altman Z-Score (financial strength) unusually low (0.1)",
+     "\u26a0 Beneish M-Score (manipulation risk) unusually high (0.1)"
+    ],
+    "price": 47.475,
+    "passes": false
+   },
+   {
+    "ticker": "MRNA",
+    "name": "Moderna, Inc.",
+    "score": 2.158,
+    "percentile": 0.996,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "\u26a0 multi-year revenue growth unusually low (-43%)",
+     "Altman Z-Score (financial strength) unusually high (13.5)"
+    ],
+    "price": 203.42,
+    "passes": false
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum Holdings Inc.",
+    "score": 2.01,
+    "percentile": 0.992,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "\u26a0 debt vs free cash flow unusually high (111.4x)",
+     "free cash flow vs its 3-year average unusually high (+934%)"
+    ],
+    "price": 548.01,
+    "passes": false
+   },
+   {
+    "ticker": "RKLB",
+    "name": "Rocket Lab Corp",
+    "score": 1.798,
+    "percentile": 0.988,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "Altman Z-Score (financial strength) unusually high (28.6)",
+     "\u26a0 free cash flow vs its 3-year average unusually low (-63%)"
+    ],
+    "price": 54.45,
+    "passes": false
+   },
+   {
+    "ticker": "XYZ",
+    "name": "Block, Inc.",
+    "score": 1.659,
+    "percentile": 0.984,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "\u26a0 earnings-per-share growth unusually high (+925%)",
+     "\u26a0 revenue growth unusually low (+0%)"
+    ],
+    "price": 78.75,
+    "passes": false
+   },
+   {
+    "ticker": "NTRA",
+    "name": "Natera, Inc.",
+    "score": 1.645,
+    "percentile": 0.98,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "Altman Z-Score (financial strength) unusually high (32.9)",
+     "\u26a0 Beneish M-Score (manipulation risk) unusually high (-2.1)"
+    ],
+    "price": 280.03,
+    "passes": false
+   },
+   {
+    "ticker": "WDC",
+    "name": "WESTERN DIGITAL CORP",
+    "score": 1.34,
+    "percentile": 0.976,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "\u26a0 multi-year revenue growth unusually low (-9%)",
+     "free cash flow vs its 3-year average unusually high (+163%)"
+    ],
+    "price": 287.54,
+    "passes": false
+   },
+   {
+    "ticker": "ONC",
+    "name": "BeOne Medicines Ltd.",
+    "score": 1.334,
+    "percentile": 0.972,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "\u26a0 debt vs free cash flow unusually high (20.0x)",
+     "Altman Z-Score (financial strength) unusually high (94.0)"
+    ],
+    "price": 406.4,
+    "passes": false
+   },
+   {
+    "ticker": "MMM",
+    "name": "3M CO",
+    "score": 1.308,
+    "percentile": 0.968,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "profit turning into cash unusually high (1659%)",
+     "\u26a0 multi-year revenue growth unusually low (-8%)"
+    ],
+    "price": 178.94,
+    "passes": false
+   },
+   {
+    "ticker": "SBUX",
+    "name": "STARBUCKS CORP",
+    "score": 1.237,
+    "percentile": 0.964,
+    "flagged": true,
+    "concern": false,
+    "reasons": [
+     "Piotroski F-score (financial health) unusually high (100%)",
+     "return on capital unusually high (126%)"
+    ],
+    "price": 108.575,
+    "passes": false
+   },
+   {
+    "ticker": "MCK",
+    "name": "MCKESSON CORP",
+    "score": 1.186,
+    "percentile": 0.96,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "return on capital unusually high (1348%)",
+     "\u26a0 net margin unusually low (1%)"
+    ],
+    "price": 1081.13,
+    "passes": false
+   },
+   {
+    "ticker": "TTWO",
+    "name": "TAKE TWO INTERACTIVE SOFTWARE INC",
+    "score": 1.166,
+    "percentile": 0.956,
+    "flagged": true,
+    "concern": true,
+    "reasons": [
+     "free cash flow vs its 3-year average unusually high (+1454%)",
+     "\u26a0 debt vs free cash flow unusually high (85.2x)"
+    ],
+    "price": 216.98,
+    "passes": false
+   }
+  ],
+  "all": [
+   {
+    "ticker": "CRWV",
+    "score": 2.53,
+    "percentile": 1.0
+   },
+   {
+    "ticker": "MRNA",
+    "score": 2.158,
+    "percentile": 0.996
+   },
+   {
+    "ticker": "LITE",
+    "score": 2.01,
+    "percentile": 0.992
+   },
+   {
+    "ticker": "RKLB",
+    "score": 1.798,
+    "percentile": 0.988
+   },
+   {
+    "ticker": "XYZ",
+    "score": 1.659,
+    "percentile": 0.984
+   },
+   {
+    "ticker": "NTRA",
+    "score": 1.645,
+    "percentile": 0.98
+   },
+   {
+    "ticker": "WDC",
+    "score": 1.34,
+    "percentile": 0.976
+   },
+   {
+    "ticker": "ONC",
+    "score": 1.334,
+    "percentile": 0.972
+   },
+   {
+    "ticker": "MMM",
+    "score": 1.308,
+    "percentile": 0.968
+   },
+   {
+    "ticker": "SBUX",
+    "score": 1.237,
+    "percentile": 0.964
+   },
+   {
+    "ticker": "MCK",
+    "score": 1.186,
+    "percentile": 0.96
+   },
+   {
+    "ticker": "TTWO",
+    "score": 1.166,
+    "percentile": 0.956
+   },
+   {
+    "ticker": "NVDA",
+    "score": 1.13,
+    "percentile": 0.952
+   },
+   {
+    "ticker": "DHI",
+    "score": 1.116,
+    "percentile": 0.948
+   },
+   {
+    "ticker": "LYV",
+    "score": 1.096,
+    "percentile": 0.944
+   },
+   {
+    "ticker": "ORCL",
+    "score": 1.084,
+    "percentile": 0.94
+   },
+   {
+    "ticker": "COHR",
+    "score": 1.058,
+    "percentile": 0.936
+   },
+   {
+    "ticker": "INTC",
+    "score": 1.058,
+    "percentile": 0.932
+   },
+   {
+    "ticker": "PANW",
+    "score": 1.046,
+    "percentile": 0.928
+   },
+   {
+    "ticker": "MRK",
+    "score": 1.026,
+    "percentile": 0.924
+   },
+   {
+    "ticker": "CCL",
+    "score": 1.013,
+    "percentile": 0.92
+   },
+   {
+    "ticker": "KMI",
+    "score": 1.005,
+    "percentile": 0.916
+   },
+   {
+    "ticker": "LOW",
+    "score": 0.99,
+    "percentile": 0.912
+   },
+   {
+    "ticker": "APP",
+    "score": 0.99,
+    "percentile": 0.908
+   },
+   {
+    "ticker": "MCHP",
+    "score": 0.979,
+    "percentile": 0.904
+   },
+   {
+    "ticker": "ALAB",
+    "score": 0.975,
+    "percentile": 0.9
+   },
+   {
+    "ticker": "RCL",
+    "score": 0.974,
+    "percentile": 0.896
+   },
+   {
+    "ticker": "MRVL",
+    "score": 0.973,
+    "percentile": 0.892
+   },
+   {
+    "ticker": "META",
+    "score": 0.948,
+    "percentile": 0.888
+   },
+   {
+    "ticker": "NET",
+    "score": 0.946,
+    "percentile": 0.884
+   },
+   {
+    "ticker": "CAH",
+    "score": 0.944,
+    "percentile": 0.88
+   },
+   {
+    "ticker": "TSLA",
+    "score": 0.943,
+    "percentile": 0.876
+   },
+   {
+    "ticker": "CEG",
+    "score": 0.892,
+    "percentile": 0.871
+   },
+   {
+    "ticker": "PCAR",
+    "score": 0.887,
+    "percentile": 0.867
+   },
+   {
+    "ticker": "DELL",
+    "score": 0.886,
+    "percentile": 0.863
+   },
+   {
+    "ticker": "DUK",
+    "score": 0.88,
+    "percentile": 0.859
+   },
+   {
+    "ticker": "TXN",
+    "score": 0.877,
+    "percentile": 0.855
+   },
+   {
+    "ticker": "FANG",
+    "score": 0.872,
+    "percentile": 0.851
+   },
+   {
+    "ticker": "PYPL",
+    "score": 0.86,
+    "percentile": 0.847
+   },
+   {
+    "ticker": "WSM",
+    "score": 0.848,
+    "percentile": 0.843
+   },
+   {
+    "ticker": "BA",
+    "score": 0.835,
+    "percentile": 0.839
+   },
+   {
+    "ticker": "SRE",
+    "score": 0.83,
+    "percentile": 0.835
+   },
+   {
+    "ticker": "TEVA",
+    "score": 0.811,
+    "percentile": 0.831
+   },
+   {
+    "ticker": "ODFL",
+    "score": 0.809,
+    "percentile": 0.827
+   },
+   {
+    "ticker": "AMZN",
+    "score": 0.804,
+    "percentile": 0.823
+   },
+   {
+    "ticker": "GRMN",
+    "score": 0.799,
+    "percentile": 0.819
+   },
+   {
+    "ticker": "MU",
+    "score": 0.797,
+    "percentile": 0.815
+   },
+   {
+    "ticker": "GM",
+    "score": 0.795,
+    "percentile": 0.811
+   },
+   {
+    "ticker": "TRGP",
+    "score": 0.792,
+    "percentile": 0.807
+   },
+   {
+    "ticker": "CVNA",
+    "score": 0.782,
+    "percentile": 0.803
+   },
+   {
+    "ticker": "PFE",
+    "score": 0.778,
+    "percentile": 0.799
+   },
+   {
+    "ticker": "PEG",
+    "score": 0.748,
+    "percentile": 0.795
+   },
+   {
+    "ticker": "EQT",
+    "score": 0.727,
+    "percentile": 0.791
+   },
+   {
+    "ticker": "ZS",
+    "score": 0.721,
+    "percentile": 0.787
+   },
+   {
+    "ticker": "CMG",
+    "score": 0.71,
+    "percentile": 0.783
+   },
+   {
+    "ticker": "RBLX",
+    "score": 0.691,
+    "percentile": 0.779
+   },
+   {
+    "ticker": "NUE",
+    "score": 0.682,
+    "percentile": 0.775
+   },
+   {
+    "ticker": "ILMN",
+    "score": 0.68,
+    "percentile": 0.771
+   },
+   {
+    "ticker": "ATO",
+    "score": 0.673,
+    "percentile": 0.767
+   },
+   {
+    "ticker": "LNG",
+    "score": 0.671,
+    "percentile": 0.763
+   },
+   {
+    "ticker": "EW",
+    "score": 0.67,
+    "percentile": 0.759
+   },
+   {
+    "ticker": "GE",
+    "score": 0.654,
+    "percentile": 0.755
+   },
+   {
+    "ticker": "ORLY",
+    "score": 0.643,
+    "percentile": 0.751
+   },
+   {
+    "ticker": "DASH",
+    "score": 0.641,
+    "percentile": 0.747
+   },
+   {
+    "ticker": "NEE",
+    "score": 0.637,
+    "percentile": 0.743
+   },
+   {
+    "ticker": "URI",
+    "score": 0.633,
+    "percentile": 0.739
+   },
+   {
+    "ticker": "GD",
+    "score": 0.633,
+    "percentile": 0.735
+   },
+   {
+    "ticker": "MELI",
+    "score": 0.618,
+    "percentile": 0.731
+   },
+   {
+    "ticker": "CPAY",
+    "score": 0.606,
+    "percentile": 0.727
+   },
+   {
+    "ticker": "SNPS",
+    "score": 0.606,
+    "percentile": 0.723
+   },
+   {
+    "ticker": "SNOW",
+    "score": 0.596,
+    "percentile": 0.719
+   },
+   {
+    "ticker": "TEL",
+    "score": 0.589,
+    "percentile": 0.715
+   },
+   {
+    "ticker": "VMC",
+    "score": 0.589,
+    "percentile": 0.711
+   },
+   {
+    "ticker": "SO",
+    "score": 0.589,
+    "percentile": 0.707
+   },
+   {
+    "ticker": "STX",
+    "score": 0.584,
+    "percentile": 0.703
+   },
+   {
+    "ticker": "CVS",
+    "score": 0.575,
+    "percentile": 0.699
+   },
+   {
+    "ticker": "NEM",
+    "score": 0.572,
+    "percentile": 0.695
+   },
+   {
+    "ticker": "MSFT",
+    "score": 0.57,
+    "percentile": 0.691
+   },
+   {
+    "ticker": "CPRT",
+    "score": 0.568,
+    "percentile": 0.687
+   },
+   {
+    "ticker": "KHC",
+    "score": 0.565,
+    "percentile": 0.683
+   },
+   {
+    "ticker": "BMY",
+    "score": 0.558,
+    "percentile": 0.679
+   },
+   {
+    "ticker": "VST",
+    "score": 0.556,
+    "percentile": 0.675
+   },
+   {
+    "ticker": "CLS",
+    "score": 0.551,
+    "percentile": 0.671
+   },
+   {
+    "ticker": "EMR",
+    "score": 0.55,
+    "percentile": 0.667
+   },
+   {
+    "ticker": "D",
+    "score": 0.545,
+    "percentile": 0.663
+   },
+   {
+    "ticker": "GOOGL",
+    "score": 0.543,
+    "percentile": 0.659
+   },
+   {
+    "ticker": "AWK",
+    "score": 0.54,
+    "percentile": 0.655
+   },
+   {
+    "ticker": "DDOG",
+    "score": 0.537,
+    "percentile": 0.651
+   },
+   {
+    "ticker": "LH",
+    "score": 0.536,
+    "percentile": 0.647
+   },
+   {
+    "ticker": "WMB",
+    "score": 0.535,
+    "percentile": 0.643
+   },
+   {
+    "ticker": "OKTA",
+    "score": 0.535,
+    "percentile": 0.639
+   },
+   {
+    "ticker": "ADI",
+    "score": 0.535,
+    "percentile": 0.635
+   },
+   {
+    "ticker": "SNDK",
+    "score": 0.534,
+    "percentile": 0.631
+   },
+   {
+    "ticker": "EXPE",
+    "score": 0.532,
+    "percentile": 0.627
+   },
+   {
+    "ticker": "ADM",
+    "score": 0.532,
+    "percentile": 0.622
+   },
+   {
+    "ticker": "CIEN",
+    "score": 0.53,
+    "percentile": 0.618
+   },
+   {
+    "ticker": "MSCI",
+    "score": 0.523,
+    "percentile": 0.614
+   },
+   {
+    "ticker": "COR",
+    "score": 0.52,
+    "percentile": 0.61
+   },
+   {
+    "ticker": "MPC",
+    "score": 0.518,
+    "percentile": 0.606
+   },
+   {
+    "ticker": "HLT",
+    "score": 0.516,
+    "percentile": 0.602
+   },
+   {
+    "ticker": "STLD",
+    "score": 0.514,
+    "percentile": 0.598
+   },
+   {
+    "ticker": "HPE",
+    "score": 0.507,
+    "percentile": 0.594
+   },
+   {
+    "ticker": "PLTR",
+    "score": 0.503,
+    "percentile": 0.59
+   },
+   {
+    "ticker": "HCA",
+    "score": 0.5,
+    "percentile": 0.586
+   },
+   {
+    "ticker": "TER",
+    "score": 0.499,
+    "percentile": 0.582
+   },
+   {
+    "ticker": "MPWR",
+    "score": 0.497,
+    "percentile": 0.578
+   },
+   {
+    "ticker": "VRTX",
+    "score": 0.495,
+    "percentile": 0.574
+   },
+   {
+    "ticker": "LLY",
+    "score": 0.494,
+    "percentile": 0.57
+   },
+   {
+    "ticker": "AAPL",
+    "score": 0.479,
+    "percentile": 0.566
+   },
+   {
+    "ticker": "DAL",
+    "score": 0.465,
+    "percentile": 0.562
+   },
+   {
+    "ticker": "SHOP",
+    "score": 0.464,
+    "percentile": 0.558
+   },
+   {
+    "ticker": "TT",
+    "score": 0.461,
+    "percentile": 0.554
+   },
+   {
+    "ticker": "ISRG",
+    "score": 0.46,
+    "percentile": 0.55
+   },
+   {
+    "ticker": "CRWD",
+    "score": 0.459,
+    "percentile": 0.546
+   },
+   {
+    "ticker": "ANET",
+    "score": 0.459,
+    "percentile": 0.542
+   },
+   {
+    "ticker": "RTX",
+    "score": 0.456,
+    "percentile": 0.538
+   },
+   {
+    "ticker": "CARR",
+    "score": 0.454,
+    "percentile": 0.534
+   },
+   {
+    "ticker": "SN",
+    "score": 0.447,
+    "percentile": 0.53
+   },
+   {
+    "ticker": "EOG",
+    "score": 0.441,
+    "percentile": 0.526
+   },
+   {
+    "ticker": "NTAP",
+    "score": 0.439,
+    "percentile": 0.522
+   },
+   {
+    "ticker": "GEV",
+    "score": 0.435,
+    "percentile": 0.518
+   },
+   {
+    "ticker": "EPD",
+    "score": 0.434,
+    "percentile": 0.514
+   },
+   {
+    "ticker": "FISV",
+    "score": 0.433,
+    "percentile": 0.51
+   },
+   {
+    "ticker": "JNJ",
+    "score": 0.429,
+    "percentile": 0.506
+   },
+   {
+    "ticker": "NSC",
+    "score": 0.428,
+    "percentile": 0.502
+   },
+   {
+    "ticker": "YUM",
+    "score": 0.427,
+    "percentile": 0.498
+   },
+   {
+    "ticker": "LHX",
+    "score": 0.424,
+    "percentile": 0.494
+   },
+   {
+    "ticker": "ABBV",
+    "score": 0.419,
+    "percentile": 0.49
+   },
+   {
+    "ticker": "XEL",
+    "score": 0.415,
+    "percentile": 0.486
+   },
+   {
+    "ticker": "REGN",
+    "score": 0.414,
+    "percentile": 0.482
+   },
+   {
+    "ticker": "MCO",
+    "score": 0.413,
+    "percentile": 0.478
+   },
+   {
+    "ticker": "IBM",
+    "score": 0.409,
+    "percentile": 0.474
+   },
+   {
+    "ticker": "QCOM",
+    "score": 0.407,
+    "percentile": 0.47
+   },
+   {
+    "ticker": "FAST",
+    "score": 0.406,
+    "percentile": 0.466
+   },
+   {
+    "ticker": "EBAY",
+    "score": 0.403,
+    "percentile": 0.462
+   },
+   {
+    "ticker": "PWR",
+    "score": 0.396,
+    "percentile": 0.458
+   },
+   {
+    "ticker": "WDAY",
+    "score": 0.395,
+    "percentile": 0.454
+   },
+   {
+    "ticker": "OKE",
+    "score": 0.392,
+    "percentile": 0.45
+   },
+   {
+    "ticker": "VRT",
+    "score": 0.392,
+    "percentile": 0.446
+   },
+   {
+    "ticker": "CMCSA",
+    "score": 0.391,
+    "percentile": 0.442
+   },
+   {
+    "ticker": "TEAM",
+    "score": 0.39,
+    "percentile": 0.438
+   },
+   {
+    "ticker": "NKE",
+    "score": 0.389,
+    "percentile": 0.434
+   },
+   {
+    "ticker": "VLO",
+    "score": 0.387,
+    "percentile": 0.43
+   },
+   {
+    "ticker": "P",
+    "score": 0.384,
+    "percentile": 0.426
+   },
+   {
+    "ticker": "LMT",
+    "score": 0.381,
+    "percentile": 0.422
+   },
+   {
+    "ticker": "GILD",
+    "score": 0.377,
+    "percentile": 0.418
+   },
+   {
+    "ticker": "UAL",
+    "score": 0.377,
+    "percentile": 0.414
+   },
+   {
+    "ticker": "MAR",
+    "score": 0.377,
+    "percentile": 0.41
+   },
+   {
+    "ticker": "AMGN",
+    "score": 0.376,
+    "percentile": 0.406
+   },
+   {
+    "ticker": "OTIS",
+    "score": 0.372,
+    "percentile": 0.402
+   },
+   {
+    "ticker": "T",
+    "score": 0.354,
+    "percentile": 0.398
+   },
+   {
+    "ticker": "ADBE",
+    "score": 0.354,
+    "percentile": 0.394
+   },
+   {
+    "ticker": "NOC",
+    "score": 0.344,
+    "percentile": 0.39
+   },
+   {
+    "ticker": "DVN",
+    "score": 0.338,
+    "percentile": 0.386
+   },
+   {
+    "ticker": "CRM",
+    "score": 0.337,
+    "percentile": 0.382
+   },
+   {
+    "ticker": "MO",
+    "score": 0.335,
+    "percentile": 0.378
+   },
+   {
+    "ticker": "LRCX",
+    "score": 0.333,
+    "percentile": 0.373
+   },
+   {
+    "ticker": "GLW",
+    "score": 0.328,
+    "percentile": 0.369
+   },
+   {
+    "ticker": "MLM",
+    "score": 0.327,
+    "percentile": 0.365
+   },
+   {
+    "ticker": "AMD",
+    "score": 0.325,
+    "percentile": 0.361
+   },
+   {
+    "ticker": "DG",
+    "score": 0.312,
+    "percentile": 0.357
+   },
+   {
+    "ticker": "CTAS",
+    "score": 0.31,
+    "percentile": 0.353
+   },
+   {
+    "ticker": "SPGI",
+    "score": 0.303,
+    "percentile": 0.349
+   },
+   {
+    "ticker": "NOW",
+    "score": 0.303,
+    "percentile": 0.345
+   },
+   {
+    "ticker": "COST",
+    "score": 0.303,
+    "percentile": 0.341
+   },
+   {
+    "ticker": "VEEV",
+    "score": 0.3,
+    "percentile": 0.337
+   },
+   {
+    "ticker": "MDLN",
+    "score": 0.299,
+    "percentile": 0.333
+   },
+   {
+    "ticker": "AZO",
+    "score": 0.298,
+    "percentile": 0.329
+   },
+   {
+    "ticker": "UI",
+    "score": 0.296,
+    "percentile": 0.325
+   },
+   {
+    "ticker": "WMT",
+    "score": 0.295,
+    "percentile": 0.321
+   },
+   {
+    "ticker": "BIIB",
+    "score": 0.29,
+    "percentile": 0.317
+   },
+   {
+    "ticker": "FTNT",
+    "score": 0.287,
+    "percentile": 0.313
+   },
+   {
+    "ticker": "IR",
+    "score": 0.272,
+    "percentile": 0.309
+   },
+   {
+    "ticker": "KMB",
+    "score": 0.272,
+    "percentile": 0.305
+   },
+   {
+    "ticker": "FIX",
+    "score": 0.268,
+    "percentile": 0.301
+   },
+   {
+    "ticker": "CL",
+    "score": 0.267,
+    "percentile": 0.297
+   },
+   {
+    "ticker": "PAYX",
+    "score": 0.265,
+    "percentile": 0.293
+   },
+   {
+    "ticker": "IQV",
+    "score": 0.264,
+    "percentile": 0.289
+   },
+   {
+    "ticker": "UBER",
+    "score": 0.262,
+    "percentile": 0.285
+   },
+   {
+    "ticker": "ROST",
+    "score": 0.254,
+    "percentile": 0.281
+   },
+   {
+    "ticker": "KLAC",
+    "score": 0.253,
+    "percentile": 0.277
+   },
+   {
+    "ticker": "FDX",
+    "score": 0.253,
+    "percentile": 0.273
+   },
+   {
+    "ticker": "DE",
+    "score": 0.249,
+    "percentile": 0.269
+   },
+   {
+    "ticker": "MDT",
+    "score": 0.248,
+    "percentile": 0.265
+   },
+   {
+    "ticker": "WAB",
+    "score": 0.248,
+    "percentile": 0.261
+   },
+   {
+    "ticker": "TMUS",
+    "score": 0.247,
+    "percentile": 0.257
+   },
+   {
+    "ticker": "MDLZ",
+    "score": 0.247,
+    "percentile": 0.253
+   },
+   {
+    "ticker": "KEYS",
+    "score": 0.246,
+    "percentile": 0.249
+   },
+   {
+    "ticker": "CVX",
+    "score": 0.24,
+    "percentile": 0.245
+   },
+   {
+    "ticker": "DHR",
+    "score": 0.239,
+    "percentile": 0.241
+   },
+   {
+    "ticker": "TDG",
+    "score": 0.239,
+    "percentile": 0.237
+   },
+   {
+    "ticker": "FERG",
+    "score": 0.239,
+    "percentile": 0.233
+   },
+   {
+    "ticker": "GWW",
+    "score": 0.238,
+    "percentile": 0.229
+   },
+   {
+    "ticker": "CDNS",
+    "score": 0.233,
+    "percentile": 0.225
+   },
+   {
+    "ticker": "WM",
+    "score": 0.23,
+    "percentile": 0.221
+   },
+   {
+    "ticker": "SLB",
+    "score": 0.229,
+    "percentile": 0.217
+   },
+   {
+    "ticker": "KDP",
+    "score": 0.228,
+    "percentile": 0.213
+   },
+   {
+    "ticker": "DXCM",
+    "score": 0.224,
+    "percentile": 0.209
+   },
+   {
+    "ticker": "INTU",
+    "score": 0.222,
+    "percentile": 0.205
+   },
+   {
+    "ticker": "MCD",
+    "score": 0.216,
+    "percentile": 0.201
+   },
+   {
+    "ticker": "TDY",
+    "score": 0.213,
+    "percentile": 0.197
+   },
+   {
+    "ticker": "APH",
+    "score": 0.212,
+    "percentile": 0.193
+   },
+   {
+    "ticker": "ET",
+    "score": 0.211,
+    "percentile": 0.189
+   },
+   {
+    "ticker": "NXPI",
+    "score": 0.209,
+    "percentile": 0.185
+   },
+   {
+    "ticker": "WCN",
+    "score": 0.208,
+    "percentile": 0.181
+   },
+   {
+    "ticker": "AMAT",
+    "score": 0.207,
+    "percentile": 0.177
+   },
+   {
+    "ticker": "CSX",
+    "score": 0.205,
+    "percentile": 0.173
+   },
+   {
+    "ticker": "ABT",
+    "score": 0.204,
+    "percentile": 0.169
+   },
+   {
+    "ticker": "IDXX",
+    "score": 0.202,
+    "percentile": 0.165
+   },
+   {
+    "ticker": "NFLX",
+    "score": 0.201,
+    "percentile": 0.161
+   },
+   {
+    "ticker": "WAT",
+    "score": 0.2,
+    "percentile": 0.157
+   },
+   {
+    "ticker": "HWM",
+    "score": 0.198,
+    "percentile": 0.153
+   },
+   {
+    "ticker": "SYY",
+    "score": 0.185,
+    "percentile": 0.149
+   },
+   {
+    "ticker": "ADSK",
+    "score": 0.184,
+    "percentile": 0.145
+   },
+   {
+    "ticker": "HD",
+    "score": 0.183,
+    "percentile": 0.141
+   },
+   {
+    "ticker": "KO",
+    "score": 0.177,
+    "percentile": 0.137
+   },
+   {
+    "ticker": "HEI",
+    "score": 0.176,
+    "percentile": 0.133
+   },
+   {
+    "ticker": "AME",
+    "score": 0.175,
+    "percentile": 0.129
+   },
+   {
+    "ticker": "KR",
+    "score": 0.172,
+    "percentile": 0.124
+   },
+   {
+    "ticker": "UNP",
+    "score": 0.17,
+    "percentile": 0.12
+   },
+   {
+    "ticker": "CRH",
+    "score": 0.166,
+    "percentile": 0.116
+   },
+   {
+    "ticker": "ROP",
+    "score": 0.164,
+    "percentile": 0.112
+   },
+   {
+    "ticker": "SUNB",
+    "score": 0.163,
+    "percentile": 0.108
+   },
+   {
+    "ticker": "UPS",
+    "score": 0.162,
+    "percentile": 0.104
+   },
+   {
+    "ticker": "DIS",
+    "score": 0.16,
+    "percentile": 0.1
+   },
+   {
+    "ticker": "ECL",
+    "score": 0.16,
+    "percentile": 0.096
+   },
+   {
+    "ticker": "HON",
+    "score": 0.158,
+    "percentile": 0.092
+   },
+   {
+    "ticker": "PM",
+    "score": 0.154,
+    "percentile": 0.088
+   },
+   {
+    "ticker": "ROK",
+    "score": 0.15,
+    "percentile": 0.084
+   },
+   {
+    "ticker": "A",
+    "score": 0.134,
+    "percentile": 0.08
+   },
+   {
+    "ticker": "PEP",
+    "score": 0.13,
+    "percentile": 0.076
+   },
+   {
+    "ticker": "TJX",
+    "score": 0.13,
+    "percentile": 0.072
+   },
+   {
+    "ticker": "CSCO",
+    "score": 0.124,
+    "percentile": 0.068
+   },
+   {
+    "ticker": "V",
+    "score": 0.123,
+    "percentile": 0.064
+   },
+   {
+    "ticker": "MSI",
+    "score": 0.121,
+    "percentile": 0.06
+   },
+   {
+    "ticker": "TMO",
+    "score": 0.116,
+    "percentile": 0.056
+   },
+   {
+    "ticker": "LIN",
+    "score": 0.115,
+    "percentile": 0.052
+   },
+   {
+    "ticker": "RMD",
+    "score": 0.107,
+    "percentile": 0.048
+   },
+   {
+    "ticker": "ADP",
+    "score": 0.106,
+    "percentile": 0.044
+   },
+   {
+    "ticker": "TGT",
+    "score": 0.105,
+    "percentile": 0.04
+   },
+   {
+    "ticker": "RSG",
+    "score": 0.099,
+    "percentile": 0.036
+   },
+   {
+    "ticker": "SYK",
+    "score": 0.082,
+    "percentile": 0.032
+   },
+   {
+    "ticker": "ZTS",
+    "score": 0.081,
+    "percentile": 0.028
+   },
+   {
+    "ticker": "PG",
+    "score": 0.071,
+    "percentile": 0.024
+   },
+   {
+    "ticker": "MTD",
+    "score": 0.063,
+    "percentile": 0.02
+   },
+   {
+    "ticker": "ACN",
+    "score": 0.062,
+    "percentile": 0.016
+   },
+   {
+    "ticker": "ETN",
+    "score": 0.053,
+    "percentile": 0.012
+   },
+   {
+    "ticker": "SHW",
+    "score": 0.05,
+    "percentile": 0.008
+   },
+   {
+    "ticker": "HSY",
+    "score": 0.037,
+    "percentile": 0.004
+   }
+  ]
+ },
+ "track_record": {
+  "checked": 0,
+  "note": "First results once flags are 30+ days old."
+ }
+}
