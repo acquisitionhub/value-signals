@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18 15:36 UTC",
- "mode": "weekly",
+ "updated": "2026-11-18 16:05 UTC",
+ "mode": "daily",
  "paper": true,
  "stocks": [
   {
@@ -24,8 +24,8 @@
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value; return on capital only -6%; Altman Z-Score 0.50: financial distress zone",
     "<b>warning filing:</b> exchange delisting warning (8-K 3.01) (2026-08-26)"
    ],
-   "price": 25.135,
-   "score": "4",
+   "price": 25.07,
+   "score": "5",
    "checks": [
     {
      "ok": true,
@@ -33,19 +33,19 @@
     },
     {
      "ok": true,
-     "text": "RSI 59, rising"
+     "text": "RSI 58, rising"
     },
     {
      "ok": true,
      "text": "MACD crossed up"
     },
     {
-     "ok": false,
-     "text": "up-day volume 1.1x down-day volume"
+     "ok": true,
+     "text": "up-day volume 1.3x down-day volume"
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 3.8 pts over 3 months"
+     "text": "beating S&P 500 by 3.6 pts over 3 months"
     }
    ],
    "weekly": {
@@ -98,7 +98,7 @@
     "beneish": -3.2289686301164195,
     "piotroski": 5,
     "piotroski_of": 9,
-    "altman": 0.5046930469513773,
+    "altman": 0.5035356351454919,
     "altman_zone": "distress",
     "accruals": -0.12121853557001994
    },
@@ -107,21 +107,21 @@
     "bias": "bearish",
     "expiry": "2027-03-19",
     "legs": [
-     "Buy 2027-03-19 $25 put @ $1.77",
-     "Sell 2027-03-19 $17.5 put @ $0.01"
+     "Buy 2027-03-19 $25 put @ $1.83",
+     "Sell 2027-03-19 $17.5 put @ $0.04"
     ],
-    "max_loss": 1.76,
-    "max_gain": 5.74,
-    "gain_at_target": 5.74,
-    "breakeven": 23.24,
+    "max_loss": 1.79,
+    "max_gain": 5.71,
+    "gain_at_target": 5.71,
+    "breakeven": 23.21,
     "target": 17.01213940114071,
-    "iv": 0.3373,
-    "reward_risk": 3.2613636363636367,
+    "iv": 0.3388,
+    "reward_risk": 3.189944134078212,
     "why": "bearish setup (4 warning signs): defined-risk put spread, never a short sale; <b>triggered by a warning filing</b> (exchange delisting warning (8-K 3.01))",
     "meets_rule": true,
     "contracts": 8,
     "risk_budget": 1486.7319,
-    "max_loss_total": 1408.0
+    "max_loss_total": 1432.0
    },
    "trig": {
     "fired": true,
@@ -149,7 +149,7 @@
     "name": "BEARISH: TRIGGER",
     "icon": "\ud83d\udd3b",
     "action": "Read the warning filing. If it confirms the bad accounts, take the capped-risk put idea.",
-    "strength": 18.3,
+    "strength": 18.2,
     "reason": "exchange delisting warning (8-K 3.01) 2026-08-26 + 4 warning signs in the accounts"
    }
   },
@@ -186,16 +186,16 @@
    "why": [
     "fails fundamentals: free cash flow not consistently positive; neither FCF improving nor debt falling; no price or no valuation; share count rising (dilution); return on capital only 7%; Altman Z-Score 1.36: financial distress zone"
    ],
-   "price": 162.145,
-   "score": "1",
+   "price": 162.775,
+   "score": "2",
    "checks": [
     {
      "ok": false,
-     "text": "price below 200-day average ($212.28)"
+     "text": "price below 200-day average ($212.29)"
     },
     {
-     "ok": false,
-     "text": "RSI 30, falling"
+     "ok": true,
+     "text": "RSI 30, recovering from 25"
     },
     {
      "ok": true,
@@ -207,7 +207,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 20.7 pts over 3 months"
+     "text": "lagging S&P 500 by 20.3 pts over 3 months"
     }
    ],
    "weekly": {
@@ -228,7 +228,7 @@
     "cash_conversion": null,
     "eps_cagr": null,
     "rev_cagr2": 0.07237993013382216,
-    "pe": 65.38104838709678,
+    "pe": 65.6350806451613,
     "interest_cover": null,
     "current_ratio": 1.1881700041622347,
     "growth_quality": null,
@@ -256,7 +256,7 @@
     "beneish": -2.977649932438561,
     "piotroski": 6,
     "piotroski_of": 9,
-    "altman": 1.360026134787356,
+    "altman": 1.3617963334628524,
     "altman_zone": "distress",
     "accruals": 0.007208916875643103
    },
@@ -265,21 +265,21 @@
     "bias": "bearish",
     "expiry": "2027-03-19",
     "legs": [
-     "Buy 2027-03-19 $160 put @ $11.56",
-     "Sell 2027-03-19 $120 put @ $1.35"
+     "Buy 2027-03-19 $165 put @ $14.03",
+     "Sell 2027-03-19 $120 put @ $1.17"
     ],
-    "max_loss": 10.21,
-    "max_gain": 29.79,
-    "gain_at_target": 28.181249999999984,
-    "breakeven": 149.79,
-    "target": 121.60875000000001,
-    "iv": 0.367,
-    "reward_risk": 2.7601616062683627,
+    "max_loss": 12.86,
+    "max_gain": 32.14,
+    "gain_at_target": 30.05874999999999,
+    "breakeven": 152.14,
+    "target": 122.08125000000001,
+    "iv": 0.3694,
+    "reward_risk": 2.3373833592534985,
     "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
     "meets_rule": true,
     "contracts": 1,
     "risk_budget": 1486.7319,
-    "max_loss_total": 1021.0000000000001
+    "max_loss_total": 1286.0
    },
    "trig": {
     "fired": false,
@@ -296,8 +296,152 @@
     "name": "BEARISH: SETUP",
     "icon": "\ud83d\udd3b",
     "action": "Small put spread only, or wait for a warning filing to upgrade it.",
-    "strength": 16.8,
+    "strength": 16.3,
     "reason": "retained earnings negative or shrinking; bankruptcy-risk zone (Altman Z 1.36)"
+   }
+  },
+  {
+   "ticker": "KMI",
+   "name": "KINDER MORGAN, INC.",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 1,
+    "total": 14994200.0,
+    "buyers_detail": [
+     {
+      "owner": "Kinder Richard D",
+      "role": "Executive Chairman, Director, 10% owner",
+      "value": 14994200.0,
+      "last": "2026-11-06"
+     }
+    ],
+    "activist": null,
+    "confirms": false,
+    "text": "1 insider bought $14,994,200 in 90 days: Kinder Richard D (Executive Chairman, Director, 10% owner) $14,994,200"
+   },
+   "holding": false,
+   "source": "scan",
+   "why": [
+    "fails fundamentals: not cheap enough vs base-case value; return on capital only 6%; Altman Z-Score 1.27: financial distress zone"
+   ],
+   "price": 31.5,
+   "score": "3",
+   "checks": [
+    {
+     "ok": true,
+     "text": "price below 200-day average ($31.68)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 46, recovering from 33"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.8x down-day volume"
+    },
+    {
+     "ok": true,
+     "text": "beating S&P 500 by 4.5 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "down": false,
+    "text": "below 30-week average, 30-week average rising, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 3.842383664719383,
+    "base": 4.091326846086712,
+    "bull": 4.343574635209056
+   },
+   "quality": {
+    "score": 3,
+    "score_of": 6,
+    "roic": 0.059260227532495185,
+    "cash_conversion": 1.2495037220843672,
+    "eps_cagr": 0.1368609546416304,
+    "rev_cagr2": 0.050970472035187786,
+    "pe": 22.992700729927005,
+    "interest_cover": 2.6085035891772503,
+    "current_ratio": 0.6372049976862564,
+    "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
+    "checks": {
+     "Return on capital >= 10%": false,
+     "Cash conversion >= 70%": true,
+     "EPS growing with revenue": true,
+     "Interest cover >= 3x": false,
+     "Current ratio >= 1": false,
+     "Retained earnings growing": true
+    }
+   },
+   "flags": [
+    "Debt is 9.5x average free cash flow.",
+    "Bear case is below today's price - the thesis depends on growth continuing.",
+    "Interest cover only 2.6x: debt costs are heavy.",
+    "Current ratio 0.64: short-term debts exceed short-term assets."
+   ],
+   "bear_score": 3,
+   "bear_signs": [
+    "retained earnings negative or shrinking",
+    "stretched finances (interest cover or current ratio)",
+    "bankruptcy-risk zone (Altman Z 1.27)"
+   ],
+   "bear_stars": 0,
+   "bear_wait": false,
+   "forensic": {
+    "beneish": -2.542838582954444,
+    "piotroski": 8,
+    "piotroski_of": 8,
+    "altman": 1.267889042711936,
+    "altman_zone": "distress",
+    "accruals": -0.03969338559189761
+   },
+   "option_idea": {
+    "strategy": "Bear put spread",
+    "bias": "bearish",
+    "expiry": "2027-03-19",
+    "legs": [
+     "Buy 2027-03-19 $31 put @ $1.59",
+     "Sell 2027-03-19 $20 put @ $0.00"
+    ],
+    "max_loss": 1.59,
+    "max_gain": 9.41,
+    "gain_at_target": 9.41,
+    "breakeven": 29.41,
+    "target": 18.9,
+    "iv": 0.2729,
+    "reward_risk": 5.918238993710691,
+    "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
+    "meets_rule": true,
+    "contracts": 9,
+    "risk_budget": 1486.7319,
+    "max_loss_total": 1431.0
+   },
+   "trig": {
+    "fired": false,
+    "strong": false,
+    "score": 0,
+    "fresh": false,
+    "events": [],
+    "keys": [],
+    "text": "no warning filings in 365 days"
+   },
+   "catalyst": false,
+   "rank": {
+    "tier": 5,
+    "name": "BEARISH: SETUP",
+    "icon": "\ud83d\udd3b",
+    "action": "Small put spread only, or wait for a warning filing to upgrade it.",
+    "strength": 14.9,
+    "reason": "retained earnings negative or shrinking; stretched finances (interest cover or current ratio)"
    }
   },
   {
@@ -320,7 +464,7 @@
    "why": [
     "fails fundamentals: free cash flow not consistently positive; neither FCF improving nor debt falling; no price or no valuation; return on capital only 6%; cash conversion only -29% of profit; Altman Z-Score 0.97: financial distress zone"
    ],
-   "price": 93.69,
+   "price": 93.685,
    "score": "2",
    "checks": [
     {
@@ -341,7 +485,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 7.2 pts over 3 months"
+     "text": "beating S&P 500 by 7.3 pts over 3 months"
     }
    ],
    "weekly": {
@@ -362,7 +506,7 @@
     "cash_conversion": -0.28652303821355557,
     "eps_cagr": 0.040611804746032876,
     "rev_cagr2": 0.08179332536126438,
-    "pe": 23.900510204081634,
+    "pe": 23.899234693877553,
     "interest_cover": 2.7061664190193166,
     "current_ratio": 0.646435338702037,
     "growth_quality": "EPS and revenue growing together",
@@ -392,7 +536,7 @@
     "beneish": null,
     "piotroski": 4,
     "piotroski_of": 8,
-    "altman": 0.9652174018746956,
+    "altman": 0.9651889302051622,
     "altman_zone": "distress",
     "accruals": -0.03629777334662679
    },
@@ -401,21 +545,21 @@
     "bias": "bearish",
     "expiry": "2027-03-19",
     "legs": [
-     "Buy 2027-03-19 $92.5 put @ $3.48",
+     "Buy 2027-03-19 $92.5 put @ $3.52",
      "Sell 2027-03-19 $70 put @ $0.00"
     ],
-    "max_loss": 3.48,
-    "max_gain": 19.02,
-    "gain_at_target": 18.7525,
-    "breakeven": 89.02,
-    "target": 70.2675,
-    "iv": 0.214,
-    "reward_risk": 5.3886494252873565,
+    "max_loss": 3.52,
+    "max_gain": 18.98,
+    "gain_at_target": 18.71625,
+    "breakeven": 88.98,
+    "target": 70.26375,
+    "iv": 0.2163,
+    "reward_risk": 5.317116477272727,
     "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
     "meets_rule": true,
     "contracts": 4,
     "risk_budget": 1486.7319,
-    "max_loss_total": 1392.0
+    "max_loss_total": 1408.0
    },
    "trig": {
     "fired": false,
@@ -432,7 +576,7 @@
     "name": "BEARISH: SETUP",
     "icon": "\ud83d\udd3b",
     "action": "Small put spread only, or wait for a warning filing to upgrade it.",
-    "strength": 14.4,
+    "strength": 14.3,
     "reason": "stretched finances (interest cover or current ratio); profit not turning into cash"
    }
   },
@@ -463,7 +607,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value; return on capital only 7%; earnings per share not growing; Altman Z-Score 1.23: financial distress zone"
    ],
-   "price": 127.45,
+   "price": 127.22,
    "score": "2",
    "checks": [
     {
@@ -484,7 +628,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 4.2 pts over 3 months"
+     "text": "lagging S&P 500 by 4.3 pts over 3 months"
     }
    ],
    "weekly": {
@@ -505,7 +649,7 @@
     "cash_conversion": 1.487441130298273,
     "eps_cagr": -0.21965485361538029,
     "rev_cagr2": 0.09554393953206164,
-    "pe": 58.46330275229357,
+    "pe": 58.35779816513761,
     "interest_cover": 1.6166242578456318,
     "current_ratio": 0.7769595395293719,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -537,7 +681,7 @@
     "beneish": -2.7285145178461097,
     "piotroski": 4,
     "piotroski_of": 8,
-    "altman": 1.22714650387298,
+    "altman": 1.2258374880319813,
     "altman_zone": "distress",
     "accruals": -0.07881996974281393
    },
@@ -546,21 +690,21 @@
     "bias": "bearish",
     "expiry": "2027-03-19",
     "legs": [
-     "Buy 2027-03-19 $125 put @ $12.82",
+     "Buy 2027-03-19 $125 put @ $12.85",
      "Sell 2027-03-19 $75 put @ $0.56"
     ],
-    "max_loss": 12.26,
-    "max_gain": 37.74,
-    "gain_at_target": 36.27,
-    "breakeven": 112.74,
-    "target": 76.47,
-    "iv": 0.5015,
-    "reward_risk": 2.9584013050570968,
+    "max_loss": 12.29,
+    "max_gain": 37.71,
+    "gain_at_target": 36.37800000000001,
+    "breakeven": 112.71000000000001,
+    "target": 76.332,
+    "iv": 0.5044,
+    "reward_risk": 2.959967453213996,
     "why": "bearish setup (4 warning signs): defined-risk put spread, never a short sale",
     "meets_rule": true,
     "contracts": 1,
     "risk_budget": 1486.7319,
-    "max_loss_total": 1226.0
+    "max_loss_total": 1229.0
    },
    "trig": {
     "fired": false,
@@ -578,150 +722,6 @@
     "icon": "\ud83d\udd3b",
     "action": "Small put spread only, or wait for a warning filing to upgrade it.",
     "strength": 14.0,
-    "reason": "retained earnings negative or shrinking; stretched finances (interest cover or current ratio)"
-   }
-  },
-  {
-   "ticker": "KMI",
-   "name": "KINDER MORGAN, INC.",
-   "signal": "GREY",
-   "strong": false,
-   "stars": 0,
-   "smart": {
-    "cluster": false,
-    "buyers": 1,
-    "total": 14994200.0,
-    "buyers_detail": [
-     {
-      "owner": "Kinder Richard D",
-      "role": "Executive Chairman, Director, 10% owner",
-      "value": 14994200.0,
-      "last": "2026-11-06"
-     }
-    ],
-    "activist": null,
-    "confirms": false,
-    "text": "1 insider bought $14,994,200 in 90 days: Kinder Richard D (Executive Chairman, Director, 10% owner) $14,994,200"
-   },
-   "holding": false,
-   "source": "scan",
-   "why": [
-    "fails fundamentals: not cheap enough vs base-case value; return on capital only 6%; Altman Z-Score 1.27: financial distress zone"
-   ],
-   "price": 31.51,
-   "score": "3",
-   "checks": [
-    {
-     "ok": true,
-     "text": "price below 200-day average ($31.68)"
-    },
-    {
-     "ok": true,
-     "text": "RSI 46, recovering from 33"
-    },
-    {
-     "ok": false,
-     "text": "MACD below signal"
-    },
-    {
-     "ok": false,
-     "text": "up-day volume 0.8x down-day volume"
-    },
-    {
-     "ok": true,
-     "text": "beating S&P 500 by 4.4 pts over 3 months"
-    }
-   ],
-   "weekly": {
-    "confirms": false,
-    "down": false,
-    "text": "below 30-week average, 30-week average rising, weekly MACD negative"
-   },
-   "options": "",
-   "value": {
-    "bear": 3.842383664719383,
-    "base": 4.091326846086712,
-    "bull": 4.343574635209056
-   },
-   "quality": {
-    "score": 3,
-    "score_of": 6,
-    "roic": 0.059260227532495185,
-    "cash_conversion": 1.2495037220843672,
-    "eps_cagr": 0.1368609546416304,
-    "rev_cagr2": 0.050970472035187786,
-    "pe": 23.0,
-    "interest_cover": 2.6085035891772503,
-    "current_ratio": 0.6372049976862564,
-    "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
-    "checks": {
-     "Return on capital >= 10%": false,
-     "Cash conversion >= 70%": true,
-     "EPS growing with revenue": true,
-     "Interest cover >= 3x": false,
-     "Current ratio >= 1": false,
-     "Retained earnings growing": true
-    }
-   },
-   "flags": [
-    "Debt is 9.5x average free cash flow.",
-    "Bear case is below today's price - the thesis depends on growth continuing.",
-    "Interest cover only 2.6x: debt costs are heavy.",
-    "Current ratio 0.64: short-term debts exceed short-term assets."
-   ],
-   "bear_score": 3,
-   "bear_signs": [
-    "retained earnings negative or shrinking",
-    "stretched finances (interest cover or current ratio)",
-    "bankruptcy-risk zone (Altman Z 1.27)"
-   ],
-   "bear_stars": 0,
-   "bear_wait": false,
-   "forensic": {
-    "beneish": -2.542838582954444,
-    "piotroski": 8,
-    "piotroski_of": 8,
-    "altman": 1.2682200186666743,
-    "altman_zone": "distress",
-    "accruals": -0.03969338559189761
-   },
-   "option_idea": {
-    "strategy": "Bear put spread",
-    "bias": "bearish",
-    "expiry": "2027-03-19",
-    "legs": [
-     "Buy 2027-03-19 $32 put @ $2.07",
-     "Sell 2027-03-19 $20 put @ $0.00"
-    ],
-    "max_loss": 2.07,
-    "max_gain": 9.93,
-    "gain_at_target": 9.93,
-    "breakeven": 29.93,
-    "target": 18.906,
-    "iv": 0.2749,
-    "reward_risk": 4.797101449275362,
-    "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
-    "meets_rule": true,
-    "contracts": 7,
-    "risk_budget": 1486.7319,
-    "max_loss_total": 1448.9999999999998
-   },
-   "trig": {
-    "fired": false,
-    "strong": false,
-    "score": 0,
-    "fresh": false,
-    "events": [],
-    "keys": [],
-    "text": "no warning filings in 365 days"
-   },
-   "catalyst": false,
-   "rank": {
-    "tier": 5,
-    "name": "BEARISH: SETUP",
-    "icon": "\ud83d\udd3b",
-    "action": "Small put spread only, or wait for a warning filing to upgrade it.",
-    "strength": 13.8,
     "reason": "retained earnings negative or shrinking; stretched finances (interest cover or current ratio)"
    }
   },
@@ -745,7 +745,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; return on capital only -58%; Altman Z-Score 0.79: financial distress zone"
    ],
-   "price": 11.27,
+   "price": 11.315,
    "score": "1",
    "checks": [
     {
@@ -766,7 +766,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 14.7 pts over 3 months"
+     "text": "lagging S&P 500 by 14.2 pts over 3 months"
     }
    ],
    "weekly": {
@@ -818,7 +818,7 @@
     "beneish": null,
     "piotroski": 3,
     "piotroski_of": 6,
-    "altman": 0.7939084662388921,
+    "altman": 0.7943328007044896,
     "altman_zone": "distress",
     "accruals": null
    },
@@ -828,20 +828,20 @@
     "expiry": "2027-03-19",
     "legs": [
      "Buy 2027-03-19 $11 put @ $0.81",
-     "Sell 2027-03-19 $8 put @ $0.04"
+     "Sell 2027-03-19 $8 put @ $0.08"
     ],
-    "max_loss": 0.77,
-    "max_gain": 2.23,
-    "gain_at_target": 1.7774999999999994,
-    "breakeven": 10.23,
-    "target": 8.4525,
-    "iv": 0.3843,
-    "reward_risk": 2.3084415584415576,
+    "max_loss": 0.7300000000000001,
+    "max_gain": 2.27,
+    "gain_at_target": 1.78375,
+    "breakeven": 10.27,
+    "target": 8.48625,
+    "iv": 0.3877,
+    "reward_risk": 2.4434931506849313,
     "why": "bearish setup (4 warning signs): defined-risk put spread, never a short sale",
     "meets_rule": true,
-    "contracts": 19,
+    "contracts": 20,
     "risk_budget": 1486.7319,
-    "max_loss_total": 1463.0
+    "max_loss_total": 1460.0000000000002
    },
    "trig": {
     "fired": false,
@@ -858,7 +858,7 @@
     "name": "BEARISH: SETUP",
     "icon": "\ud83d\udd3b",
     "action": "Small put spread only, or wait for a warning filing to upgrade it.",
-    "strength": 13.3,
+    "strength": 13.4,
     "reason": "retained earnings negative or shrinking; stretched finances (interest cover or current ratio)"
    }
   },
@@ -882,7 +882,7 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; Altman Z-Score 1.80: financial distress zone"
    ],
-   "price": 1175.05,
+   "price": 1175.23,
    "score": "3",
    "checks": [
     {
@@ -891,7 +891,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 49, falling"
+     "text": "RSI 50, falling"
     },
     {
      "ok": false,
@@ -903,7 +903,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 3.4 pts over 3 months"
+     "text": "beating S&P 500 by 3.5 pts over 3 months"
     }
    ],
    "weekly": {
@@ -924,7 +924,7 @@
     "cash_conversion": 0.9514843087362171,
     "eps_cagr": 0.17729628461328573,
     "rev_cagr2": 0.1530815137404531,
-    "pe": 33.090678682061395,
+    "pe": 33.095747676710786,
     "interest_cover": 2.5031217481789803,
     "current_ratio": 2.90068233510235,
     "growth_quality": "EPS and revenue growing together",
@@ -955,7 +955,7 @@
     "beneish": -2.226581492864037,
     "piotroski": 6,
     "piotroski_of": 9,
-    "altman": 1.8030194892608207,
+    "altman": 1.8031835355676167,
     "altman_zone": "distress",
     "accruals": -0.0031419987039255346
    },
@@ -964,16 +964,16 @@
     "bias": "bearish",
     "expiry": "2027-03-19",
     "legs": [
-     "Buy 2027-03-19 $1180 put @ $82.28",
-     "Sell 2027-03-19 $880 put @ $1.02"
+     "Buy 2027-03-19 $1180 put @ $81.94",
+     "Sell 2027-03-19 $880 put @ $0.98"
     ],
-    "max_loss": 81.26,
-    "max_gain": 218.74,
-    "gain_at_target": 217.4525000000001,
-    "breakeven": 1098.74,
-    "target": 881.2874999999999,
-    "iv": 0.3097,
-    "reward_risk": 2.6760091065715,
+    "max_loss": 80.96,
+    "max_gain": 219.04000000000002,
+    "gain_at_target": 217.6175,
+    "breakeven": 1099.04,
+    "target": 881.4225,
+    "iv": 0.3178,
+    "reward_risk": 2.687963191699605,
     "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
     "meets_rule": true,
     "contracts": 0,
@@ -1019,7 +1019,7 @@
    "why": [
     "fails fundamentals: free cash flow not consistently positive; neither FCF improving nor debt falling; no price or no valuation; return on capital only 6%; cash conversion only -11% of profit; earnings per share not growing"
    ],
-   "price": 74.21,
+   "price": 74.135,
    "score": "2",
    "checks": [
     {
@@ -1028,7 +1028,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 55, falling"
+     "text": "RSI 54, falling"
     },
     {
      "ok": false,
@@ -1040,7 +1040,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 4.2 pts over 3 months"
+     "text": "beating S&P 500 by 4.3 pts over 3 months"
     }
    ],
    "weekly": {
@@ -1061,7 +1061,7 @@
     "cash_conversion": -0.11479987589202606,
     "eps_cagr": -0.09302034985895058,
     "rev_cagr2": 0.040601410161249296,
-    "pe": 17.585308056872037,
+    "pe": 17.5675355450237,
     "interest_cover": 2.9651741293532337,
     "current_ratio": 0.8006968641114982,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -1101,21 +1101,21 @@
     "bias": "bearish",
     "expiry": "2027-03-19",
     "legs": [
-     "Buy 2027-03-19 $75 put @ $5.95",
+     "Buy 2027-03-19 $75 put @ $6.11",
      "Sell 2027-03-19 $55 put @ $0.08"
     ],
-    "max_loss": 5.87,
-    "max_gain": 14.129999999999999,
-    "gain_at_target": 13.4725,
-    "breakeven": 69.13,
-    "target": 55.6575,
-    "iv": 0.2702,
-    "reward_risk": 2.295144804088586,
+    "max_loss": 6.03,
+    "max_gain": 13.969999999999999,
+    "gain_at_target": 13.368749999999991,
+    "breakeven": 68.97,
+    "target": 55.60125000000001,
+    "iv": 0.2705,
+    "reward_risk": 2.2170398009950234,
     "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
     "meets_rule": true,
     "contracts": 2,
     "risk_budget": 1486.7319,
-    "max_loss_total": 1174.0
+    "max_loss_total": 1206.0
    },
    "trig": {
     "fired": false,
@@ -1132,7 +1132,7 @@
     "name": "BEARISH: SETUP",
     "icon": "\ud83d\udd3b",
     "action": "Small put spread only, or wait for a warning filing to upgrade it.",
-    "strength": 11.3,
+    "strength": 11.2,
     "reason": "paying out more than it generates; stretched finances (interest cover or current ratio)"
    }
   },
@@ -1156,7 +1156,7 @@
    "why": [
     "fails fundamentals: free cash flow not consistently positive; neither FCF improving nor debt falling; no price or no valuation; share count rising (dilution); return on capital only -0%; possible earnings manipulation (Beneish M-Score 0.12); Altman Z-Score 0.08: financial distress zone"
    ],
-   "price": 47.08,
+   "price": 47.22,
    "score": "2",
    "checks": [
     {
@@ -1177,7 +1177,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 43.6 pts over 3 months"
+     "text": "lagging S&P 500 by 43.4 pts over 3 months"
     }
    ],
    "weekly": {
@@ -1231,7 +1231,7 @@
     "beneish": 0.12273016816068033,
     "piotroski": 4,
     "piotroski_of": 8,
-    "altman": 0.07598653832294884,
+    "altman": 0.07678328381427958,
     "altman_zone": "distress",
     "accruals": -0.12586579280554108
    },
@@ -1240,21 +1240,21 @@
     "bias": "bearish",
     "expiry": "2027-03-19",
     "legs": [
-     "Buy 2027-03-19 $47.5 put @ $10.78",
-     "Sell 2027-03-19 $35 put @ $4.55"
+     "Buy 2027-03-19 $47.5 put @ $10.62",
+     "Sell 2027-03-19 $35 put @ $4.48"
     ],
-    "max_loss": 6.2299999999999995,
-    "max_gain": 6.2700000000000005,
-    "gain_at_target": 5.959999999999998,
-    "breakeven": 41.27,
-    "target": 35.31,
-    "iv": 0.9981,
-    "reward_risk": 0.9566613162118778,
+    "max_loss": 6.139999999999999,
+    "max_gain": 6.360000000000001,
+    "gain_at_target": 5.945000000000002,
+    "breakeven": 41.36,
+    "target": 35.415,
+    "iv": 1.0018,
+    "reward_risk": 0.9682410423452774,
     "why": "bearish setup (5 warning signs): defined-risk put spread, never a short sale",
     "meets_rule": false,
     "contracts": 2,
     "risk_budget": 1486.7319,
-    "max_loss_total": 1246.0
+    "max_loss_total": 1227.9999999999998
    },
    "trig": {
     "fired": false,
@@ -1295,7 +1295,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; return on capital only 2%; earnings per share not growing; Altman Z-Score 1.24: financial distress zone"
    ],
-   "price": 83.705,
+   "price": 84.04,
    "score": "3",
    "checks": [
     {
@@ -1304,7 +1304,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 47, falling"
+     "text": "RSI 48, falling"
     },
     {
      "ok": false,
@@ -1312,11 +1312,11 @@
     },
     {
      "ok": true,
-     "text": "up-day volume 1.5x down-day volume"
+     "text": "up-day volume 1.3x down-day volume"
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 1.2 pts over 3 months"
+     "text": "beating S&P 500 by 1.8 pts over 3 months"
     }
    ],
    "weekly": {
@@ -1337,7 +1337,7 @@
     "cash_conversion": 1.9553419711129991,
     "eps_cagr": -0.33162786452799375,
     "rev_cagr2": 0.037632355197088074,
-    "pe": 25.597859327217126,
+    "pe": 25.700305810397555,
     "interest_cover": 0.43869702910571556,
     "current_ratio": 1.165252512266718,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -1368,7 +1368,7 @@
     "beneish": null,
     "piotroski": 6,
     "piotroski_of": 8,
-    "altman": 1.23818459641589,
+    "altman": 1.2390812431543226,
     "altman_zone": "distress",
     "accruals": -0.08616064665044694
    },
@@ -1404,142 +1404,6 @@
    }
   },
   {
-   "ticker": "WDC",
-   "name": "WESTERN DIGITAL CORP",
-   "signal": "GREY",
-   "strong": false,
-   "stars": 0,
-   "smart": {
-    "cluster": false,
-    "buyers": 0,
-    "total": 0,
-    "buyers_detail": [],
-    "activist": null,
-    "confirms": false,
-    "text": "no insider buying in 90 days"
-   },
-   "holding": false,
-   "source": "scan",
-   "why": [
-    "fails fundamentals: free cash flow not consistently positive; not cheap enough vs base-case value; share count rising (dilution); cash conversion only 38% of profit; possible earnings manipulation (Beneish M-Score -0.18)"
-   ],
-   "price": 286.58,
-   "score": "1",
-   "checks": [
-    {
-     "ok": false,
-     "text": "price below 200-day average ($422.02)"
-    },
-    {
-     "ok": true,
-     "text": "RSI 38, recovering from 28"
-    },
-    {
-     "ok": false,
-     "text": "MACD below signal"
-    },
-    {
-     "ok": false,
-     "text": "up-day volume 0.8x down-day volume"
-    },
-    {
-     "ok": false,
-     "text": "lagging S&P 500 by 35.0 pts over 3 months"
-    }
-   ],
-   "weekly": {
-    "confirms": false,
-    "down": true,
-    "text": "below 30-week average, 30-week average falling, weekly MACD negative"
-   },
-   "options": "",
-   "value": {
-    "bear": 42.88319144215804,
-    "base": 42.88319144215804,
-    "bull": 42.88319144215804
-   },
-   "quality": {
-    "score": 4,
-    "score_of": 5,
-    "roic": 0.5081871639275286,
-    "cash_conversion": 0.38126485972420354,
-    "eps_cagr": null,
-    "rev_cagr2": 0.4300756457960768,
-    "pe": 11.80313014827018,
-    "interest_cover": 26.98787878787879,
-    "current_ratio": 1.3287735849056603,
-    "growth_quality": null,
-    "checks": {
-     "Return on capital >= 10%": true,
-     "Cash conversion >= 70%": false,
-     "EPS growing with revenue": null,
-     "Interest cover >= 3x": true,
-     "Current ratio >= 1": true,
-     "Retained earnings growing": true
-    }
-   },
-   "flags": [
-    "Bear case is below today's price - the thesis depends on growth continuing.",
-    "Only 38% of reported profit turned into free cash flow over 3 years.",
-    "High accruals (39% of assets): profit far ahead of cash."
-   ],
-   "bear_score": 3,
-   "bear_signs": [
-    "profit not turning into cash",
-    "possible earnings manipulation (Beneish -0.18)",
-    "high accruals"
-   ],
-   "bear_stars": 1,
-   "bear_wait": false,
-   "forensic": {
-    "beneish": -0.18107594106683506,
-    "piotroski": 7,
-    "piotroski_of": 9,
-    "altman": 16.301835478662568,
-    "altman_zone": "safe",
-    "accruals": 0.39442988910024046
-   },
-   "option_idea": {
-    "strategy": "Bear put spread",
-    "bias": "bearish",
-    "expiry": "2027-03-19",
-    "legs": [
-     "Buy 2027-03-19 $290 put @ $47.81",
-     "Sell 2027-03-19 $170 put @ $5.90"
-    ],
-    "max_loss": 41.910000000000004,
-    "max_gain": 78.09,
-    "gain_at_target": 76.14200000000002,
-    "breakeven": 248.09,
-    "target": 171.94799999999998,
-    "iv": 0.7241,
-    "reward_risk": 1.8167979002624677,
-    "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
-    "meets_rule": false,
-    "contracts": 0,
-    "risk_budget": 1486.7319,
-    "max_loss_total": 0.0
-   },
-   "trig": {
-    "fired": false,
-    "strong": false,
-    "score": 0,
-    "fresh": false,
-    "events": [],
-    "keys": [],
-    "text": "no warning filings in 365 days"
-   },
-   "catalyst": false,
-   "rank": {
-    "tier": 6,
-    "name": "WATCH",
-    "icon": "\ud83d\udc40",
-    "action": "No trade yet. Check again when it changes tier.",
-    "strength": 7.8,
-    "reason": "bad accounts, chart still rising: wait"
-   }
-  },
-  {
    "ticker": "RBLX",
    "name": "Roblox Corp",
    "signal": "GREY",
@@ -1557,9 +1421,9 @@
    "holding": false,
    "source": "scan",
    "why": [
-    "fails fundamentals: not cheap enough vs base-case value; share count rising (dilution); return on capital only -268%; Altman Z-Score 1.40: financial distress zone"
+    "fails fundamentals: not cheap enough vs base-case value; share count rising (dilution); return on capital only -268%; Altman Z-Score 1.43: financial distress zone"
    ],
-   "price": 46.29,
+   "price": 47.01,
    "score": "3",
    "checks": [
     {
@@ -1568,7 +1432,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 45, falling"
+     "text": "RSI 47, falling"
     },
     {
      "ok": true,
@@ -1576,11 +1440,11 @@
     },
     {
      "ok": false,
-     "text": "up-day volume 0.7x down-day volume"
+     "text": "up-day volume 0.8x down-day volume"
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 23.7 pts over 3 months"
+     "text": "beating S&P 500 by 25.7 pts over 3 months"
     }
    ],
    "weekly": {
@@ -1624,7 +1488,7 @@
    "bear_signs": [
     "retained earnings negative or shrinking",
     "stretched finances (interest cover or current ratio)",
-    "bankruptcy-risk zone (Altman Z 1.40)"
+    "bankruptcy-risk zone (Altman Z 1.43)"
    ],
    "bear_stars": 0,
    "bear_wait": false,
@@ -1632,7 +1496,7 @@
     "beneish": -3.453667543510281,
     "piotroski": 6,
     "piotroski_of": 9,
-    "altman": 1.4021251564469535,
+    "altman": 1.4345699295488172,
     "altman_zone": "distress",
     "accruals": -0.34202657272201176
    },
@@ -1641,21 +1505,21 @@
     "bias": "bearish",
     "expiry": "2027-03-19",
     "legs": [
-     "Buy 2027-03-19 $45 put @ $6.57",
-     "Sell 2027-03-19 $30 put @ $1.02"
+     "Buy 2027-03-19 $45 put @ $6.30",
+     "Sell 2027-03-19 $30 put @ $0.96"
     ],
-    "max_loss": 5.550000000000001,
-    "max_gain": 9.45,
-    "gain_at_target": 9.45,
-    "breakeven": 39.45,
-    "target": 27.773999999999997,
-    "iv": 0.685,
-    "reward_risk": 1.7027027027027024,
+    "max_loss": 5.34,
+    "max_gain": 9.66,
+    "gain_at_target": 9.66,
+    "breakeven": 39.66,
+    "target": 28.206,
+    "iv": 0.6967,
+    "reward_risk": 1.8089887640449438,
     "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
     "meets_rule": false,
     "contracts": 2,
     "risk_budget": 1486.7319,
-    "max_loss_total": 1110.0000000000002
+    "max_loss_total": 1068.0
    },
    "trig": {
     "fired": false,
@@ -1672,7 +1536,143 @@
     "name": "WATCH",
     "icon": "\ud83d\udc40",
     "action": "No trade yet. Check again when it changes tier.",
-    "strength": 7.7,
+    "strength": 7.8,
+    "reason": "bad accounts, chart still rising: wait"
+   }
+  },
+  {
+   "ticker": "WDC",
+   "name": "WESTERN DIGITAL CORP",
+   "signal": "GREY",
+   "strong": false,
+   "stars": 0,
+   "smart": {
+    "cluster": false,
+    "buyers": 0,
+    "total": 0,
+    "buyers_detail": [],
+    "activist": null,
+    "confirms": false,
+    "text": "no insider buying in 90 days"
+   },
+   "holding": false,
+   "source": "scan",
+   "why": [
+    "fails fundamentals: free cash flow not consistently positive; not cheap enough vs base-case value; share count rising (dilution); cash conversion only 38% of profit; possible earnings manipulation (Beneish M-Score -0.18)"
+   ],
+   "price": 285.825,
+   "score": "1",
+   "checks": [
+    {
+     "ok": false,
+     "text": "price below 200-day average ($422.02)"
+    },
+    {
+     "ok": true,
+     "text": "RSI 38, recovering from 28"
+    },
+    {
+     "ok": false,
+     "text": "MACD below signal"
+    },
+    {
+     "ok": false,
+     "text": "up-day volume 0.8x down-day volume"
+    },
+    {
+     "ok": false,
+     "text": "lagging S&P 500 by 35.0 pts over 3 months"
+    }
+   ],
+   "weekly": {
+    "confirms": false,
+    "down": true,
+    "text": "below 30-week average, 30-week average falling, weekly MACD negative"
+   },
+   "options": "",
+   "value": {
+    "bear": 42.88319144215804,
+    "base": 42.88319144215804,
+    "bull": 42.88319144215804
+   },
+   "quality": {
+    "score": 4,
+    "score_of": 5,
+    "roic": 0.5081871639275286,
+    "cash_conversion": 0.38126485972420354,
+    "eps_cagr": null,
+    "rev_cagr2": 0.4300756457960768,
+    "pe": 11.772034596375617,
+    "interest_cover": 26.98787878787879,
+    "current_ratio": 1.3287735849056603,
+    "growth_quality": null,
+    "checks": {
+     "Return on capital >= 10%": true,
+     "Cash conversion >= 70%": false,
+     "EPS growing with revenue": null,
+     "Interest cover >= 3x": true,
+     "Current ratio >= 1": true,
+     "Retained earnings growing": true
+    }
+   },
+   "flags": [
+    "Bear case is below today's price - the thesis depends on growth continuing.",
+    "Only 38% of reported profit turned into free cash flow over 3 years.",
+    "High accruals (39% of assets): profit far ahead of cash."
+   ],
+   "bear_score": 3,
+   "bear_signs": [
+    "profit not turning into cash",
+    "possible earnings manipulation (Beneish -0.18)",
+    "high accruals"
+   ],
+   "bear_stars": 1,
+   "bear_wait": false,
+   "forensic": {
+    "beneish": -0.18107594106683506,
+    "piotroski": 7,
+    "piotroski_of": 9,
+    "altman": 16.267114846283143,
+    "altman_zone": "safe",
+    "accruals": 0.39442988910024046
+   },
+   "option_idea": {
+    "strategy": "Bear put spread",
+    "bias": "bearish",
+    "expiry": "2027-03-19",
+    "legs": [
+     "Buy 2027-03-19 $290 put @ $48.60",
+     "Sell 2027-03-19 $170 put @ $5.93"
+    ],
+    "max_loss": 42.67,
+    "max_gain": 77.33,
+    "gain_at_target": 75.83500000000002,
+    "breakeven": 247.32999999999998,
+    "target": 171.49499999999998,
+    "iv": 0.7464,
+    "reward_risk": 1.7772439653152101,
+    "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
+    "meets_rule": false,
+    "contracts": 0,
+    "risk_budget": 1486.7319,
+    "max_loss_total": 0.0
+   },
+   "trig": {
+    "fired": false,
+    "strong": false,
+    "score": 0,
+    "fresh": false,
+    "events": [],
+    "keys": [],
+    "text": "no warning filings in 365 days"
+   },
+   "catalyst": false,
+   "rank": {
+    "tier": 6,
+    "name": "WATCH",
+    "icon": "\ud83d\udc40",
+    "action": "No trade yet. Check again when it changes tier.",
+    "strength": 7.8,
     "reason": "bad accounts, chart still rising: wait"
    }
   },
@@ -1703,7 +1703,7 @@
    "why": [
     "fails fundamentals: free cash flow not consistently positive; neither FCF improving nor debt falling; no price or no valuation; cash conversion only -31% of profit"
    ],
-   "price": 114.74,
+   "price": 114.85,
    "score": "1",
    "checks": [
     {
@@ -1724,7 +1724,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 15.0 pts over 3 months"
+     "text": "lagging S&P 500 by 14.8 pts over 3 months"
     }
    ],
    "weekly": {
@@ -1745,7 +1745,7 @@
     "cash_conversion": -0.3068480136010201,
     "eps_cagr": 0.2535663410560174,
     "rev_cagr2": 0.12775115249721636,
-    "pe": 19.680960548885075,
+    "pe": 19.699828473413376,
     "interest_cover": 4.480539247662535,
     "current_ratio": 1.1150033521693323,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -1783,21 +1783,21 @@
     "bias": "bearish",
     "expiry": "2027-03-19",
     "legs": [
-     "Buy 2027-03-19 $115 put @ $16.93",
-     "Sell 2027-03-19 $85 put @ $4.61"
+     "Buy 2027-03-19 $115 put @ $17.13",
+     "Sell 2027-03-19 $85 put @ $5.03"
     ],
-    "max_loss": 12.32,
-    "max_gain": 17.68,
-    "gain_at_target": 16.625000000000007,
-    "breakeven": 102.68,
-    "target": 86.05499999999999,
-    "iv": 0.6642,
-    "reward_risk": 1.3494318181818188,
+    "max_loss": 12.099999999999998,
+    "max_gain": 17.900000000000002,
+    "gain_at_target": 16.762500000000014,
+    "breakeven": 102.9,
+    "target": 86.13749999999999,
+    "iv": 0.6781,
+    "reward_risk": 1.3853305785123982,
     "why": "bearish setup (3 warning signs): defined-risk put spread, never a short sale",
     "meets_rule": false,
     "contracts": 1,
     "risk_budget": 1486.7319,
-    "max_loss_total": 1232.0
+    "max_loss_total": 1209.9999999999998
    },
    "trig": {
     "fired": false,
@@ -1814,7 +1814,7 @@
     "name": "WATCH",
     "icon": "\ud83d\udc40",
     "action": "No trade yet. Check again when it changes tier.",
-    "strength": 7.3,
+    "strength": 7.4,
     "reason": "bad accounts, chart still rising: wait"
    }
   },
@@ -1838,7 +1838,7 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; earnings per share not growing; possible earnings manipulation (Beneish M-Score -1.57)"
    ],
-   "price": 296.94,
+   "price": 297.405,
    "score": "3",
    "checks": [
     {
@@ -1859,7 +1859,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 10.5 pts over 3 months"
+     "text": "beating S&P 500 by 10.8 pts over 3 months"
     }
    ],
    "weekly": {
@@ -1880,7 +1880,7 @@
     "cash_conversion": 0.6452905811623246,
     "eps_cagr": -0.23020554882940003,
     "rev_cagr2": -0.010301169233649876,
-    "pe": 12.305843348528803,
+    "pe": 12.325113966017405,
     "interest_cover": 9.611814345991561,
     "current_ratio": 0.9427987742594485,
     "growth_quality": "EPS and revenue growing together",
@@ -1911,7 +1911,7 @@
     "beneish": -1.5748813690670835,
     "piotroski": 7,
     "piotroski_of": 8,
-    "altman": 2.5252701956032095,
+    "altman": 2.5270361908911076,
     "altman_zone": "grey",
     "accruals": -0.004556354916067146
    },
@@ -1955,12 +1955,12 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; free cash flow not consistently positive; no price or no valuation; return on capital only -37%; weak financial health (Piotroski 2/9)"
    ],
-   "price": 203.21,
+   "price": 202.175,
    "score": "2",
    "checks": [
     {
      "ok": true,
-     "text": "price above 200-day average ($98.88)"
+     "text": "price above 200-day average ($98.87)"
     },
     {
      "ok": false,
@@ -1976,7 +1976,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 56.4 pts over 3 months"
+     "text": "beating S&P 500 by 55.8 pts over 3 months"
     }
    ],
    "weekly": {
@@ -2028,7 +2028,7 @@
     "beneish": -3.500808484403872,
     "piotroski": 2,
     "piotroski_of": 9,
-    "altman": 13.458600414341669,
+    "altman": 13.393099058593295,
     "altman_zone": "safe",
     "accruals": -0.07167673716012085
    },
@@ -2072,7 +2072,7 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; cash conversion only 43% of profit"
    ],
-   "price": 316.99,
+   "price": 317.59,
    "score": "3",
    "checks": [
     {
@@ -2093,7 +2093,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 14.7 pts over 3 months"
+     "text": "beating S&P 500 by 15.1 pts over 3 months"
     }
    ],
    "weekly": {
@@ -2114,7 +2114,7 @@
     "cash_conversion": 0.43123727663424566,
     "eps_cagr": 0.5728480632632431,
     "rev_cagr2": 0.135908345679427,
-    "pe": 20.306854580397182,
+    "pe": 20.345291479820627,
     "interest_cover": 4.949596774193548,
     "current_ratio": 0.18340937370385732,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -2145,7 +2145,7 @@
     "beneish": -2.8786788154465874,
     "piotroski": 8,
     "piotroski_of": 9,
-    "altman": 2.396756495944269,
+    "altman": 2.3999005005340566,
     "altman_zone": "grey",
     "accruals": -0.0558400792995209
    },
@@ -2189,7 +2189,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value; Altman Z-Score 1.04: financial distress zone"
    ],
-   "price": 42.38999938964844,
+   "price": 42.45500183105469,
    "score": "2",
    "checks": [
     {
@@ -2198,7 +2198,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 54, falling"
+     "text": "RSI 55, falling"
     },
     {
      "ok": false,
@@ -2210,7 +2210,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 19.1 pts over 3 months"
+     "text": "beating S&P 500 by 19.4 pts over 3 months"
     }
    ],
    "weekly": {
@@ -2231,7 +2231,7 @@
     "cash_conversion": null,
     "eps_cagr": null,
     "rev_cagr2": 0.04360321063104711,
-    "pe": 35.03305734681689,
+    "pe": 35.08677837277247,
     "interest_cover": 2.3548034934497815,
     "current_ratio": 1.0364149821640904,
     "growth_quality": null,
@@ -2261,7 +2261,7 @@
     "beneish": -2.3755133864940854,
     "piotroski": 8,
     "piotroski_of": 9,
-    "altman": 1.0407054477844764,
+    "altman": 1.0420869030934026,
     "altman_zone": "distress",
     "accruals": -0.005969478232634813
    },
@@ -2337,7 +2337,7 @@
     "fundamentals pass, only 2/5 technical confirmations: wait",
     "smart money is buying: watch closely"
    ],
-   "price": 338.45,
+   "price": 338.89,
    "score": "2",
    "checks": [
     {
@@ -2346,7 +2346,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 59, falling"
+     "text": "RSI 60, falling"
     },
     {
      "ok": false,
@@ -2358,7 +2358,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 0.4 pts over 3 months"
+     "text": "beating S&P 500 by 0.7 pts over 3 months"
     }
    ],
    "weekly": {
@@ -2366,7 +2366,7 @@
     "down": false,
     "text": "above 30-week average, 30-week average rising, weekly MACD positive"
    },
-   "options": "Implied vol 42% vs recent actual 32%: options look expensive; selling puts or spreads fits.",
+   "options": "Implied vol 40% vs recent actual 32%: options fairly priced.",
    "value": {
     "bear": 298.6910111295206,
     "base": 440.9325934115367,
@@ -2379,7 +2379,7 @@
     "cash_conversion": 1.1658489263660616,
     "eps_cagr": 0.29763199608011326,
     "rev_cagr2": 0.22925992579395404,
-    "pe": 13.814285714285713,
+    "pe": 13.832244897959184,
     "interest_cover": 7.84586955350062,
     "current_ratio": 2.832157056937226,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -2404,7 +2404,7 @@
     "beneish": -2.432095694277972,
     "piotroski": 8,
     "piotroski_of": 9,
-    "altman": 3.303876462186097,
+    "altman": 3.3059106466919173,
     "altman_zone": "safe",
     "accruals": -0.030308472070536874
    },
@@ -2448,16 +2448,16 @@
    "why": [
     "passes the screen, but the exit rules would sell it at once: debt up more than 20% in two years: don't buy"
    ],
-   "price": 230.1,
+   "price": 228.78,
    "score": "0",
    "checks": [
     {
      "ok": false,
-     "text": "price below 200-day average ($246.92)"
+     "text": "price below 200-day average ($246.91)"
     },
     {
      "ok": false,
-     "text": "RSI 38, falling"
+     "text": "RSI 37, falling"
     },
     {
      "ok": false,
@@ -2469,7 +2469,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 11.6 pts over 3 months"
+     "text": "lagging S&P 500 by 11.9 pts over 3 months"
     }
    ],
    "weekly": {
@@ -2490,7 +2490,7 @@
     "cash_conversion": 1.361463737719395,
     "eps_cagr": 0.1886376908325269,
     "rev_cagr2": 0.10663365867426688,
-    "pe": 13.778443113772456,
+    "pe": 13.699401197604791,
     "interest_cover": 33.10266159695818,
     "current_ratio": 0.9963725490196078,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -2519,7 +2519,7 @@
     "beneish": -2.84171879619779,
     "piotroski": 7,
     "piotroski_of": 9,
-    "altman": 7.229403271896183,
+    "altman": 7.210481770189698,
     "altman_zone": "safe",
     "accruals": -0.09714362254294612
    },
@@ -2581,7 +2581,7 @@
    "why": [
     "fails fundamentals: neither FCF improving nor debt falling; not cheap enough vs base-case value; return on capital only 3%; earnings per share not growing"
    ],
-   "price": 82.86,
+   "price": 82.63,
    "score": "3",
    "checks": [
     {
@@ -2598,11 +2598,11 @@
     },
     {
      "ok": false,
-     "text": "up-day volume 1.2x down-day volume"
+     "text": "up-day volume 1.1x down-day volume"
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 7.0 pts over 3 months"
+     "text": "lagging S&P 500 by 7.1 pts over 3 months"
     }
    ],
    "weekly": {
@@ -2623,7 +2623,7 @@
     "cash_conversion": 1.6656254244193942,
     "eps_cagr": -0.5364941073521072,
     "rev_cagr2": 0.06009213544342318,
-    "pe": 59.61151079136691,
+    "pe": 59.44604316546763,
     "interest_cover": 1.4940686117345303,
     "current_ratio": 0.8423984124836513,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -2653,7 +2653,7 @@
     "beneish": -2.5856121617719654,
     "piotroski": 7,
     "piotroski_of": 9,
-    "altman": 2.27292005745268,
+    "altman": 2.271935538267247,
     "altman_zone": "grey",
     "accruals": -0.03501113954924786
    },
@@ -2708,7 +2708,7 @@
    "why": [
     "good fundamentals but the price is breaking down (below a falling 200-day average, lower lows): avoid for now"
    ],
-   "price": 250.43,
+   "price": 249.995,
    "score": "0",
    "checks": [
     {
@@ -2750,7 +2750,7 @@
     "cash_conversion": 2.190375939849624,
     "eps_cagr": 0.3592121347010717,
     "rev_cagr2": 0.07122326207111196,
-    "pe": 25.52803261977574,
+    "pe": 25.48369011213048,
     "interest_cover": 6.25752508361204,
     "current_ratio": 0.7323647715675091,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -2839,12 +2839,12 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; free cash flow not consistently positive; no price or no valuation; return on capital only -1%"
    ],
-   "price": 54.29,
+   "price": 54.07,
    "score": "2",
    "checks": [
     {
      "ok": false,
-     "text": "price below 200-day average ($87.50)"
+     "text": "price below 200-day average ($87.49)"
     },
     {
      "ok": true,
@@ -2860,7 +2860,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 37.2 pts over 3 months"
+     "text": "lagging S&P 500 by 37.3 pts over 3 months"
     }
    ],
    "weekly": {
@@ -2966,7 +2966,7 @@
    "why": [
     "fails fundamentals: free cash flow not consistently positive; neither FCF improving nor debt falling; no price or no valuation; return on capital only 6%; earnings per share not growing; Altman Z-Score 1.15: financial distress zone"
    ],
-   "price": 84.46,
+   "price": 84.535,
    "score": "3",
    "checks": [
     {
@@ -2975,7 +2975,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 54, falling"
+     "text": "RSI 55, falling"
     },
     {
      "ok": false,
@@ -2983,11 +2983,11 @@
     },
     {
      "ok": true,
-     "text": "up-day volume 1.5x down-day volume"
+     "text": "up-day volume 1.3x down-day volume"
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 4.0 pts over 3 months"
+     "text": "beating S&P 500 by 4.2 pts over 3 months"
     }
    ],
    "weekly": {
@@ -3008,7 +3008,7 @@
     "cash_conversion": null,
     "eps_cagr": -0.0425728922436619,
     "rev_cagr2": 0.019962048629830864,
-    "pe": 25.593939393939394,
+    "pe": 25.616666666666667,
     "interest_cover": 2.365038560411311,
     "current_ratio": 0.5953455756672656,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -3037,7 +3037,7 @@
     "beneish": -2.4383071340317546,
     "piotroski": 4,
     "piotroski_of": 8,
-    "altman": 1.1461778755612846,
+    "altman": 1.1468150181058343,
     "altman_zone": "distress",
     "accruals": -0.028049098333188537
    },
@@ -3092,7 +3092,7 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; share count rising (dilution); possible earnings manipulation (Beneish M-Score -1.16)"
    ],
-   "price": 153.39,
+   "price": 152.29,
    "score": "0",
    "checks": [
     {
@@ -3101,7 +3101,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 22, falling"
+     "text": "RSI 21, falling"
     },
     {
      "ok": false,
@@ -3113,7 +3113,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 25.3 pts over 3 months"
+     "text": "lagging S&P 500 by 25.7 pts over 3 months"
     }
    ],
    "weekly": {
@@ -3134,7 +3134,7 @@
     "cash_conversion": 0.828667262367146,
     "eps_cagr": 1.0291986247835694,
     "rev_cagr2": 0.8826841275109014,
-    "pe": 31.304081632653055,
+    "pe": 31.07959183673469,
     "interest_cover": 503.42471042471044,
     "current_ratio": 3.905263812455306,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -3162,7 +3162,7 @@
     "beneish": -1.1586452142087424,
     "piotroski": 4,
     "piotroski_of": 9,
-    "altman": 50.230967643701675,
+    "altman": 49.90418032800789,
     "altman_zone": "safe",
     "accruals": 0.10897476162359769
    },
@@ -3226,7 +3226,7 @@
    "why": [
     "fails fundamentals: neither FCF improving nor debt falling; not cheap enough vs base-case value; earnings per share not growing"
    ],
-   "price": 288.195,
+   "price": 288.9,
    "score": "2",
    "checks": [
     {
@@ -3235,7 +3235,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 52, falling"
+     "text": "RSI 53, falling"
     },
     {
      "ok": false,
@@ -3247,7 +3247,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 14.6 pts over 3 months"
+     "text": "beating S&P 500 by 15.0 pts over 3 months"
     }
    ],
    "weekly": {
@@ -3268,7 +3268,7 @@
     "cash_conversion": 4.31734869454627,
     "eps_cagr": -0.06852425752275793,
     "rev_cagr2": 0.061113532053019615,
-    "pe": 122.11652542372882,
+    "pe": 122.41525423728814,
     "interest_cover": 5.210853784998272,
     "current_ratio": 0.6713483794959458,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -3341,16 +3341,16 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value"
    ],
-   "price": 230.59,
+   "price": 233.675,
    "score": "3",
    "checks": [
     {
      "ok": true,
-     "text": "price above 200-day average ($174.78)"
+     "text": "price above 200-day average ($174.80)"
     },
     {
      "ok": true,
-     "text": "RSI 46, rising"
+     "text": "RSI 48, rising"
     },
     {
      "ok": false,
@@ -3362,7 +3362,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 25.1 pts over 3 months"
+     "text": "beating S&P 500 by 26.8 pts over 3 months"
     }
    ],
    "weekly": {
@@ -3413,7 +3413,7 @@
     "beneish": -2.969757717650375,
     "piotroski": 4,
     "piotroski_of": 9,
-    "altman": 21.50115786732292,
+    "altman": 21.781660217536757,
     "altman_zone": "safe",
     "accruals": -0.17938422282866479
    },
@@ -3457,7 +3457,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value; earnings per share not growing"
    ],
-   "price": 51.4,
+   "price": 51.46,
    "score": "3",
    "checks": [
     {
@@ -3466,7 +3466,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 54, falling"
+     "text": "RSI 55, falling"
     },
     {
      "ok": true,
@@ -3474,11 +3474,11 @@
     },
     {
      "ok": false,
-     "text": "up-day volume 0.7x down-day volume"
+     "text": "up-day volume 0.8x down-day volume"
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 5.0 pts over 3 months"
+     "text": "beating S&P 500 by 5.3 pts over 3 months"
     }
    ],
    "weekly": {
@@ -3499,7 +3499,7 @@
     "cash_conversion": 0.7665303680063827,
     "eps_cagr": -0.08013378899220014,
     "rev_cagr2": -0.019463480535991118,
-    "pe": 33.37662337662338,
+    "pe": 33.41558441558441,
     "interest_cover": 5.356635071090047,
     "current_ratio": 0.8139163740823492,
     "growth_quality": "EPS and revenue growing together",
@@ -3529,7 +3529,7 @@
     "beneish": -2.6826042573778848,
     "piotroski": 5,
     "piotroski_of": 8,
-    "altman": 2.879092247527966,
+    "altman": 2.8813014081334307,
     "altman_zone": "grey",
     "accruals": -0.03988617171413368
    },
@@ -3573,12 +3573,12 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; share count rising (dilution); possible earnings manipulation (Beneish M-Score -1.39)"
    ],
-   "price": 72.76,
+   "price": 72.16,
    "score": "2",
    "checks": [
     {
      "ok": true,
-     "text": "price above 200-day average ($68.16), just crossed back above"
+     "text": "price above 200-day average ($68.15), just crossed back above"
     },
     {
      "ok": false,
@@ -3594,7 +3594,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 5.5 pts over 3 months"
+     "text": "beating S&P 500 by 4.8 pts over 3 months"
     }
    ],
    "weekly": {
@@ -3615,7 +3615,7 @@
     "cash_conversion": 1.1765844218674408,
     "eps_cagr": 2.3565855667130946,
     "rev_cagr2": 0.37358395953131285,
-    "pe": 8.610650887573966,
+    "pe": 8.539644970414201,
     "interest_cover": 3.724752475247525,
     "current_ratio": 4.311389071757735,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -3644,7 +3644,7 @@
     "beneish": -1.3877717980388948,
     "piotroski": 5,
     "piotroski_of": 9,
-    "altman": 3.554061599453415,
+    "altman": 3.5450885254369666,
     "altman_zone": "safe",
     "accruals": 0.034217200830066866
    },
@@ -3688,16 +3688,16 @@
    "why": [
     "fails fundamentals: free cash flow not consistently positive; no price or no valuation; return on capital only 5%; cash conversion only -35% of profit"
    ],
-   "price": 129.715,
-   "score": "3",
+   "price": 129.435,
+   "score": "4",
    "checks": [
     {
      "ok": true,
      "text": "price above 200-day average ($122.80), just crossed back above"
     },
     {
-     "ok": false,
-     "text": "RSI 66, weak"
+     "ok": true,
+     "text": "RSI 65, rising"
     },
     {
      "ok": false,
@@ -3709,7 +3709,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 10.5 pts over 3 months"
+     "text": "beating S&P 500 by 10.4 pts over 3 months"
     }
    ],
    "weekly": {
@@ -3730,7 +3730,7 @@
     "cash_conversion": -0.35449606746128276,
     "eps_cagr": 0.33509770268179784,
     "rev_cagr2": 0.05212214593848019,
-    "pe": 20.55705229793978,
+    "pe": 20.512678288431065,
     "interest_cover": 2.3736929003852505,
     "current_ratio": 0.5517650971634912,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -3803,16 +3803,16 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value"
    ],
-   "price": 282.41,
+   "price": 281.89,
    "score": "2",
    "checks": [
     {
      "ok": false,
-     "text": "price below 200-day average ($337.33)"
+     "text": "price below 200-day average ($337.32)"
     },
     {
      "ok": true,
-     "text": "RSI 35, recovering from 21"
+     "text": "RSI 34, recovering from 21"
     },
     {
      "ok": true,
@@ -3824,7 +3824,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 13.1 pts over 3 months"
+     "text": "lagging S&P 500 by 13.2 pts over 3 months"
     }
    ],
    "weekly": {
@@ -3845,7 +3845,7 @@
     "cash_conversion": 0.7041390733885907,
     "eps_cagr": 0.3652080806412903,
     "rev_cagr2": 0.14476526748864993,
-    "pe": 26.124884366327475,
+    "pe": 26.07678075855689,
     "interest_cover": 175.32472826086956,
     "current_ratio": 2.005333592875566,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -3871,7 +3871,7 @@
     "beneish": -2.6863413644778524,
     "piotroski": 7,
     "piotroski_of": 9,
-    "altman": 13.87429351615906,
+    "altman": 13.853096733650839,
     "altman_zone": "safe",
     "accruals": -0.06225126418290314
    },
@@ -3926,16 +3926,16 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value"
    ],
-   "price": 490.215,
+   "price": 487.27,
    "score": "3",
    "checks": [
     {
      "ok": true,
-     "text": "price above 200-day average ($444.25)"
+     "text": "price above 200-day average ($444.23)"
     },
     {
      "ok": false,
-     "text": "RSI 54, falling"
+     "text": "RSI 53, falling"
     },
     {
      "ok": false,
@@ -3943,11 +3943,11 @@
     },
     {
      "ok": true,
-     "text": "up-day volume 1.5x down-day volume"
+     "text": "up-day volume 1.4x down-day volume"
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 24.8 pts over 3 months"
+     "text": "beating S&P 500 by 24.2 pts over 3 months"
     }
    ],
    "weekly": {
@@ -3968,7 +3968,7 @@
     "cash_conversion": 1.013043967165186,
     "eps_cagr": 0.22205181902904525,
     "rev_cagr2": 0.07872600637189198,
-    "pe": 17.303741616660783,
+    "pe": 17.19978821037769,
     "interest_cover": null,
     "current_ratio": 0.9653211009174312,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -4042,8 +4042,8 @@
    "why": [
     "fails fundamentals: free cash flow not consistently positive; no price or no valuation"
    ],
-   "price": 136.645,
-   "score": "2",
+   "price": 137.27,
+   "score": "3",
    "checks": [
     {
      "ok": true,
@@ -4062,8 +4062,8 @@
      "text": "up-day volume 0.7x down-day volume"
     },
     {
-     "ok": false,
-     "text": "lagging S&P 500 by 0.5 pts over 3 months"
+     "ok": true,
+     "text": "beating S&P 500 by 0.1 pts over 3 months"
     }
    ],
    "weekly": {
@@ -4084,7 +4084,7 @@
     "cash_conversion": null,
     "eps_cagr": 0.36277028773849374,
     "rev_cagr2": 0.05747187947486232,
-    "pe": 29.197649572649578,
+    "pe": 29.331196581196586,
     "interest_cover": null,
     "current_ratio": 0.9039399334313801,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -4156,12 +4156,12 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value"
    ],
-   "price": 509.68,
+   "price": 510.58,
    "score": "2",
    "checks": [
     {
      "ok": true,
-     "text": "price above 200-day average ($495.47), just crossed back above"
+     "text": "price above 200-day average ($495.48), just crossed back above"
     },
     {
      "ok": false,
@@ -4177,7 +4177,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 10.2 pts over 3 months"
+     "text": "beating S&P 500 by 10.5 pts over 3 months"
     }
    ],
    "weekly": {
@@ -4198,7 +4198,7 @@
     "cash_conversion": 0.7900010171905197,
     "eps_cagr": 0.07723943367215269,
     "rev_cagr2": 0.01708184019459269,
-    "pe": 34.88569472963724,
+    "pe": 34.94729637234771,
     "interest_cover": 34.9921568627451,
     "current_ratio": 0.8767601000131596,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -4228,7 +4228,7 @@
     "beneish": -2.6163889747264,
     "piotroski": 5,
     "piotroski_of": 8,
-    "altman": 4.03997056676974,
+    "altman": 4.0453870273866155,
     "altman_zone": "safe",
     "accruals": -0.04135023118756139
    },
@@ -4272,16 +4272,16 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value; earnings per share not growing; possible earnings manipulation (Beneish M-Score 7.25)"
    ],
-   "price": 219.815,
+   "price": 217.33,
    "score": "2",
    "checks": [
     {
      "ok": true,
-     "text": "price below 200-day average ($220.44)"
+     "text": "price below 200-day average ($220.43)"
     },
     {
      "ok": false,
-     "text": "RSI 57, falling"
+     "text": "RSI 54, falling"
     },
     {
      "ok": false,
@@ -4293,7 +4293,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 5.7 pts over 3 months"
+     "text": "beating S&P 500 by 4.6 pts over 3 months"
     }
    ],
    "weekly": {
@@ -4314,7 +4314,7 @@
     "cash_conversion": 1.008810985611848,
     "eps_cagr": -0.052515291560189525,
     "rev_cagr2": -0.0005268994074848488,
-    "pe": 18.549789029535866,
+    "pe": 18.340084388185655,
     "interest_cover": 6.818670248488918,
     "current_ratio": 1.0766582746750244,
     "growth_quality": "EPS and revenue growing together",
@@ -4343,7 +4343,7 @@
     "beneish": 7.25371198961122,
     "piotroski": 6,
     "piotroski_of": 9,
-    "altman": 3.118183631454135,
+    "altman": 3.1051498043206216,
     "altman_zone": "safe",
     "accruals": -0.06601813956358102
    },
@@ -4387,7 +4387,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value; earnings per share not growing"
    ],
-   "price": 426.12,
+   "price": 426.25,
    "score": "2",
    "checks": [
     {
@@ -4408,7 +4408,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 23.4 pts over 3 months"
+     "text": "beating S&P 500 by 23.6 pts over 3 months"
     }
    ],
    "weekly": {
@@ -4429,7 +4429,7 @@
     "cash_conversion": 0.908921702444472,
     "eps_cagr": -0.03346770574648128,
     "rev_cagr2": 0.05085145798131241,
-    "pe": 44.80757097791798,
+    "pe": 44.82124079915878,
     "interest_cover": 5.118665018541409,
     "current_ratio": 0.426768278161467,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -4503,8 +4503,8 @@
    "why": [
     "fails fundamentals: neither FCF improving nor debt falling; not cheap enough vs base-case value; return on capital only 6%; earnings per share not growing"
    ],
-   "price": 66.28,
-   "score": "3",
+   "price": 66.53,
+   "score": "2",
    "checks": [
     {
      "ok": true,
@@ -4512,19 +4512,19 @@
     },
     {
      "ok": false,
-     "text": "RSI 57, falling"
+     "text": "RSI 58, falling"
     },
     {
      "ok": false,
      "text": "MACD below signal"
     },
     {
-     "ok": true,
+     "ok": false,
      "text": "up-day volume 1.2x down-day volume"
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 8.1 pts over 3 months"
+     "text": "beating S&P 500 by 8.6 pts over 3 months"
     }
    ],
    "weekly": {
@@ -4545,7 +4545,7 @@
     "cash_conversion": 0.8618251393394892,
     "eps_cagr": -0.2774355063291498,
     "rev_cagr2": 0.03440643276590749,
-    "pe": 35.06878306878307,
+    "pe": 35.2010582010582,
     "interest_cover": 5.923205342237062,
     "current_ratio": 0.5923435784851812,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -4575,7 +4575,7 @@
     "beneish": -2.4181041934671437,
     "piotroski": 5,
     "piotroski_of": 9,
-    "altman": 2.3984480585825616,
+    "altman": 2.4027181699958433,
     "altman_zone": "grey",
     "accruals": -0.02947479711967082
    },
@@ -4619,7 +4619,7 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; return on capital only 7%; possible earnings manipulation (Beneish M-Score -1.62)"
    ],
-   "price": 145.62,
+   "price": 145.51,
    "score": "1",
    "checks": [
     {
@@ -4640,7 +4640,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 38.1 pts over 3 months"
+     "text": "lagging S&P 500 by 38.0 pts over 3 months"
     }
    ],
    "weekly": {
@@ -4661,7 +4661,7 @@
     "cash_conversion": 4.493601033227662,
     "eps_cagr": null,
     "rev_cagr2": 0.2197722290330537,
-    "pe": 47.43322475570033,
+    "pe": 47.39739413680782,
     "interest_cover": 6.529615004935835,
     "current_ratio": 2.0060860114888994,
     "growth_quality": null,
@@ -4690,7 +4690,7 @@
     "beneish": -1.6215442207290003,
     "piotroski": 8,
     "piotroski_of": 9,
-    "altman": 10.349186336597933,
+    "altman": 10.341990533717112,
     "altman_zone": "safe",
     "accruals": 0.04328568268149062
    },
@@ -4734,16 +4734,16 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; return on capital only -32%; weak financial health (Piotroski 3/9)"
    ],
-   "price": 294.745,
+   "price": 299.33,
    "score": "5",
    "checks": [
     {
      "ok": true,
-     "text": "price above 200-day average ($254.98)"
+     "text": "price above 200-day average ($255.00)"
     },
     {
      "ok": true,
-     "text": "RSI 48, recovering from 30"
+     "text": "RSI 49, recovering from 30"
     },
     {
      "ok": true,
@@ -4755,7 +4755,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 9.7 pts over 3 months"
+     "text": "beating S&P 500 by 11.4 pts over 3 months"
     }
    ],
    "weekly": {
@@ -4806,7 +4806,7 @@
     "beneish": -3.1324477962261885,
     "piotroski": 3,
     "piotroski_of": 9,
-    "altman": 13.88448273688728,
+    "altman": 14.093894648448513,
     "altman_zone": "safe",
     "accruals": -0.15108694930440086
    },
@@ -4850,7 +4850,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; earnings per share not growing"
    ],
-   "price": 36.08,
+   "price": 36.41,
    "score": "0",
    "checks": [
     {
@@ -4859,7 +4859,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 42, falling"
+     "text": "RSI 43, falling"
     },
     {
      "ok": false,
@@ -4871,7 +4871,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 5.5 pts over 3 months"
+     "text": "lagging S&P 500 by 4.5 pts over 3 months"
     }
    ],
    "weekly": {
@@ -4892,7 +4892,7 @@
     "cash_conversion": 1.0034921426789722,
     "eps_cagr": -0.2496649541936965,
     "rev_cagr2": -0.049551330590384524,
-    "pe": 8.59047619047619,
+    "pe": 8.669047619047618,
     "interest_cover": null,
     "current_ratio": 1.9608671395552721,
     "growth_quality": "EPS and revenue growing together",
@@ -4982,7 +4982,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
    ],
-   "price": 28.27,
+   "price": 28.23,
    "score": "2",
    "checks": [
     {
@@ -5024,7 +5024,7 @@
     "cash_conversion": 1.322638245633614,
     "eps_cagr": 0.9172051730776432,
     "rev_cagr2": 0.025091157826043764,
-    "pe": 20.78676470588235,
+    "pe": 20.75735294117647,
     "interest_cover": null,
     "current_ratio": 1.1599069868051048,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -5106,20 +5106,20 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value; earnings per share not growing"
    ],
-   "price": 108.59,
+   "price": 108.21,
    "score": "2",
    "checks": [
     {
      "ok": true,
-     "text": "price above 200-day average ($99.53), just crossed back above"
+     "text": "price above 200-day average ($99.52), just crossed back above"
     },
     {
      "ok": false,
-     "text": "RSI 62, falling"
+     "text": "RSI 61, falling"
     },
     {
      "ok": false,
-     "text": "MACD momentum fading"
+     "text": "MACD below signal"
     },
     {
      "ok": false,
@@ -5127,7 +5127,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 9.0 pts over 3 months"
+     "text": "beating S&P 500 by 8.7 pts over 3 months"
     }
    ],
    "weekly": {
@@ -5148,7 +5148,7 @@
     "cash_conversion": 1.1646488212180746,
     "eps_cagr": -0.18288696252471615,
     "rev_cagr2": 0.023690931300365703,
-    "pe": 49.13574660633484,
+    "pe": 48.963800904977376,
     "interest_cover": 6.94729907773386,
     "current_ratio": 0.7585081769463505,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -5178,7 +5178,7 @@
     "beneish": -2.962684089238039,
     "piotroski": 8,
     "piotroski_of": 8,
-    "altman": 3.3042716531361336,
+    "altman": 3.2970405045356515,
     "altman_zone": "safe",
     "accruals": -0.08150029134442208
    },
@@ -5222,7 +5222,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value"
    ],
-   "price": 343.215,
+   "price": 344.045,
    "score": "2",
    "checks": [
     {
@@ -5239,11 +5239,11 @@
     },
     {
      "ok": false,
-     "text": "up-day volume 1.1x down-day volume"
+     "text": "up-day volume 1.0x down-day volume"
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 3.3 pts over 3 months"
+     "text": "beating S&P 500 by 3.6 pts over 3 months"
     }
    ],
    "weekly": {
@@ -5264,7 +5264,7 @@
     "cash_conversion": 0.964915496092267,
     "eps_cagr": 0.05318051120840117,
     "rev_cagr2": 0.011267475198245114,
-    "pe": 33.45175438596491,
+    "pe": 33.53265107212476,
     "interest_cover": null,
     "current_ratio": 0.8680837535944973,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -5336,16 +5336,16 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value"
    ],
-   "price": 274.24,
+   "price": 276.66,
    "score": "2",
    "checks": [
     {
      "ok": true,
-     "text": "price above 200-day average ($244.51)"
+     "text": "price above 200-day average ($244.53)"
     },
     {
      "ok": true,
-     "text": "RSI 37, recovering from 30"
+     "text": "RSI 38, recovering from 30"
     },
     {
      "ok": false,
@@ -5357,7 +5357,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 10.7 pts over 3 months"
+     "text": "lagging S&P 500 by 9.9 pts over 3 months"
     }
    ],
    "weekly": {
@@ -5408,7 +5408,7 @@
     "beneish": -3.5469630079461045,
     "piotroski": 6,
     "piotroski_of": 9,
-    "altman": 6.416266103672948,
+    "altman": 6.484247945950415,
     "altman_zone": "safe",
     "accruals": -0.2811292673691087
    },
@@ -5452,7 +5452,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value; return on capital only 9%"
    ],
-   "price": 22.0,
+   "price": 21.945,
    "score": "1",
    "checks": [
     {
@@ -5461,7 +5461,7 @@
     },
     {
      "ok": true,
-     "text": "RSI 46, recovering from 31"
+     "text": "RSI 45, recovering from 31"
     },
     {
      "ok": false,
@@ -5494,7 +5494,7 @@
     "cash_conversion": 1.234878755206021,
     "eps_cagr": 0.24223476369075558,
     "rev_cagr2": 0.013065236267781666,
-    "pe": 7.2368421052631575,
+    "pe": 7.21875,
     "interest_cover": 3.551146384479718,
     "current_ratio": 0.9061361100780959,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -5567,7 +5567,7 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; cash conversion only 33% of profit; earnings per share not growing"
    ],
-   "price": 293.19,
+   "price": 293.54,
    "score": "3",
    "checks": [
     {
@@ -5576,7 +5576,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 49, falling"
+     "text": "RSI 50, falling"
     },
     {
      "ok": true,
@@ -5588,7 +5588,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 14.8 pts over 3 months"
+     "text": "beating S&P 500 by 15.1 pts over 3 months"
     }
    ],
    "weekly": {
@@ -5609,7 +5609,7 @@
     "cash_conversion": 0.3341508277130595,
     "eps_cagr": -0.12201207265374614,
     "rev_cagr2": 0.004641321083683536,
-    "pe": 53.79633027522936,
+    "pe": 53.8605504587156,
     "interest_cover": null,
     "current_ratio": 4.352643241532131,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -5639,7 +5639,7 @@
     "beneish": -2.6611880395331524,
     "piotroski": 6,
     "piotroski_of": 9,
-    "altman": 12.338671664973052,
+    "altman": 12.349141848459292,
     "altman_zone": "safe",
     "accruals": -0.06140325848146774
    },
@@ -5683,7 +5683,7 @@
    "why": [
     "fails fundamentals: no price or no valuation"
    ],
-   "price": 414.48,
+   "price": 415.14,
    "score": "2",
    "checks": [
     {
@@ -5704,7 +5704,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 17.3 pts over 3 months"
+     "text": "beating S&P 500 by 17.7 pts over 3 months"
     }
    ],
    "weekly": {
@@ -5797,7 +5797,7 @@
    "why": [
     "fails fundamentals: neither FCF improving nor debt falling; not cheap enough vs base-case value; return on capital only 8%; earnings per share not growing"
    ],
-   "price": 67.33,
+   "price": 67.4,
    "score": "1",
    "checks": [
     {
@@ -5818,7 +5818,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 1.5 pts over 3 months"
+     "text": "lagging S&P 500 by 1.2 pts over 3 months"
     }
    ],
    "weekly": {
@@ -5839,7 +5839,7 @@
     "cash_conversion": 0.8511593118922962,
     "eps_cagr": -0.09276413040658327,
     "rev_cagr2": 0.04672186457379435,
-    "pe": 31.462616822429904,
+    "pe": 31.49532710280374,
     "interest_cover": 2.909847434119279,
     "current_ratio": 0.5312807075008189,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -5913,7 +5913,7 @@
    "why": [
     "passes the screen, but the exit rules would sell it at once: debt up more than 20% in two years: don't buy"
    ],
-   "price": 154.25,
+   "price": 154.44,
    "score": "2",
    "checks": [
     {
@@ -5934,7 +5934,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 22.4 pts over 3 months"
+     "text": "lagging S&P 500 by 22.2 pts over 3 months"
     }
    ],
    "weekly": {
@@ -5955,7 +5955,7 @@
     "cash_conversion": null,
     "eps_cagr": 0.1875633220811006,
     "rev_cagr2": 0.12243675277636479,
-    "pe": 21.42749290330374,
+    "pe": 21.453886573654646,
     "interest_cover": 5.457637600494744,
     "current_ratio": 1.3333333333333333,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -5979,7 +5979,7 @@
     "beneish": null,
     "piotroski": 4,
     "piotroski_of": 5,
-    "altman": 6.082929389698411,
+    "altman": 6.0853856051280655,
     "altman_zone": "safe",
     "accruals": null
    },
@@ -6023,7 +6023,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value; cash conversion only 57% of profit"
    ],
-   "price": 97.6,
+   "price": 97.88,
    "score": "2",
    "checks": [
     {
@@ -6032,7 +6032,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 62, falling"
+     "text": "RSI 64, falling"
     },
     {
      "ok": false,
@@ -6044,7 +6044,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 12.3 pts over 3 months"
+     "text": "beating S&P 500 by 12.8 pts over 3 months"
     }
    ],
    "weekly": {
@@ -6065,7 +6065,7 @@
     "cash_conversion": 0.5742482294206432,
     "eps_cagr": 0.10940039245045807,
     "rev_cagr2": 0.023620583777153925,
-    "pe": 32.10526315789473,
+    "pe": 32.19736842105263,
     "interest_cover": 8.32043530834341,
     "current_ratio": 1.4587660354306657,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -6138,7 +6138,7 @@
    "why": [
     "passes the screen, but the exit rules would sell it at once: debt up more than 20% in two years: don't buy"
    ],
-   "price": 640.0,
+   "price": 640.94,
    "score": "3",
    "checks": [
     {
@@ -6159,7 +6159,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 15.6 pts over 3 months"
+     "text": "beating S&P 500 by 15.9 pts over 3 months"
     }
    ],
    "weekly": {
@@ -6167,7 +6167,7 @@
     "down": false,
     "text": "above 30-week average, 30-week average rising, weekly MACD positive"
    },
-   "options": "Implied vol 29% vs recent actual 27%: options look cheap; buying long-dated calls fits.",
+   "options": "Implied vol 25% vs recent actual 27%: options look cheap; buying long-dated calls fits.",
    "value": {
     "bear": 1773.8046208545597,
     "base": 2484.694258602793,
@@ -6180,7 +6180,7 @@
     "cash_conversion": null,
     "eps_cagr": 0.18171473044132425,
     "rev_cagr2": 0.14303037916105898,
-    "pe": 5.534417156693186,
+    "pe": 5.542545831892079,
     "interest_cover": 26.173130193905816,
     "current_ratio": 1.0349705649767156,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -6202,7 +6202,7 @@
     "beneish": null,
     "piotroski": 5,
     "piotroski_of": 5,
-    "altman": 5.043685972092332,
+    "altman": 5.045258825818512,
     "altman_zone": "safe",
     "accruals": null
    },
@@ -6257,7 +6257,7 @@
    "why": [
     "passes the screen, but the exit rules would sell it at once: debt up more than 20% in two years: don't buy"
    ],
-   "price": 1428.12,
+   "price": 1429.545,
    "score": "0",
    "checks": [
     {
@@ -6278,7 +6278,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 21.8 pts over 3 months"
+     "text": "lagging S&P 500 by 21.6 pts over 3 months"
     }
    ],
    "weekly": {
@@ -6286,7 +6286,7 @@
     "down": true,
     "text": "below 30-week average, 30-week average falling, weekly MACD negative"
    },
-   "options": "Implied vol 47% vs recent actual 50%: options look cheap; buying long-dated calls fits.",
+   "options": "Implied vol 46% vs recent actual 50%: options look cheap; buying long-dated calls fits.",
    "value": {
     "bear": 2339.2911682488575,
     "base": 3285.7038665498762,
@@ -6299,7 +6299,7 @@
     "cash_conversion": 4.5887640449438205,
     "eps_cagr": 0.42290758009805884,
     "rev_cagr2": 0.38295231036303834,
-    "pe": 36.246700507614214,
+    "pe": 36.28286802030457,
     "interest_cover": 5.238952536824877,
     "current_ratio": 1.172528201725282,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -6327,7 +6327,7 @@
     "beneish": -3.0942169655542116,
     "piotroski": 5,
     "piotroski_of": 9,
-    "altman": 2.463711347536125,
+    "altman": 2.4649181241334697,
     "altman_zone": "grey",
     "accruals": -0.29821846956367976
    },
@@ -6378,7 +6378,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; not cheap enough vs base-case value; earnings per share not growing"
    ],
-   "price": 76.675,
+   "price": 76.65,
    "score": "3",
    "checks": [
     {
@@ -6399,7 +6399,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 20.3 pts over 3 months"
+     "text": "beating S&P 500 by 20.4 pts over 3 months"
     }
    ],
    "weekly": {
@@ -6420,7 +6420,7 @@
     "cash_conversion": 1.0165141794161194,
     "eps_cagr": -0.05050975325430129,
     "rev_cagr2": -0.024898456541713854,
-    "pe": 18.610436893203882,
+    "pe": 18.604368932038835,
     "interest_cover": 8.41036533559898,
     "current_ratio": 0.6480227223071882,
     "growth_quality": "EPS and revenue growing together",
@@ -6448,7 +6448,7 @@
     "beneish": -2.373407298934697,
     "piotroski": 6,
     "piotroski_of": 9,
-    "altman": 4.917345497315526,
+    "altman": 4.916689254626608,
     "altman_zone": "safe",
     "accruals": -0.06675784255064536
    },
@@ -6492,7 +6492,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value"
    ],
-   "price": 170.24,
+   "price": 170.37,
    "score": "3",
    "checks": [
     {
@@ -6509,11 +6509,11 @@
     },
     {
      "ok": true,
-     "text": "up-day volume 1.4x down-day volume"
+     "text": "up-day volume 1.3x down-day volume"
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 23.8 pts over 3 months"
+     "text": "beating S&P 500 by 24.0 pts over 3 months"
     }
    ],
    "weekly": {
@@ -6534,7 +6534,7 @@
     "cash_conversion": 0.9747542591526471,
     "eps_cagr": 0.04865045371962662,
     "rev_cagr2": 0.01765142220500171,
-    "pe": 25.716012084592148,
+    "pe": 25.735649546827794,
     "interest_cover": 22.517673888255416,
     "current_ratio": 0.6773143122964801,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -6561,7 +6561,7 @@
     "beneish": -2.6428030461323484,
     "piotroski": 6,
     "piotroski_of": 9,
-    "altman": 6.014517134281972,
+    "altman": 6.017133877115374,
     "altman_zone": "safe",
     "accruals": -0.02788458482951476
    },
@@ -6605,7 +6605,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; neither FCF improving nor debt falling; not cheap enough vs base-case value; earnings per share not growing"
    ],
-   "price": 169.24,
+   "price": 168.46,
    "score": "3",
    "checks": [
     {
@@ -6626,7 +6626,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 11.6 pts over 3 months"
+     "text": "beating S&P 500 by 11.2 pts over 3 months"
     }
    ],
    "weekly": {
@@ -6647,7 +6647,7 @@
     "cash_conversion": 0.9322942852354618,
     "eps_cagr": -0.04637744722853654,
     "rev_cagr2": -0.012327878209767107,
-    "pe": 20.81672816728167,
+    "pe": 20.72078720787208,
     "interest_cover": 11.498876404494382,
     "current_ratio": 0.9422986340084786,
     "growth_quality": "EPS and revenue growing together",
@@ -6718,7 +6718,7 @@
    "why": [
     "fails fundamentals: revenue growth below threshold; free cash flow not consistently positive; neither FCF improving nor debt falling; no price or no valuation; return on capital only 9%"
    ],
-   "price": 45.77,
+   "price": 45.71,
    "score": "1",
    "checks": [
     {
@@ -6727,7 +6727,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 52, falling"
+     "text": "RSI 51, falling"
     },
     {
      "ok": false,
@@ -6760,7 +6760,7 @@
     "cash_conversion": null,
     "eps_cagr": 0.2150570506620817,
     "rev_cagr2": 0.01561619551240856,
-    "pe": 11.273399014778327,
+    "pe": 11.258620689655174,
     "interest_cover": 4.370929190319689,
     "current_ratio": 0.9126503126503126,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -6830,7 +6830,7 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value"
    ],
-   "price": 353.62,
+   "price": 353.34,
    "score": "3",
    "checks": [
     {
@@ -6839,7 +6839,7 @@
     },
     {
      "ok": false,
-     "text": "RSI 58, falling"
+     "text": "RSI 57, falling"
     },
     {
      "ok": true,
@@ -6872,7 +6872,7 @@
     "cash_conversion": 1.0168944812544944,
     "eps_cagr": 0.21530806144389847,
     "rev_cagr2": 0.1065847340125754,
-    "pe": 39.37861915367483,
+    "pe": 39.34743875278396,
     "interest_cover": null,
     "current_ratio": 1.0231998352117235,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -6896,7 +6896,7 @@
     "beneish": -2.507069357737914,
     "piotroski": 9,
     "piotroski_of": 9,
-    "altman": 13.211466386235589,
+    "altman": 13.203010345449826,
     "altman_zone": "safe",
     "accruals": -0.033836570047486934
    },
@@ -6940,7 +6940,7 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; earnings per share not growing"
    ],
-   "price": 133.44,
+   "price": 133.22,
    "score": "2",
    "checks": [
     {
@@ -6982,7 +6982,7 @@
     "cash_conversion": 1.109855733107412,
     "eps_cagr": -0.04748502992765491,
     "rev_cagr2": 0.05082266996327656,
-    "pe": 19.48029197080292,
+    "pe": 19.44817518248175,
     "interest_cover": 7.587865849459404,
     "current_ratio": 1.1345567928218603,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -7007,7 +7007,7 @@
     "beneish": -2.7404411862083484,
     "piotroski": 8,
     "piotroski_of": 9,
-    "altman": 2.6372848207770616,
+    "altman": 2.635986595710777,
     "altman_zone": "grey",
     "accruals": -0.06835136487564517
    },
@@ -7051,16 +7051,16 @@
    "why": [
     "passes the screen, but the exit rules would sell it at once: debt up more than 20% in two years: don't buy"
    ],
-   "price": 316.97,
+   "price": 314.52,
    "score": "2",
    "checks": [
     {
      "ok": true,
-     "text": "price below 200-day average ($346.02)"
+     "text": "price below 200-day average ($346.01)"
     },
     {
      "ok": false,
-     "text": "RSI 42, falling"
+     "text": "RSI 40, falling"
     },
     {
      "ok": false,
@@ -7072,7 +7072,7 @@
     },
     {
      "ok": false,
-     "text": "lagging S&P 500 by 8.1 pts over 3 months"
+     "text": "lagging S&P 500 by 8.6 pts over 3 months"
     }
    ],
    "weekly": {
@@ -7080,7 +7080,7 @@
     "down": false,
     "text": "below 30-week average, 30-week average falling, weekly MACD positive"
    },
-   "options": "Implied vol 60% vs recent actual 45%: options look expensive; selling puts or spreads fits.",
+   "options": "Implied vol 64% vs recent actual 45%: options look expensive; selling puts or spreads fits.",
    "value": {
     "bear": 377.8756708853577,
     "base": 528.0874625630335,
@@ -7093,7 +7093,7 @@
     "cash_conversion": 1.708984032286366,
     "eps_cagr": 0.2562404152169857,
     "rev_cagr2": 0.1476237279972592,
-    "pe": 19.256986634264884,
+    "pe": 19.108140947752123,
     "interest_cover": 22.984375,
     "current_ratio": 1.5065433435009348,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -7117,7 +7117,7 @@
     "beneish": -2.9062440135405345,
     "piotroski": 7,
     "piotroski_of": 8,
-    "altman": 4.964247077023459,
+    "altman": 4.941363520768542,
     "altman_zone": "safe",
     "accruals": -0.11586027337817315
    },
@@ -7161,7 +7161,7 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value; earnings per share not growing"
    ],
-   "price": 275.395,
+   "price": 275.54,
    "score": "2",
    "checks": [
     {
@@ -7182,7 +7182,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 7.3 pts over 3 months"
+     "text": "beating S&P 500 by 7.5 pts over 3 months"
     }
    ],
    "weekly": {
@@ -7203,7 +7203,7 @@
     "cash_conversion": 0.7601383791747235,
     "eps_cagr": -0.10337529586882954,
     "rev_cagr2": 0.05170524084479311,
-    "pe": 24.967815049864008,
+    "pe": 24.980961015412515,
     "interest_cover": null,
     "current_ratio": 1.027676163027011,
     "growth_quality": "revenue growing faster than EPS: costs rising",
@@ -7271,16 +7271,16 @@
    "why": [
     "fails fundamentals: not cheap enough vs base-case value"
    ],
-   "price": 503.84,
+   "price": 505.3,
    "score": "3",
    "checks": [
     {
      "ok": true,
-     "text": "price above 200-day average ($441.84)"
+     "text": "price above 200-day average ($441.85)"
     },
     {
      "ok": false,
-     "text": "RSI 41, falling"
+     "text": "RSI 42, falling"
     },
     {
      "ok": true,
@@ -7292,7 +7292,7 @@
     },
     {
      "ok": true,
-     "text": "beating S&P 500 by 8.6 pts over 3 months"
+     "text": "beating S&P 500 by 9.0 pts over 3 months"
     }
    ],
    "weekly": {
@@ -7313,7 +7313,7 @@
     "cash_conversion": 0.6569596283173266,
     "eps_cagr": 0.23336387196883868,
     "rev_cagr2": 0.16351655569183898,
-    "pe": 28.06908077994429,
+    "pe": 28.150417827298053,
     "interest_cover": 50.880694854146185,
     "current_ratio": 1.2303272619576484,
     "growth_quality": "EPS growing faster than revenue: margins or buybacks improving",
@@ -7338,7 +7338,7 @@
     "beneish": -2.653522939963203,
     "piotroski": 6,
     "piotroski_of": 9,
-    "altman": 8.91080851890453,
+    "altman": 8.93147008623757,
     "altman_zone": "safe",
     "accruals": -0.0714197036545497
    },

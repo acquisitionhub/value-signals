@@ -19,6 +19,15 @@
   "trig": [],
   "date": "2026-11-18"
  },
+ "KMI": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "idea": true,
+  "trig": [],
+  "date": "2026-11-18"
+ },
  "SO": {
   "signal": "GREY",
   "strong": false,
@@ -29,15 +38,6 @@
   "date": "2026-11-18"
  },
  "VST": {
-  "signal": "GREY",
-  "strong": false,
-  "stars": 0,
-  "smart": false,
-  "idea": true,
-  "trig": [],
-  "date": "2026-11-18"
- },
- "KMI": {
   "signal": "GREY",
   "strong": false,
   "stars": 0,
@@ -93,7 +93,7 @@
   ],
   "date": "2026-11-18"
  },
- "WDC": {
+ "RBLX": {
   "signal": "GREY",
   "strong": false,
   "stars": 0,
@@ -102,7 +102,7 @@
   "trig": [],
   "date": "2026-11-18"
  },
- "RBLX": {
+ "WDC": {
   "signal": "GREY",
   "strong": false,
   "stars": 0,

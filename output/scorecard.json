@@ -6,7 +6,7 @@
  "start_equity": 100000.0,
  "equity": 99115.46,
  "return": -0.008845399999999892,
- "spx_return": -0.030718442997865414,
+ "spx_return": -0.03208400175003634,
  "max_drawdown": 0.008845399999999892,
  "trades": 6,
  "open": 0,
@@ -42,7 +42,7 @@
  "tests": [
   {
    "test": "Beats the S&P 500 by 2+ points",
-   "value": 0.02187304299786552,
+   "value": 0.023238601750036447,
    "pass": true
   },
   {
@@ -57,7 +57,7 @@
   },
   {
    "test": "Still beats the S&P 500 without the single best trade",
-   "value": 0.02187304299786548,
+   "value": 0.023238601750036406,
    "pass": true
   }
  ],
