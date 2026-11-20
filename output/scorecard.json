@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "started": "2026-11-15",
  "decision_date": "2027-02-13",
- "days": 4,
+ "days": 5,
  "start_equity": 100000.0,
  "equity": 99115.46,
  "return": -0.008845399999999892,
- "spx_return": -0.033628541503705534,
+ "spx_return": -0.060469062802444795,
  "max_drawdown": 0.008845399999999892,
  "trades": 6,
  "open": 0,
@@ -42,7 +42,7 @@
  "tests": [
   {
    "test": "Beats the S&P 500 by 2+ points",
-   "value": 0.02478314150370564,
+   "value": 0.0516236628024449,
    "pass": true
   },
   {
@@ -57,10 +57,10 @@
   },
   {
    "test": "Still beats the S&P 500 without the single best trade",
-   "value": 0.0247831415037056,
+   "value": 0.05162366280244486,
    "pass": true
   }
  ],
  "passed": 3,
- "verdict": "Trial running: day 4 of 90 (decision on 2027-02-13)."
+ "verdict": "Trial running: day 5 of 90 (decision on 2027-02-13)."
 }

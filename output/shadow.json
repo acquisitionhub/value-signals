@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 16:13 UTC",
+ "updated": "2026-11-20 15:52 UTC",
  "settings": {
   "odd_top_share": 0.05,
   "odd_seeds": 5,
@@ -16,26 +16,26 @@
   "confidence": 1.0,
   "exposure": 0.35,
   "now": {
-   "trend_20d": -0.0458,
-   "trend_60d": -0.0459,
-   "vol_20d": 0.2244,
-   "vs_200d": -0.0017,
-   "drawdown": -0.0643
+   "trend_20d": -0.0689,
+   "trend_60d": -0.0803,
+   "vol_20d": 0.2347,
+   "vs_200d": -0.0313,
+   "drawdown": -0.092
   },
   "stats": {
    "Calm": {
     "days": 234,
-    "share": 0.775,
-    "next20_avg": 0.006,
-    "next20_worst": -0.0568,
+    "share": 0.772,
+    "next20_avg": 0.0059,
+    "next20_worst": -0.0631,
     "next20_down_share": 0.365
    },
    "Choppy": {
-    "days": 60,
-    "share": 0.199,
-    "next20_avg": 0.0281,
+    "days": 61,
+    "share": 0.201,
+    "next20_avg": 0.0258,
     "next20_worst": -0.0766,
-    "next20_down_share": 0.415
+    "next20_down_share": 0.429
    },
    "Stressed": {
     "days": 8,
@@ -46,19 +46,15 @@
    }
   },
   "baseline": {
-   "next20_avg": 0.0103,
-   "next20_down_share": 0.362,
+   "next20_avg": 0.01,
+   "next20_down_share": 0.364,
    "next20_worst": -0.0766
   },
-  "oos_days": 302,
+  "oos_days": 303,
   "oos_from": "2025-09-10",
-  "history_days": 554,
+  "history_days": 555,
   "history_from": "2024-09-06",
   "recent": [
-   {
-    "d": "2026-08-27",
-    "m": "Calm"
-   },
    {
     "d": "2026-08-28",
     "m": "Calm"
@@ -293,6 +289,10 @@
    },
    {
     "d": "2026-11-19",
+    "m": "Choppy"
+   },
+   {
+    "d": "2026-11-20",
     "m": "Choppy"
    }
   ]
