@@ -76,15 +76,6 @@
   "trig": [],
   "date": "2026-11-21"
  },
- "CRWV": {
-  "signal": "GREY",
-  "strong": false,
-  "stars": 0,
-  "smart": false,
-  "idea": false,
-  "trig": [],
-  "date": "2026-11-21"
- },
  "F": {
   "signal": "GREY",
   "strong": false,
@@ -133,6 +124,24 @@
   "date": "2026-11-21"
  },
  "CVNA": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "idea": false,
+  "trig": [],
+  "date": "2026-11-21"
+ },
+ "ROIV": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "idea": false,
+  "trig": [],
+  "date": "2026-11-21"
+ },
+ "APD": {
   "signal": "GREY",
   "strong": false,
   "stars": 0,
@@ -301,15 +310,6 @@
   "date": "2026-11-21"
  },
  "HCA": {
-  "signal": "GREY",
-  "strong": false,
-  "stars": 0,
-  "smart": false,
-  "idea": false,
-  "trig": [],
-  "date": "2026-11-21"
- },
- "JCI": {
   "signal": "GREY",
   "strong": false,
   "stars": 0,

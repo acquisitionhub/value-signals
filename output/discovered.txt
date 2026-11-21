@@ -1,4 +1,4 @@
-# Found by the weekly scan on 2026-11-18: passed the fundamental screen.
+# Found by the weekly scan on 2026-11-21: passed the fundamental screen.
 # Rewritten every week. The daily signals check these as well as watchlist.txt.
 MA
 BKNG
