@@ -1,19 +1,19 @@
-# Bearish setups from the weekly scan on 2026-11-21: 2+ warning signs in the accounts.
+# Bearish setups from the weekly scan on 2026-11-24: 2+ warning signs in the accounts.
 # The daily signals check their charts and price a capped-risk put spread at 3+ signs.
 WDC  # 3: profit not turning into cash; possible earnings manipulation (Beneish -0.18); high accruals
-SO  # 3: stretched finances (interest cover or current ratio); profit not turning into cash; bankruptcy-risk zone (Altman Z 0.96)
+SO  # 3: stretched finances (interest cover or current ratio); profit not turning into cash; bankruptcy-risk zone (Altman Z 0.97)
 RCL  # 3: paying out more than it generates; stretched finances (interest cover or current ratio); profit not turning into cash
 MRNA  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); very weak financial health (Piotroski 2/9)
-KMI  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.23)
-GM  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.22)
+KMI  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.25)
+GM  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.23)
 APD  # 3: paying out more than it generates (retained earnings shrinking too); stretched finances (interest cover or current ratio); profit not turning into cash
-TDG  # 3: paying out more than it generates (retained earnings shrinking too); stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.75)
+TDG  # 3: paying out more than it generates (retained earnings shrinking too); stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.76)
 LNG  # 3: paying out more than it generates; stretched finances (interest cover or current ratio); possible earnings manipulation (Beneish -1.57)
-TEVA  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 0.97)
-F  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 0.79)
-VST  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.16)
+TEVA  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 0.99)
+F  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 0.80)
+VST  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.19)
 PEG  # 3: paying out more than it generates; stretched finances (interest cover or current ratio); profit not turning into cash
-RBLX  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.39)
+RBLX  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.69)
 KHC  # 3: retained earnings negative or shrinking; stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 0.51)
 ROIV  # 3: retained earnings negative or shrinking; profit not turning into cash; very weak financial health (Piotroski 2/8)
 CVS  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
@@ -26,9 +26,9 @@ ORCL  # 2: retained earnings negative or shrinking; profit not turning into cash
 TXN  # 2: paying out more than it generates (retained earnings shrinking too); profit not turning into cash
 CRWD  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)
 LIN  # 2: paying out more than it generates; stretched finances (interest cover or current ratio)
-NEE  # 2: stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.14)
+NEE  # 2: stretched finances (interest cover or current ratio); bankruptcy-risk zone (Altman Z 1.15)
 CVNA  # 2: retained earnings negative or shrinking; possible earnings manipulation (Beneish -1.39)
-BA  # 2: retained earnings negative or shrinking; bankruptcy-risk zone (Altman Z 1.34)
+BA  # 2: retained earnings negative or shrinking; bankruptcy-risk zone (Altman Z 1.36)
 MRVL  # 2: paying out more than it generates; possible earnings manipulation (Beneish -1.62)
 LOW  # 2: retained earnings negative or shrinking; possible earnings manipulation (Beneish 7.25)
 NET  # 2: retained earnings negative or shrinking; stretched finances (interest cover or current ratio)

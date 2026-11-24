@@ -37,19 +37,7 @@
   "trig": [],
   "date": "2026-11-24"
  },
- "NVDA": {
-  "signal": "GREY",
-  "strong": false,
-  "stars": 0,
-  "smart": false,
-  "idea": true,
-  "trig": [
-   "0001045810-26-000082:cfo_exit",
-   "0001045810-26-000026:cfo_exit"
-  ],
-  "date": "2026-11-24"
- },
- "VST": {
+ "F": {
   "signal": "GREY",
   "strong": false,
   "stars": 0,
@@ -58,7 +46,7 @@
   "trig": [],
   "date": "2026-11-24"
  },
- "F": {
+ "VST": {
   "signal": "GREY",
   "strong": false,
   "stars": 0,
@@ -76,6 +64,27 @@
   "trig": [
    "0001193125-26-437768:cfo_exit"
   ],
+  "date": "2026-11-24"
+ },
+ "NVDA": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "idea": true,
+  "trig": [
+   "0001045810-26-000082:cfo_exit",
+   "0001045810-26-000026:cfo_exit"
+  ],
+  "date": "2026-11-24"
+ },
+ "TEVA": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "idea": true,
+  "trig": [],
   "date": "2026-11-24"
  },
  "TDG": {
@@ -160,15 +169,6 @@
   "date": "2026-11-24"
  },
  "ROIV": {
-  "signal": "GREY",
-  "strong": false,
-  "stars": 0,
-  "smart": false,
-  "idea": false,
-  "trig": [],
-  "date": "2026-11-24"
- },
- "TEVA": {
   "signal": "GREY",
   "strong": false,
   "stars": 0,
