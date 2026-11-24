@@ -73,6 +73,10 @@ jobs:
         continue-on-error: true
         run: python shadow.py
 
+      - name: Scalping replay (SPY 1-minute bars, demo rules only)
+        continue-on-error: true
+        run: python scalper.py
+
       - name: Build dashboard
         if: always()
         run: python dashboard.py
