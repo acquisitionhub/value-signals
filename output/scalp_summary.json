@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24 20:41 UTC",
+ "updated": "2026-11-25 17:44 UTC",
  "symbol": "SPY",
  "feed": "sip",
  "rules": {
@@ -170,20 +170,52 @@
   ]
  },
  "trial": {
-  "trades": 0,
-  "days": 0
+  "trades": 1,
+  "win_rate": 1.0,
+  "avg_r": 0.07,
+  "total_r": 0.07,
+  "return": 0.0004,
+  "end_equity": 5001.76,
+  "max_drawdown": 0.0,
+  "by_setup": {
+   "A": {
+    "trades": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "total_r": 0
+   },
+   "B": {
+    "trades": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "total_r": 0
+   },
+   "C1": {
+    "trades": 1,
+    "win_rate": 1.0,
+    "avg_r": 0.07,
+    "total_r": 0.07
+   },
+   "C2": {
+    "trades": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "total_r": 0
+   }
+  },
+  "days": 1
  },
  "scorecard": {
   "tests": [
    {
     "test": "Number of trades (40 or more)",
-    "value": 0,
+    "value": 1,
     "pass": false
    },
    {
     "test": "Average result per trade after costs (+0.2R or better)",
-    "value": null,
-    "pass": null
+    "value": 0.07,
+    "pass": false
    },
    {
     "test": "Rules followed (90% or more)",
@@ -192,17 +224,22 @@
    },
    {
     "test": "Largest drop from a high point (6% or less)",
-    "value": null,
-    "pass": null
+    "value": 0.0,
+    "pass": true
    },
    {
     "test": "Profitable weeks (at least 3 of the last 4)",
-    "value": "0 of 0",
+    "value": "1 of 1",
     "pass": null
    }
   ],
-  "passed": 1,
-  "weeks": [],
-  "verdict": "Trial running: day 1 of 30 (decision on 2026-12-24)."
+  "passed": 2,
+  "weeks": [
+   {
+    "week": "2026-W48",
+    "pnl": 1.76
+   }
+  ],
+  "verdict": "Trial running: day 2 of 30 (decision on 2026-12-24)."
  }
 }

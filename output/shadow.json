@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24 20:40 UTC",
+ "updated": "2026-11-25 17:43 UTC",
  "settings": {
   "odd_top_share": 0.05,
   "odd_seeds": 5,
@@ -11,29 +11,29 @@
   }
  },
  "mood": {
-  "today": "Choppy",
-  "since": "2026-11-05",
+  "today": "Stressed",
+  "since": "2026-11-20",
   "confidence": 1.0,
-  "exposure": 0.35,
+  "exposure": 0.2,
   "now": {
-   "trend_20d": -0.0693,
-   "trend_60d": -0.0635,
-   "vol_20d": 0.3129,
-   "vs_200d": -0.0195,
-   "drawdown": -0.0805
+   "trend_20d": -0.0801,
+   "trend_60d": -0.0649,
+   "vol_20d": 0.3127,
+   "vs_200d": -0.0278,
+   "drawdown": -0.0882
   },
   "stats": {
    "Calm": {
     "days": 234,
-    "share": 0.767,
-    "next20_avg": 0.0059,
-    "next20_worst": -0.0631,
-    "next20_down_share": 0.365
+    "share": 0.765,
+    "next20_avg": 0.0055,
+    "next20_worst": -0.0801,
+    "next20_down_share": 0.368
    },
    "Choppy": {
-    "days": 63,
-    "share": 0.207,
-    "next20_avg": 0.0213,
+    "days": 64,
+    "share": 0.209,
+    "next20_avg": 0.0214,
     "next20_worst": -0.091,
     "next20_down_share": 0.455
    },
@@ -46,26 +46,22 @@
    }
   },
   "baseline": {
-   "next20_avg": 0.0094,
-   "next20_down_share": 0.368,
+   "next20_avg": 0.0091,
+   "next20_down_share": 0.371,
    "next20_worst": -0.091
   },
-  "oos_days": 305,
+  "oos_days": 306,
   "oos_from": "2025-09-10",
-  "history_days": 557,
+  "history_days": 558,
   "history_from": "2024-09-06",
   "recent": [
    {
-    "d": "2026-09-01",
-    "m": "Calm"
-   },
-   {
     "d": "2026-09-02",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-03",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-04",
@@ -73,27 +69,27 @@
    },
    {
     "d": "2026-09-08",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-09",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-10",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-11",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-14",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-15",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-16",
@@ -101,11 +97,11 @@
    },
    {
     "d": "2026-09-17",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-18",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-21",
@@ -117,47 +113,47 @@
    },
    {
     "d": "2026-09-23",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-24",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-25",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-28",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-29",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-09-30",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-01",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-02",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-05",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-06",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-07",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-08",
@@ -165,7 +161,7 @@
    },
    {
     "d": "2026-10-09",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-12",
@@ -181,23 +177,23 @@
    },
    {
     "d": "2026-10-15",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-16",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-19",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-20",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-21",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-22",
@@ -205,23 +201,23 @@
    },
    {
     "d": "2026-10-23",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-26",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-27",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-28",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-29",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-10-30",
@@ -237,7 +233,7 @@
    },
    {
     "d": "2026-11-04",
-    "m": "Calm"
+    "m": "Choppy"
    },
    {
     "d": "2026-11-05",
@@ -285,15 +281,19 @@
    },
    {
     "d": "2026-11-20",
-    "m": "Choppy"
+    "m": "Stressed"
    },
    {
     "d": "2026-11-23",
-    "m": "Choppy"
+    "m": "Stressed"
    },
    {
     "d": "2026-11-24",
-    "m": "Choppy"
+    "m": "Stressed"
+   },
+   {
+    "d": "2026-11-25",
+    "m": "Stressed"
    }
   ]
  },
