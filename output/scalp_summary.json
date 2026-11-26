@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 17:44 UTC",
+ "updated": "2026-11-26 17:28 UTC",
  "symbol": "SPY",
  "feed": "sip",
  "rules": {
@@ -12,47 +12,63 @@
   "max_losses_in_row": 3,
   "target_r": 1.5,
   "cost": 0.00015,
+  "abc_end": "11:00:00",
+  "d_last_entry": "12:15:00",
+  "va_share": 0.7,
+  "va_step": 0.05,
   "orb_end": "09:45:00",
   "orb_last_entry": "10:30:00",
   "backtest_days": 182,
   "trial_days": 30
  },
- "window_ny": "09:30-11:00",
- "window_uk": "14:30-16:00",
+ "window_ny": "09:30-11:00 (A-C), to 12:30 (D)",
+ "window_uk": "14:30-16:00 (A-C), to 17:30 (D)",
  "trial_start": "2026-11-24",
  "trial_end": "2026-12-24",
  "backtest": {
-  "trades": 219,
-  "win_rate": 0.434,
-  "avg_r": -0.069,
-  "total_r": -15.08,
-  "return": -0.076,
-  "end_equity": 4619.77,
-  "max_drawdown": 0.1424,
+  "trades": 241,
+  "win_rate": 0.398,
+  "avg_r": -0.134,
+  "total_r": -32.4,
+  "return": -0.1532,
+  "end_equity": 4234.07,
+  "max_drawdown": 0.2133,
   "by_setup": {
    "A": {
-    "trades": 68,
-    "win_rate": 0.412,
-    "avg_r": -0.089,
-    "total_r": -6.07
+    "trades": 69,
+    "win_rate": 0.406,
+    "avg_r": -0.068,
+    "total_r": -4.7
    },
    "B": {
-    "trades": 79,
-    "win_rate": 0.456,
-    "avg_r": -0.102,
-    "total_r": -8.06
+    "trades": 80,
+    "win_rate": 0.45,
+    "avg_r": -0.108,
+    "total_r": -8.6
    },
    "C1": {
-    "trades": 42,
-    "win_rate": 0.429,
-    "avg_r": -0.004,
-    "total_r": -0.16
+    "trades": 44,
+    "win_rate": 0.409,
+    "avg_r": -0.012,
+    "total_r": -0.52
    },
    "C2": {
-    "trades": 30,
-    "win_rate": 0.433,
-    "avg_r": -0.026,
-    "total_r": -0.79
+    "trades": 29,
+    "win_rate": 0.414,
+    "avg_r": -0.074,
+    "total_r": -2.15
+   },
+   "D1": {
+    "trades": 6,
+    "win_rate": 0.167,
+    "avg_r": -0.528,
+    "total_r": -3.17
+   },
+   "D2": {
+    "trades": 13,
+    "win_rate": 0.077,
+    "avg_r": -1.02,
+    "total_r": -13.26
    }
   },
   "from": "2026-05-26",
@@ -61,121 +77,121 @@
   "weeks": [
    {
     "week": "2026-W22",
-    "pnl": -57.77
+    "pnl": -58.03
    },
    {
     "week": "2026-W23",
-    "pnl": -121.97
+    "pnl": -121.86
    },
    {
     "week": "2026-W24",
-    "pnl": -16.8
+    "pnl": -50.66
    },
    {
     "week": "2026-W25",
-    "pnl": -72.12
+    "pnl": -84.55
    },
    {
     "week": "2026-W26",
-    "pnl": -71.82
+    "pnl": -37.68
    },
    {
     "week": "2026-W27",
-    "pnl": -70.89
+    "pnl": -139.33
    },
    {
     "week": "2026-W28",
-    "pnl": -42.09
+    "pnl": -46.34
    },
    {
     "week": "2026-W29",
-    "pnl": -30.26
+    "pnl": -54.87
    },
    {
     "week": "2026-W30",
-    "pnl": 66.31
+    "pnl": 78.89
    },
    {
     "week": "2026-W31",
-    "pnl": 61.87
+    "pnl": 4.85
    },
    {
     "week": "2026-W32",
-    "pnl": -8.1
+    "pnl": -7.7
    },
    {
     "week": "2026-W33",
-    "pnl": 20.72
+    "pnl": 15.3
    },
    {
     "week": "2026-W34",
-    "pnl": -63.65
+    "pnl": -88.16
    },
    {
     "week": "2026-W35",
-    "pnl": -78.64
+    "pnl": -75.5
    },
    {
     "week": "2026-W36",
-    "pnl": -3.43
+    "pnl": -29.5
    },
    {
     "week": "2026-W37",
-    "pnl": -135.63
+    "pnl": -129.73
    },
    {
     "week": "2026-W38",
-    "pnl": 40.64
+    "pnl": 3.21
    },
    {
     "week": "2026-W39",
-    "pnl": -82.95
+    "pnl": -78.44
    },
    {
     "week": "2026-W40",
-    "pnl": 42.58
+    "pnl": 15.38
    },
    {
     "week": "2026-W41",
-    "pnl": 57.06
+    "pnl": 28.98
    },
    {
     "week": "2026-W42",
-    "pnl": -11.7
+    "pnl": -37.96
    },
    {
     "week": "2026-W43",
-    "pnl": 5.52
+    "pnl": -22.48
    },
    {
     "week": "2026-W44",
-    "pnl": -73.9
+    "pnl": -90.86
    },
    {
     "week": "2026-W45",
-    "pnl": 107.51
+    "pnl": 95.12
    },
    {
     "week": "2026-W46",
-    "pnl": 155.72
+    "pnl": 142.73
    },
    {
     "week": "2026-W47",
-    "pnl": 27.05
+    "pnl": 24.78
    },
    {
     "week": "2026-W48",
-    "pnl": -23.49
+    "pnl": -21.52
    }
   ]
  },
  "trial": {
-  "trades": 1,
+  "trades": 2,
   "win_rate": 1.0,
-  "avg_r": 0.07,
-  "total_r": 0.07,
-  "return": 0.0004,
-  "end_equity": 5001.76,
+  "avg_r": 0.43,
+  "total_r": 0.86,
+  "return": 0.0043,
+  "end_equity": 5021.66,
   "max_drawdown": 0.0,
   "by_setup": {
    "A": {
@@ -185,37 +201,49 @@
     "total_r": 0
    },
    "B": {
-    "trades": 0,
-    "win_rate": null,
-    "avg_r": null,
-    "total_r": 0
+    "trades": 1,
+    "win_rate": 1.0,
+    "avg_r": 0.81,
+    "total_r": 0.81
    },
    "C1": {
     "trades": 1,
     "win_rate": 1.0,
-    "avg_r": 0.07,
-    "total_r": 0.07
+    "avg_r": 0.05,
+    "total_r": 0.05
    },
    "C2": {
     "trades": 0,
     "win_rate": null,
     "avg_r": null,
     "total_r": 0
+   },
+   "D1": {
+    "trades": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "total_r": 0
+   },
+   "D2": {
+    "trades": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "total_r": 0
    }
   },
-  "days": 1
+  "days": 2
  },
  "scorecard": {
   "tests": [
    {
     "test": "Number of trades (40 or more)",
-    "value": 1,
+    "value": 2,
     "pass": false
    },
    {
     "test": "Average result per trade after costs (+0.2R or better)",
-    "value": 0.07,
-    "pass": false
+    "value": 0.43,
+    "pass": true
    },
    {
     "test": "Rules followed (90% or more)",
@@ -233,13 +261,13 @@
     "pass": null
    }
   ],
-  "passed": 2,
+  "passed": 3,
   "weeks": [
    {
     "week": "2026-W48",
-    "pnl": 1.76
+    "pnl": 21.66
    }
   ],
-  "verdict": "Trial running: day 2 of 30 (decision on 2026-12-24)."
+  "verdict": "Trial running: day 3 of 30 (decision on 2026-12-24)."
  }
 }

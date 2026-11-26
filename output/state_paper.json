@@ -8,7 +8,7 @@
   "trig": [
    "0001637459-26-000057:delisting"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "BA": {
   "signal": "GREY",
@@ -17,7 +17,7 @@
   "smart": true,
   "idea": true,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "KMI": {
   "signal": "GREY",
@@ -26,7 +26,7 @@
   "smart": false,
   "idea": true,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "F": {
   "signal": "GREY",
@@ -35,7 +35,16 @@
   "smart": false,
   "idea": true,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
+ },
+ "SO": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "idea": true,
+  "trig": [],
+  "date": "2026-11-26"
  },
  "NVDA": {
   "signal": "GREY",
@@ -47,7 +56,7 @@
    "0001045810-26-000082:cfo_exit",
    "0001045810-26-000026:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "VST": {
   "signal": "GREY",
@@ -56,7 +65,7 @@
   "smart": false,
   "idea": true,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "TEVA": {
   "signal": "GREY",
@@ -65,7 +74,7 @@
   "smart": false,
   "idea": true,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "TDG": {
   "signal": "GREY",
@@ -74,7 +83,7 @@
   "smart": false,
   "idea": true,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "PEG": {
   "signal": "GREY",
@@ -83,7 +92,7 @@
   "smart": false,
   "idea": true,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "GM": {
   "signal": "GREY",
@@ -94,16 +103,7 @@
   "trig": [
    "0001193125-26-437768:cfo_exit"
   ],
-  "date": "2026-11-25"
- },
- "RBLX": {
-  "signal": "GREY",
-  "strong": false,
-  "stars": 0,
-  "smart": false,
-  "idea": false,
-  "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "WDC": {
   "signal": "GREY",
@@ -112,7 +112,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "ORCL": {
   "signal": "GREY",
@@ -121,7 +121,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "APD": {
   "signal": "GREY",
@@ -130,7 +130,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "LNG": {
   "signal": "GREY",
@@ -139,7 +139,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "MRNA": {
   "signal": "GREY",
@@ -148,7 +148,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "RCL": {
   "signal": "GREY",
@@ -157,7 +157,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "ROIV": {
   "signal": "GREY",
@@ -166,16 +166,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
- },
- "SO": {
-  "signal": "GREY",
-  "strong": false,
-  "stars": 0,
-  "smart": false,
-  "idea": false,
-  "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "HEI": {
   "signal": "AMBER",
@@ -184,7 +175,7 @@
   "smart": true,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "WMB": {
   "signal": "GREY",
@@ -193,7 +184,7 @@
   "smart": true,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "ADBE": {
   "signal": "AMBER",
@@ -204,7 +195,7 @@
   "trig": [
    "0000796343-26-000109:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "CVS": {
   "signal": "GREY",
@@ -215,7 +206,7 @@
   "trig": [
    "0000064803-26-000017:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "EXPE": {
   "signal": "RED",
@@ -226,7 +217,7 @@
   "trig": [
    "0001324424-26-000016:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "INTC": {
   "signal": "GREY",
@@ -237,7 +228,7 @@
   "trig": [
    "0000050863-26-000083:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "NEE": {
   "signal": "GREY",
@@ -248,7 +239,7 @@
   "trig": [
    "0000753308-26-000022:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "NKE": {
   "signal": "GREY",
@@ -260,7 +251,7 @@
    "0000320187-26-000112:cfo_exit",
    "0000320187-26-000070:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "ABBV": {
   "signal": "GREY",
@@ -269,7 +260,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "CRWD": {
   "signal": "GREY",
@@ -278,7 +269,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "CSX": {
   "signal": "GREY",
@@ -287,7 +278,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "CVNA": {
   "signal": "GREY",
@@ -296,7 +287,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "DUK": {
   "signal": "GREY",
@@ -305,7 +296,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "GOOGL": {
   "signal": "GREY",
@@ -316,7 +307,7 @@
   "trig": [
    "0001652044-26-000031:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "HCA": {
   "signal": "GREY",
@@ -325,7 +316,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "LIN": {
   "signal": "GREY",
@@ -334,7 +325,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "LOW": {
   "signal": "GREY",
@@ -343,7 +334,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "MAR": {
   "signal": "GREY",
@@ -352,7 +343,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "MDLZ": {
   "signal": "GREY",
@@ -361,7 +352,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "MRVL": {
   "signal": "GREY",
@@ -370,7 +361,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "NET": {
   "signal": "GREY",
@@ -379,7 +370,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "PFE": {
   "signal": "GREY",
@@ -390,7 +381,16 @@
   "trig": [
    "0000078003-26-000085:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
+ },
+ "RBLX": {
+  "signal": "GREY",
+  "strong": false,
+  "stars": 0,
+  "smart": false,
+  "idea": false,
+  "trig": [],
+  "date": "2026-11-26"
  },
  "SBUX": {
   "signal": "GREY",
@@ -399,7 +399,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "SHW": {
   "signal": "GREY",
@@ -408,7 +408,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "SNOW": {
   "signal": "GREY",
@@ -417,7 +417,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "TXN": {
   "signal": "GREY",
@@ -426,7 +426,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "V": {
   "signal": "GREY",
@@ -435,7 +435,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "BKNG": {
   "signal": "AMBER",
@@ -444,7 +444,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "INTU": {
   "signal": "AMBER",
@@ -453,7 +453,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "KO": {
   "signal": "GREY",
@@ -462,7 +462,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "MA": {
   "signal": "AMBER",
@@ -473,7 +473,7 @@
   "trig": [
    "0001141391-26-000034:cfo_exit"
   ],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "MELI": {
   "signal": "AMBER",
@@ -482,7 +482,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "MO": {
   "signal": "GREY",
@@ -491,7 +491,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "PG": {
   "signal": "GREY",
@@ -500,7 +500,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "T": {
   "signal": "GREY",
@@ -509,7 +509,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "TGT": {
   "signal": "GREY",
@@ -518,7 +518,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "VZ": {
   "signal": "GREY",
@@ -527,7 +527,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "AAPL": {
   "signal": "GREY",
@@ -536,7 +536,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "DG": {
   "signal": "GREY",
@@ -545,7 +545,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "JNJ": {
   "signal": "GREY",
@@ -554,7 +554,7 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  },
  "MSFT": {
   "signal": "GREY",
@@ -563,6 +563,6 @@
   "smart": false,
   "idea": false,
   "trig": [],
-  "date": "2026-11-25"
+  "date": "2026-11-26"
  }
 }
