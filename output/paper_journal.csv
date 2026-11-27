@@ -11,3 +11,4 @@ date,ticker,action,qty,approx_price,signal,reason
 2026-11-17,MA,SELL,7,647.23,RED,debt up more than 20% in two years
 2026-11-17,DG,SELL,37,133.76,RED,price $133.76 has reached base value $101.89 (target hit)
 2026-11-17,INTU,SELL,7,322.795,RED,debt up more than 20% in two years
+2026-11-27,HEI,BUY,14,342.175,GREEN ★★,"fundamentals pass, 3/5 daily confirmations and the weekly chart agrees (strong); smart money is buying too"

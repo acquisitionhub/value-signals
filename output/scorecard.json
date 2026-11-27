@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "started": "2026-11-15",
  "decision_date": "2027-02-13",
- "days": 11,
+ "days": 12,
  "start_equity": 100000.0,
  "equity": 99115.46,
  "return": -0.008845399999999892,
- "spx_return": -0.04976334734246357,
+ "spx_return": -0.03746668964694344,
  "max_drawdown": 0.008845399999999892,
- "trades": 6,
- "open": 0,
+ "trades": 7,
+ "open": 1,
  "closed": 6,
  "win_rate": 0.0,
  "avg_win": null,
- "avg_loss": -0.04165436478020682,
+ "avg_loss": -0.03570374124017728,
  "best": {
-  "ticker": "DG",
-  "opened": "2026-11-15",
-  "closed": "2026-11-17",
-  "qty": 37.0,
-  "entry": 134.13,
-  "exit": 133.76,
-  "pnl": -13.690000000000168,
-  "pnl_pct": -0.002758517855811604,
-  "open": false,
-  "reason": "price $133.76 has reached base value $101.89 (target hit)"
+  "ticker": "HEI",
+  "opened": "2026-11-27",
+  "closed": null,
+  "qty": 14.0,
+  "entry": 342.175,
+  "exit": 342.175,
+  "pnl": 0.0,
+  "pnl_pct": 0.0,
+  "open": true,
+  "reason": ""
  },
  "worst": {
   "ticker": "CRM",
@@ -42,12 +42,12 @@
  "tests": [
   {
    "test": "Beats the S&P 500 by 2+ points",
-   "value": 0.04091794734246368,
+   "value": 0.02862128964694355,
    "pass": true
   },
   {
    "test": "At least 15 positions taken",
-   "value": 6,
+   "value": 7,
    "pass": false
   },
   {
@@ -57,10 +57,10 @@
   },
   {
    "test": "Still beats the S&P 500 without the single best trade",
-   "value": 0.04091794734246364,
+   "value": 0.028621289646943507,
    "pass": true
   }
  ],
  "passed": 3,
- "verdict": "Trial running: day 11 of 90 (decision on 2027-02-13)."
+ "verdict": "Trial running: day 12 of 90 (decision on 2027-02-13)."
 }
